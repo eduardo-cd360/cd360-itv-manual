@@ -1,0 +1,115 @@
+site_name: Documentación Creativa Digital 360
+site_description: Documentación oficial de los proyectos de Creativa Digital 360
+site_url: https://docs.creativadigital360.com
+
+theme:
+  name: material
+  logo: assets/logo-creativa-digital-360-itv@233x42.png
+  features:
+    # - toc.integrate
+    - navigation.top
+  
+  
+  extra:
+    consent:
+      title: Cookie consent
+      description: >- 
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
+  icon:
+    annotation: material/plus-circle 
+
+markdown_extensions:
+  # Mensajes con icono
+  - admonition
+  
+  # Annotations (Aparece un + y si se pulsa o se pone el cursor encima se muestra un mensaje)
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.blocks.caption
+
+
+nav:
+  - Bienvenido:
+    - bienvenido/bienvenido.md
+    - bienvenido/introduccion.md
+    - bienvenido/requisitos.md
+    - bienvenido/novedades.md
+    - bienvenido/obtener-ayuda/obtener-ayuda.md
+  - Guía de inicio:
+    - guia-de-inicio/instalacion/instalacion.md
+    - guia-de-inicio/iniciar-sesion/iniciar-sesion.md
+    # - guia-de-inicio/configurar-programa.md
+    - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica/alta-de-inspeccion-periodica.md
+    - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica/alta-de-inspeccion-no-periodica.md
+    - guia-de-inicio/dar-de-alta-expedientes.md
+    - guia-de-inicio/trabajar-con-inspecciones.md
+    - guia-de-inicio/trabajar-con-expedietes.md
+    - guia-de-inicio/facturacion.md
+    - guia-de-inicio/informes.md
+    - guia-de-inicio/recordatorios.md
+  - Casos de uso:
+    - Clientes:
+      - casos-de-uso/clientes/bloquear-clientes/bloquear-clientes.md
+      - casos-de-uso/clientes/fidelizacion-de-clientes/fidelizacion-de-clientes.md
+
+    - Inspecciones:
+      - Altas de inspección
+
+    - Expedientes:
+      - casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv.md
+      - casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma.md
+    
+    - Configuracion:
+      - Certificados digitales:
+        - casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario.md
+
+    - Impresión:
+      - casos-de-uso/impresion/sincronizar-godex-g530-g500.md
+
+    - DGT:
+      - casos-de-uso/dgt/codigos-errores-dgt/codigos-errores-dgt.md
+      - casos-de-uso/dgt/consulta_antecedentes_dgt/consulta_antecedentes_dgt.md
+    
+    - Facturación:
+      - casos-de-uso/facturacion/crear-un-descuento/crear-un-descuento.md
+      - casos-de-uso/facturacion/forma-pago-texto-incorrecto/forma-pago-texto-incorrecto.md
+      - casos-de-uso/facturacion/generar-facturacion-mensual/generar-facturacion-mensual.md
+      - casos-de-uso/facturacion/gestion-de-gastos/gestion-de-gastos.md
+      - casos-de-uso/facturacion/gestionar-formas-de-pago/gestionar-formas-de-pago.md
+      - casos-de-uso/facturacion/gestion-de-facturas/gestion-de-facturas.md
+      - casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/mostrar-subtotales-acumulados-de-facturas.md
+      - casos-de-uso/facturacion/resolucion-problemas-exportacion-contabilidad/resolucion-problemas-exportacion-contabilidad.md
+      - casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes.md
+
+    - Recordatorios:
+      - casos-de-uso/recordatorios/configuracion-de-envio-de-recordatorios.md
+      - casos-de-uso/recordatorios/envio-de-recordatorios-con-digital-servi.md
+      - casos-de-uso/recordatorios/envio-de-recordatorios.md
+    - Subida de Inspecciones:
+      - casos-de-uso/subida-de-inspecciones/subida-industria-murcia/subir-inspecciones-al-servicio-industria-de-murcia.md
+    - Varios:
+      - casos-de-uso/varios/cambiar-periodicidad-a-una-clasificación-en-concreto/index.md
+      - casos-de-uso/varios/cualificacion-de-inspectores/cualificacion-de-inspectores.md
+  - Configuración:
+    - Gestión de perfiles y usuarios:
+      - configuracion/gestion-de-perfiles-y-usuarios/gestion-de-perfiles/gestión de perfiles.md
+      - configuracion/gestion-de-perfiles-y-usuarios/gestion-de-usuarios/gestión de usuarios.md
+    - Opciones globlales:
+      - Configuraracion/opciones-globales/impresion/impresion.md
+    - casos-de-uso/configuracion/alcance-segundas-inspecciones/alcance-segundas-inspecciones.md
+  - Consultas:
+      - Consultas administrativas
+  - Servicios:
+    - Certificados electrónicos:
+      - Servicios/certificados-electronicos/emision-de-certificados.md
+      - Servicios/certificados-electronicos/certificados-electronicos.md      
+  - pruebas.md
