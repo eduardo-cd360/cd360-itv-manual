@@ -1,6 +1,6 @@
 site_name: Documentación Creativa Digital 360
 site_description: Documentación oficial de los proyectos de Creativa Digital 360
-site_url: https://docs.creativadigital360.com
+site_url: https://docs.programaitv.com
 
 theme:
   name: material
@@ -155,6 +155,8 @@ nav:
       - casos-de-uso/facturacion/resolucion-problemas-exportacion-contabilidad/resolucion-problemas-exportacion-contabilidad.md
       - casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes.md
       - casos-de-uso/facturacion/generar-remesas/generar-remesas.md
+    - Descuentos:
+      - casos-de-uso/descuentos/crear-descuentos/index.md
     - Recordatorios:
       - casos-de-uso/recordatorios/configuracion-de-envio-de-recordatorios.md
       - casos-de-uso/recordatorios/envio-de-recordatorios-con-digital-servi.md
@@ -180,5 +182,4 @@ nav:
       - Servicios/certificados-electronicos/certificados-electronicos.md  
   - Módulos:
     - Módulo control horario:
-      - modulos/modulo-control-horario/modulo-control-horario.md  
-  - pruebas.md
+      - modulos/modulo-control-horario/modulo-control-horario.md

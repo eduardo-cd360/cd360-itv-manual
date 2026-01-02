@@ -1,4 +1,12 @@
-## Descuentos
+---
+title: Crear descuentos
+description:
+icon: # material/cart-percent
+status: new
+---
+
+
+# Crear descuentos
 
 El sistema de descuentos está pensado para poder aplicar una rebaja del precio sobre tarifa (antes de impuestos) directo o basado en reglas.
 
