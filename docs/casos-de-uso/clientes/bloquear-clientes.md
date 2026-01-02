@@ -12,13 +12,13 @@ Para bloquear un cliente accede al menú **```Mantenimiento/Clientes```**.
 
 Busca el cliente por el titular, cif, nº de cliente, etc.. y pulsa refrescar.
 
-![Listado de clientes que coinciden con la búsqueda](./images/image_1.png)
+![Listado de clientes que coinciden con la búsqueda](images/bloquear-clientes_listado-clientes-busqueda.png)
 
 Modifica el cliente haciendo doble clic sobre el registro o pulsando sobre el botón **Editar**.
 
 Marca la casilla “**BLOQUEADOSN**”, y si lo deseas, un mensaje en el cuadro de texto "**AVISO**" con algúna nota al respecto.
 
-![Formulario con la casilla BloqueadoSN marcada](./images/image_2.png)
+![Formulario con la casilla BloqueadoSN marcada](images/bloquear-clientes_formulario-casilla-bloqueo.png)
 
 A partir de ahora, cuando se dé de alta una nueva inspección en la que el vehículo pertenezca a algún cliente que está marcado como **bloqueado** saldrá una alerta y el texto introducido en AVISO.
 
@@ -26,4 +26,4 @@ A partir de ahora, cuando se dé de alta una nueva inspección en la que el veh�
 
 Para comprobar el bloqueo de un cif de cliente, da de alta una nueva inspección, introduce una matrícula, cumplimenta el resto de datos e introduce en el campo **titular** uno que esté bloqueado.
 
-![Imagen 3](./images/image_3.png)
+![Mensaje de bloqueo](images/bloquear-clientes_mensaje-bloqueo.png)

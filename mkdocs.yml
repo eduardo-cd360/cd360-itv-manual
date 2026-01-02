@@ -127,8 +127,8 @@ nav:
   
   - Casos de uso:
     - Clientes:
-      - casos-de-uso/clientes/bloquear-clientes/bloquear-clientes.md
-      - casos-de-uso/clientes/fidelizacion-de-clientes/fidelizacion-de-clientes.md
+      - casos-de-uso/clientes/bloquear-clientes.md
+      - casos-de-uso/clientes/fidelizacion-de-clientes.md
     - Inspecciones:
       - Altas de inspección
     - Expedientes:
@@ -142,8 +142,8 @@ nav:
     - Impresión:
       - casos-de-uso/impresion/sincronizar-godex-g530-g500.md
     - DGT:
-      - casos-de-uso/dgt/codigos-errores-dgt/codigos-errores-dgt.md
-      - casos-de-uso/dgt/consulta_antecedentes_dgt/consulta_antecedentes_dgt.md
+      - casos-de-uso/dgt/codigos-errores-dgt.md
+      - casos-de-uso/dgt/consulta_antecedentes_dgt.md
     - Facturación:
       - casos-de-uso/facturacion/crear-un-descuento/crear-un-descuento.md
       - casos-de-uso/facturacion/forma-pago-texto-incorrecto/forma-pago-texto-incorrecto.md
@@ -156,7 +156,7 @@ nav:
       - casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes.md
       - casos-de-uso/facturacion/generar-remesas/generar-remesas.md
     - Descuentos:
-      - casos-de-uso/descuentos/crear-descuentos/index.md
+      - casos-de-uso/descuentos/crear-descuentos.md
     - Recordatorios:
       - casos-de-uso/recordatorios/configuracion-de-envio-de-recordatorios.md
       - casos-de-uso/recordatorios/envio-de-recordatorios-con-digital-servi.md
@@ -183,3 +183,8 @@ nav:
   - Módulos:
     - Módulo control horario:
       - modulos/modulo-control-horario/modulo-control-horario.md
+
+  - Acerca de:
+    - Notas de la versión:
+      - acerca-de/notas-de-la-version/version-2025-5.md
+      - acerca-de/notas-de-la-version/version-2026-1.md
