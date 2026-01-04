@@ -4,13 +4,14 @@ Fecha de publicación: 01/11/2025
 
 En esta nueva actualización se incluyen entre otras correcciones y mejoras las siguientes funcionalidades:
 
+[Descarga el certificado correspondiente a esta versión.](https://programaitv.com/wp-content/uploads/2025/11/Certificado-software-version-2025-5_signed.pdf)
 
 ## Tareas
 
 - Incorporación del sistema Veri*factu.
- 
+
 - Incorporación de ATEX24. Sistema nuevo y obligatorio de la DGT que tiene una demora en la consulta de vehículos de 24 horas. Pasadas 24 horas aparecerán las anotaciones realizadas el día anterior. Siempre con 24 horas. Activación necesaria de la estación mediante escrito a la DGT.
- 
+
 - Cambio de conexión http por https desde clientes cumpliendo con ENS.
 
 - Uso de contraseñas más seguras y bloqueo de usuario si se intenta acceder más de 5 veces con una contraseña errónea, cumpliendo con ENS.
