@@ -1,4 +1,4 @@
-# Instalación
+# Instalación de Creativa
 
 Para utilizar nuestro software cliente de gestión debes descargarlo desde este enlace:
 

@@ -1,22 +1,6 @@
-# Menús de la aplicación
- 
-Los menús principales son de la aplicación son:
+# Menú Archivo
 
-- Archivo
-- Mantenimiento
-- Gestión
-- Consultas
-- Facturación
-- Ayuda
-- Ventanas
-
-!!! Nota
-
-    Cada usuario tiene o puede tener una configuración en cuanto a permisos que impida ver todas las opciones que se muestran en el manual.
-
-## Archivo
-
-Este menú contiene las opciones siguientes:
+En este menú podrás encontrar las siguientes opciones:
 
 - **Salir:** La forma elegante de salir del programa, además de la X.
 - **Estilo:** Opciones para cambiar el aspecto del programa
@@ -28,7 +12,7 @@ Este menú contiene las opciones siguientes:
 - **Diseño informes:** Opciones para retocar algunas plantillas de documentos.
 - **Posiciones tarjetas:** Opciones para gestionar la posición de los diferentes campos de las tarjetas de ITV (reformas, duplicados, matriculaciones) antiguas a la hora de imprimirlas. Se trata de una opción local, es decir, afecta solo al equipo en el que se modifican los valores.
 
-### Salir
+## Salir
 
 Cierra la aplicación.
 En el caso de que se esté ejecutando algún servicio, mostrará un aviso antes de continuar con el cierre.
@@ -40,16 +24,18 @@ En el caso de que se esté ejecutando algún servicio, mostrará un aviso antes 
     - Maquinas
     - Panel de avisos
 
-### Estilo
+## Estilo
 
-Al seleccionar esta opción del menú Archivo, se muestra una ventana que permite cam-biar el aspecto de la aplicación.
+Al seleccionar esta opción del menú Archivo, se muestra una ventana que permite cambiar el aspecto de la aplicación.
+
+![Ventana de selección de estilos visuales mostrando una lista de opciones de estilos disponibles para la aplicación](images/menu-archivo_listado-de-estilos.png)
 
 Seleccionando un estilo cambia el aspecto en general. Los temas son variaciones como cambios de color disponibles solo en algún estilo.
 
 !!! note "Nota"
     En algunos casos es necesario reiniciar la aplicación para que los cambios de tema o estilo surtan efecto.
 
-### Login
+## Login
 
 Realiza un nuevo inicio de sesión o Login en la aplicación sin cerrar la sesión actual.
 Aunque está permitido, es preferible cerrar la aplicación y abrir con nuevo usuario. Manteniendo en todo momento al usuario actual como único usuario.
@@ -57,33 +43,34 @@ Aunque está permitido, es preferible cerrar la aplicación y abrir con nuevo us
 !!! note "Nota"
     La aplicación al realizar operaciones de alta y cobro, asigna al usuario actual a dichas operaciones. Tener más de un usuario a la vez puede tener consecuencias inesperadas al realizar un arqueo de caja.
 
-### Base Datos (administradores)
+## Base Datos (administradores)
 
 Contiene opciones para realizar operaciones de mantenimiento con la base de datos del programa.
 
 - Configurar conexión BD
 - Actualizar estructura y datos
 
-#### Config. Conexión BD (Configurar conexión a Base de Datos)
+### Config. Conexión BD (Configurar conexión a Base de Datos)
 
 Muestra un listado de conexiones con servidores de Creativa Digital 360 ITV.
+
 Desde este menú se puede crear una nueva conexión con el servidor de Creativa, modificar una existente o eliminar conexiones.
 
 El programa de gestión cliente de Creativa necesita de al menos una conexión para funcionar. Esta conexión puede ser a una DEMO, la estación de ITV u otras estaciones de ITV dentro de un grupo o empresa.
 
 Elementos de la pantalla de conexiones
 
-![elementos de la pantalla de conexiones](images/elementos-de-la-pantalla-de-conexiones.png)
+![Pantalla de configuración de conexiones a base de datos](images/archivo-base-datos_pantalla-de-conexiones.png)
 
 - Filtro
 - Listado de conexiones
 - Botones
-    - **Nuevo**: Añade una nueva conexión.
-    - **Editar**: Edita una conexión existente del listado.
-    - **Borrar**: Elimina una o varias conexiones seleccionadas del listado.
-    - **Refrescar**: Actualiza la tabla de conexiones.
-    - **Probar**: realiza un test de la conexión con los parámetros guardados.
-    - **Local** automático: Estando el equipo dentro de la red local, busca al servidor y crea automáticamente la conexión. Por defecto llama a la conexión Server.
+  - **Nuevo**: Añade una nueva conexión.
+  - **Editar**: Edita una conexión existente del listado.
+  - **Borrar**: Elimina una o varias conexiones seleccionadas del listado.
+  - **Refrescar**: Actualiza la tabla de conexiones.
+  - **Probar**: realiza un test de la conexión con los parámetros guardados.
+  - **Local** automático: Estando el equipo dentro de la red local, busca al servidor y crea automáticamente la conexión. Por defecto llama a la conexión Server.
 
 !!! Nota
 
@@ -128,7 +115,9 @@ Si todo ha ido bien, se habrá creado una nueva conexión, pero si por el contra
 
 En este caso, solicita los datos de conexión o pide ayuda.
 
-#### Actualizar estructura y datos (administradores e ingenieros)
+<!-- TODO: Enlace a casos de uso ==> Añadir conexión a demo creativa para practicar
+. -->
+### Actualizar estructura y datos (administradores e ingenieros)
 
 En determinadas ocasiones, cuando ha habido una actualización, es necesario usar esta opción para que funciones nuevas estén disponibles (seguir instrucciones de Creativa) o se actualicen las tablas comunes (mantenidas por creativa digital).
 
@@ -138,7 +127,7 @@ En determinadas ocasiones, cuando ha habido una actualización, es necesario usa
 
     Las tablas comunes, si se decide no actualizarlas con creativa, deberán ser mantenidas por la propia estación.
 
-#### Seguridad (administradores)
+### Seguridad (administradores)
 
 El menú seguridad permite gestionar usuarios, perfiles y permisos que permitiendo dar de alta nuevos usuarios, asignarles perfiles y modificar el acceso a los menús y botones de las diferentes pantallas.
 
@@ -150,7 +139,7 @@ También contiene otras propiedades extendidas de los usuarios.
 
     Ciertos elementos que forman también parte de los usuarios se pueden en-contrar en el menú Mantenimiento > Gestión de usuarios > Propiedades de usua-rio, como firmas electrónicas, permisos para usarlas, etc..
 
-##### Perfiles
+#### Perfiles
 
 Los perfiles son un conjunto de permisos y características que pueden asignarse a un conjunto de usuarios, de forma que todos los usuarios implicados, tengan los mismos permi-sos.
 La modificación de los diferentes permisos de un perfil afectará a cada usuario que pertenezca a él.
@@ -158,7 +147,7 @@ La modificación de los diferentes permisos de un perfil afectará a cada usuari
 Cuando se selecciona un perfil, este tiene unas propiedades generales como su código, su nombre y un listado de usuarios que están asignados a este perfil.
 Además, dispone de una pestaña de permisos que permiten modificar a que zonas del programa o que acciones puede realizar cualquier usuario que herede de este perfil. 
 
-##### Usuarios
+#### Usuarios
 
 Los usuarios son las cuentas con las que se identifican los trabajadores de la estación en el sistema. Por norma general cada trabajador dispondrá de una cuenta de usuario.
 Cada cuenta de usuario tendrá un perfil asignado que asignará los permisos preestableci-dos por este como si de una plantilla se tratase.
@@ -168,7 +157,7 @@ Además, puede contener otros datos o atributos que son usados en diferentes zon
 
     Existe una gestión de usuarios para cuestiones de firma, imparcialidad y otras gestiones. Puedes saber más accediendo a Gestión de Usuarios.
 
-##### Permisos
+#### Permisos
 
 Los permisos son opciones que habilitan o deshabilitan el acceso del usuario a ciertas opciones de menú, ciertas opciones o botones de pantallas o también de ciertas funcionalidades.
 
@@ -190,18 +179,18 @@ Si a un usuario que tiene asignado un cierto perfil, se le modifican los permiso
 | Permisos base | Permisos relacionados con el usuario (generalmente inspector) y acciones disponibles en la Tablet |
 | Permisos por fase | Permisos especiales para controlar que fases puede ver o usar un inspector en su tablet. Trabaja con la tabla de Fases de líneas |
 
-##### Otros atributos
+#### Otros atributos
 
 Bajo la sección o pestaña de atributos se encuentran otras propiedades del usuario que son empleadas por ejemplo en la impresión del informe o la etiqueta, para que aparezca alguna referencia relacionada con el, o bien para guardar otra información relaciona con el usuario, como por ejemplo la disposición de la pantalla de “panel de control” y los elementos que en ella se encuentran.
 
-#### Opciones locales (opciones de usuario)
+### Opciones locales (opciones de usuario)
 Esta opción de menú muestra el panel de configuración del programa para el usuario. Estas configuraciones son locales y solo afectan al equipo y a todos los usuarios que lo utilicen en él.
 
 !!! Nota "Tip avanzado"
 
     Si vas a cambiar de equipo o te van a actualizar o formatear el equipo, pue-des conservar las configuraciones y las personalizaciones de los filtros de las diferentes pantallas guardando los ficheros ConfigurationParameters.xml y ConfigurationLongITVReformas.xml que se encuentran en la carpeta de la aplicación de creativa, situada en C:\Users\[tu-usuario]\listDatos. Copiándolas en el mismo lugar en el equipo nuevo o restaurado, volverás a tener la mis-ma configuración.
 
-##### Impresión
+#### Impresión
 Opciones de configuración de impresoras que se utilizarán para cada tipo de documento usado en el programa y los márgenes y números de copias.
 
 **Impresión local/Propiedades impresora**
@@ -217,9 +206,9 @@ Para cada tipo de documento se dispone de los siguientes ajustes:
 
 **Configurar valores defecto**: Permite establecer el valor para cada uno de los cuatro már-genes.
 
-##### Otros
+#### Otros
 
-###### Opciones varias
+##### Opciones varias
 
 **Formato de pantalla**
 
@@ -229,7 +218,7 @@ Permite seleccionar el tipo de pantalla o dispositivo donde se está ejecutando 
 
 Oculta los mensajes que aparecen cuando sucede algo en el programa. Un error, un archivo recibido al anotar una inspección en la DGT, etc.
 
-###### Tarjeta
+##### Tarjeta
 
 Las tarjetas de ITV contienen una serie de logos y textos que pueden configurarse depen-diendo de si se han adquirido pre-impresas en su totalidad, solo con la cuadricula o vacías.
 
@@ -238,19 +227,19 @@ Las tarjetas de ITV contienen una serie de logos y textos que pueden configurars
 - Desactivar logo fichas: En caso de que las fichas ya incluyan el grafico, logo de la comunidad o elemento gráfico, se desmarca para que no se imprima con el que se ha especificado en la sección Logos y Documentos del menú de Opciones globales.
 - Tarjetas con nombres de campos: Se marcará si la tarjeta tiene los nombres de los campos pre-impresos. Estando marcado, no se imprimirán al imprimir los datos de esta y se usarán los que ya vienen impresos.
 
-###### Homologaciones
+##### Homologaciones
 
 Permite establecer una conexión con el sistema de fichas reducidas incorporado en Creativa Digital 360 ITV.
 
 Si está disponible, se rellenará con los datos provistos por Creativa con respecto a la esta-ción.
 
-###### Taxímetros
+##### Taxímetros
 
 Opciones relativas a la inspección de taxímetros.
   
-##### General
+#### General
 
-###### Certificados y DGT
+##### Certificados y DGT
 
 Desde esté menú de configuración se permite seleccionar un certificado para su uso du-rante la firma de inspecciones y etiquetas.
 Cuando se utiliza esta opción, sustituye a cualquier firma que se utilice de forma automá-tica desde las acciones que realiza el servidor. Es decir, se antepone a las demás firmas que pudiesen emplearse.
@@ -277,7 +266,7 @@ Se marcará la casilla [ ] Usar certificado E-DNI, en cuyo caso, al utilizar la 
 
 Se deberá importar el fichero al programa mediante el botón Seleccionar y preguntará la contraseña para poder terminar la importación.
 
-##### Altas inspección
+#### Altas inspección
 
 Permite modificar eventos que se producen durante el alta de una inspección.
 
@@ -298,9 +287,9 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Ruta cajero automático:** Campo específico para el módulo opcional “Cajero automático”, que funciona con cajeros de la marca CashDro.
 - **Fecha estado de alarma COVID19:** Campos específicos durante la etapa de COVID, que permitían establecer los diferentes periodos para realizar cálculos durante el alta.
 
-##### Comunicación
+#### Comunicación
 
-###### Listado vehículos
+##### Listado vehículos
 
 Configuración de la pantalla que muestra el listado de vehículos pendientes de realizar inspección a los inspectores.
  
@@ -308,20 +297,20 @@ Ilustración 34 - Opciones locales/Lista de vehículos
 
 Se pueden configurar el tamaño de la fuente de letra y si se muestran todos los datos del vehículo o solo la matricula, para cada una de las tres vistas que tiene la pantalla de información.
 
-###### Recordatorios
+##### Recordatorios
 
 Gestión de las plantillas para el envío de recordatorio. Estos recordatorios son nativos del programa.
 
 Ilustración 36 - Configuración/Comunicación/Recordatorios
 Son dos las plantillas que se pueden configurar/personalizar para el envío de recordatorios.
 
-###### SMS
+##### SMS
 
 Un texto de hasta 160 caracteres (sin caracteres acentuados ni símbolos), que puede combinarse usando los campos de combinación que se muestra más abajo.
 Email
 Se puede personalizar el asunto y mediante el editor el cuerpo del mensaje, aprovechan-do también la combinación de los campos de combinación.
 
-###### Correo ordinario
+##### Correo ordinario
 
 Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de recordatorios, se generara un PDF multi-página con todas las cartas.
 
@@ -332,7 +321,7 @@ Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de reco
     Más información: https://creativadigital360.com 
 
 
-###### Vídeo público
+##### Vídeo público
 
 Es una característica especial de Creativa. Correctamente configurado, permite reproducir un video con sobreimpresión de algunos datos útiles sobreimpresos.
 Se debe seleccionar la ruta del fichero a reproducir y especificar un código de usuario y contraseña.
@@ -342,4 +331,3 @@ Se puede mostrar información sobreimpresa sobre:
 - **Vehículos terminados**: Muestra las matrículas de los vehículos que van terminán-dose.
 
 Otras configuraciones relacionadas.
-

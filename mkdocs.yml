@@ -107,16 +107,28 @@ nav:
     - bienvenido/bienvenido.md
     - bienvenido/introduccion.md
     - bienvenido/requisitos.md
-    - bienvenido/obtener-ayuda/obtener-ayuda.md
+    - bienvenido/obtener-ayuda.md
   
   - Guía de inicio:
-    - guia-de-inicio/instalacion/instalacion.md
-    - guia-de-inicio/iniciar-sesion/iniciar-sesion.md
-    - guia-de-inicio/interfaz-de-usuario/interfaz-de-usuario.md
-    - guia-de-inicio/interfaz-de-usuario/menus.md
-    # - guia-de-inicio/configurar-programa.md
-    # - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica/alta-de-inspeccion-periodica.md
-    # - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica/alta-de-inspeccion-no-periodica.md
+    - Instalacion:
+      - guia-de-inicio/instalacion.md
+    
+    - Primeros pasos:
+      - guia-de-inicio/iniciar-sesion.md
+      - guia-de-inicio/cambiar-contraseña.md
+    
+    - Interfaz de usuario:
+      - guia-de-inicio/interfaz-de-usuario/interfaz-de-usuario.md
+      - guia-de-inicio/interfaz-de-usuario/menu-archivo.md
+      - guia-de-inicio/interfaz-de-usuario/menu-mantenimiento.md
+      - guia-de-inicio/interfaz-de-usuario/menu-gestion.md
+      - guia-de-inicio/interfaz-de-usuario/menu-consultas.md
+      - guia-de-inicio/interfaz-de-usuario/menu-ventanas.md
+      - guia-de-inicio/interfaz-de-usuario/menu-ayuda.md
+      # - guia-de-inicio/configurar-programa.md
+    - Alta de inspecciones:
+      - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica.md
+      - guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica.md
     # - guia-de-inicio/dar-de-alta-expedientes.md
     # - guia-de-inicio/trabajar-con-inspecciones.md
     # - guia-de-inicio/trabajar-con-expedietes.md
@@ -180,8 +192,7 @@ nav:
       - Servicios/certificados-electronicos/emision-de-certificados.md
       - Servicios/certificados-electronicos/certificados-electronicos.md  
   - Módulos:
-    - Módulo control horario:
-      - modulos/modulo-control-horario/modulo-control-horario.md
+      - modulos/modulo-control-horario.md
 
   - Acerca de:
     - Notas de la versión:

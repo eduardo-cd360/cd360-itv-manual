@@ -1,4 +1,4 @@
-## La interfaz de usuario
+# Pantalla principal
 
 En esta sección se describen las diferentes partes de la pantalla que ves como usuario.
 
