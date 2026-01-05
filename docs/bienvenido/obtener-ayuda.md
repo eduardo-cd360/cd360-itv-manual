@@ -2,7 +2,7 @@
 
 Desde Creativa Digital 360 disponemos de un canal de soporte para resolver las dudas y cuestiones que surgen en el trabajo a diario asi como otras formas de contacto que nos mantienen siempre conectados.
 
-Los clientes que tengan contratado el sistema de cita previa, tambien tienen didponible un canal de diálogo.
+Los clientes que tengan contratado el sistema de cita previa, también tienen disponible un canal de diálogo.
 
 ## Menú _Ayuda_ de la aplicación de escritorio CD360ITV:
 
@@ -26,11 +26,11 @@ soporte@creativadigital360.com
 
 soportecitas@creativadigital360.com para las dudas o problemas que tengas con el sistema de cita previa.
 
-## Telefono y chat
+## Teléfono y chat
 
 **Teléfono**: 868 68 20 10
 
-**Whatsapp**: 868 68 20 10
+**WhatsApp**: 868 68 20 10
 
 ## Horario de soporte técnico
 
@@ -38,4 +38,4 @@ Lunes a viernes
 09:00 a 14:00 horas
 16:00 a 19:00 horas
 
-Sabados y fuera de horario de soporte se debe contactar al Whatsapp. **Solo urgencias**.
+Sábados y fuera de horario de soporte se debe contactar al WhatsApp. **Solo urgencias**.

@@ -1,4 +1,4 @@
-REQUISITOS DEL SISTEMA
+# Requisitos del sistema
 
 ## Equipos de línea y de oficina
 
