@@ -1,0 +1,5126 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación oficial de los proyectos de Creativa Digital 360">
+      
+      
+      
+        <link rel="canonical" href="https://docs.programaitv.com/casos-de-uso/dgt/codigos-errores-dgt/">
+      
+      
+        <link rel="prev" href="../../impresion/sincronizar-godex-g530-g500/">
+      
+      
+        <link rel="next" href="../consulta_antecedentes_dgt/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Códigos de error DGT (ATRI, INDI) - Documentación Creativa Digital 360</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../../css/print-site-material.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#codigos-de-error-dgt-atri-indi" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentación Creativa Digital 360" class="md-header__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
+      
+  <img src="../../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentación Creativa Digital 360
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Códigos de error DGT (ATRI, INDI)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentación Creativa Digital 360" class="md-nav__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
+      
+  <img src="../../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
+
+    </a>
+    Documentación Creativa Digital 360
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenido
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bienvenido
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../bienvenido/bienvenido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../bienvenido/introduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../bienvenido/requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../bienvenido/obtener-ayuda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obtener ayuda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de inicio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guía de inicio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1">
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instalacion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Instalacion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/instalacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instalación de Creativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primeros pasos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primeros pasos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/iniciar-sesion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iniciar sesión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/cambiar-contrase%C3%B1a/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cambio de la contraseña
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaz de usuario
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interfaz de usuario
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/interfaz-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pantalla principal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-archivo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Archivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-mantenimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Mantenimiento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-gestion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Gestión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-consultas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu consultas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-ventanas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu ventanas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/interfaz-de-usuario/menu-ayuda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu ayuda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4">
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Alta de inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de una inspección periódica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de inspección no periódica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de uso
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Casos de uso
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1">
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clientes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Clientes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clientes/bloquear-clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como bloquear un cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clientes/fidelizacion-de-clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fidelización de clientes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Altas de inspección" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expedientes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Expedientes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ampliación campos tarjetas ITV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Añadir nueva documentación a códigos de reforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados digitales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificados digitales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como añadir las firmas a usuario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentos personalizados
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentos personalizados
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configuracion/documentos-personalizados/configurar-documento-personalizado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurar documento personalizado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impresión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Impresión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../impresion/sincronizar-godex-g530-g500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solución de problemas con impresoras de etiquetas Godex G500/G530
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DGT
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DGT
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Códigos de error DGT (ATRI, INDI)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Códigos de error DGT (ATRI, INDI)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#errores-atri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores ATRI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores ATRI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atri0100-vehiculo-sin-antecedentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0100 - Vehículo sin antecedentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0207-el-codigo-de-la-estacion-itv-debe-tener-4-caracteres-alfanumericos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0207 - El código de la estación ITV debe tener 4 caracteres alfanuméricos.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0225-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0225 - No se pudo aplicar la tasa a través del sistema INDI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0227-los-datos-siguientes-son-incompatibles-clasificacion-industria-3200-servicio-b1b-tipo-matricula-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0227 Los datos siguientes son incompatibles. Clasificación Industria = 3200, Servicio = B1B, Tipo matrícula = 0.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0228-es-necesario-informar-la-clasificacion-de-industria-para-llevar-a-cabo-la-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0228 - Es necesario informar la Clasificación de Industria para llevar a cabo la reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0229-es-necesario-informar-el-servicio-para-llevar-a-cabo-la-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0229 - Es necesario informar el Servicio para llevar a cabo la reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0231-el-tipo-de-anotacion-introducido-no-es-correcto-debe-ser-una-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0231 - El tipo de anotación introducido no es correcto, debe ser una "I".
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1091-y-la-descripcion-indi1091-numero-de-tasa-no-existente-en-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1091 y la descripción INDI1091 - Número de tasa no existente en el sistema.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1092y-la-descripcion-indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1092y la descripción INDI1092- El importe de la tasa recibida no coincide con el precio actual de la tasa.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi3939-y-la-descripcion-indi3939-la-tasa-no-es-re-aplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI3939 y la descripción INDI3939 - La tasa no es re-aplicable al trámite seleccionado, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0254-el-servicio-a03-solo-es-compatible-para-la-clasificacion-de-industria-terminada-en-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0254 – El servicio A03 sólo es compatible para la clasificación de industria terminada en 05.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0255-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0255 - La clasificación industria [clasificación], sólo es compatible con el servicio A03.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0256-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03-puede-cambiar-el-servicio-realizando-una-reforma-tipo-1100-modificaciones-de-los-datos-que-afectan-a-las-tarjetas-itv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0256 - La clasificación industria [clasificación], sólo es compatible con el servicio A03. Puede cambiar el servicio realizando una reforma tipo “11.00- Modificaciones de los datos que afectan a las tarjetas ITV”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0302-el-vehiculo-matricula-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-fecha-caducidad-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0302 - El vehículo [MATRICULA] tiene una inspección desfavorable, la subsanación de la misma caduca el [FECHA CADUCIDAD]. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0324-error-el-bastidor-introducido-no-coincide-con-el-real-del-vehiculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0324 Error, el bastidor introducido no coincide con el real del vehículo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0326-error-no-puede-informar-mas-de-100-defectos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0326 - Error, no puede informar más de 100 defectos.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0329-la-referencia-a-la-tasa-es-obligatoria-y-no-puede-tener-una-longitud-mayor-de-12-digitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0329: La referencia a la tasa es obligatoria y no puede tener una longitud mayor de 12 dígitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0333-las-anotaciones-con-calificacion-desfavorable-o-negativa-deben-informar-al-menos-un-defecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0333-Las anotaciones con calificación Desfavorable o Negativa deben informar al menos un defecto.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0334-error-no-puede-informar-mas-de-100-tipos-de-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0334 - Error, no puede informar más de 100 tipos de reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0335-error-al-menos-debe-informar-de-una-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0335: Error, al menos debe informar de una reforma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0369-error-ya-fue-anotada-una-inspeccion-con-estos-datos-en-la-fecha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0369: Error, ya fue anotada una inspección con estos datos en la fecha...
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0376-la-fecha-de-validez-en-caso-favorable-no-puede-ser-igual-o-inferior-a-la-fecha-de-inspeccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0376: La fecha de validez en caso favorable no puede ser igual o inferior a la fecha de inspección.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri00500-error-de-sistema-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI00500: Error de sistema. null
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0302-el-vehiculo-r9085bcn-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-24032020-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0302: El vehículo R9085BCN tiene una inspección desfavorable, la subsanación de la misma caduca el 24/03/2020. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri7005-servicio-de-consultar-tarjeta-dgt-eitv-see-nested-exception-nested-exception-is-javalangnullpointerexception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI7005: Servicio de Consultar Tarjeta DGT EITV: See nested exception; nested exception is: java.lang.NullPointerException.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri15031-error-de-sistema-error-generico-capturado-en-el-procesamiento-ejb-de-intranet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI15031: Error de sistema. Error genérico capturado en el procesamiento EJB de intranet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri15040-error-de-sistema-error-al-realizar-llamada-a-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI15040: Error de sistema. Error al realizar llamada a host
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-tasas-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores tasas DGT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores tasas DGT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-detecto-un-error-en-la-compra-de-tasas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Como detecto un error en la compra de tasas?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Como detecto un error en la compra de tasas?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-1-error-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #1: Error técnico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-2-se-ha-producido-un-problema-al-realizar-la-recuperacion-o-el-pago-de-las-tasas-en-aeat-pongase-en-contacto-con-el-060" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #2: Se ha producido un problema al realizar la recuperación o el pago de las tasas en AEAT. Póngase en contacto con el 060.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-3-error-de-conexion-con-la-url-httpsoapaplp3traficoes94ws_indi7gestionpagoswsservice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #3: Error de conexión con la URL http://soap.apl.p3.trafico.es:94/WS_INDI7/GestionPagosWSService
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-4-error-por-tiempo-de-conexion-agotado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #4: Error por tiempo de conexión agotado.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-relacionados-con-el-uso-de-tasas-compradas-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores relacionados con el uso de tasas compradas (INDI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores relacionados con el uso de tasas compradas (INDI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-por-favor-vuelva-a-intentarlo-en-unos-minutos-si-el-problema-continua-avise-a-un-administrador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI5000: Se ha producido un problema interno en la aplicación. Por favor, vuelva a intentarlo en unos minutos. Si el problema continua, avise a un administrador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1031-recibido-un-valor-nulo-no-permitido-en-numerotasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1031: Recibido un valor nulo no permitido en {numeroTasa}.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1032-se-ha-producido-un-error-en-la-conexion-con-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1032: Se ha producido un error en la conexión con host.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1091-numero-de-tasa-no-existente-en-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1091: Número de tasa no existente en el sistema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1092: El importe de la tasa recibida no coincide con el precio actual de la tasa.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1093-aplicacion-llamante-no-valida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1093: Aplicación llamante no válida.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1094-el-identificador-del-comprador-no-coincide-con-el-registrado-previamente-en-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1094: El identificador del comprador no coincide con el registrado previamente en INDI.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1095-tramite-no-autorizado-para-aplicar-el-tipo-de-tasa-solicitado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1095: Trámite no autorizado para aplicar el tipo de tasa solicitado.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1097-la-tasa-no-es-aplicable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1097: La tasa no es aplicable.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1467-la-fecha-de-aplicacion-no-puede-ser-posterior-a-la-fecha-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1467: La fecha de aplicación no puede ser posterior a la fecha actual.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1468-el-importe-de-la-tasa-no-coincide-con-el-precio-de-la-tasa-para-la-fecha-de-aplicacion-es-necesaria-una-actualizacion-de-la-tasa-por-favor-contacte-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1468: El importe de la tasa no coincide con el precio de la tasa para la fecha de aplicación. Es necesaria una actualización de la tasa. Por favor, contacte con el equipo de soporte.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1469-error-en-la-aplicacion-de-la-tasa-no-se-puede-calcular-el-importe-de-la-tasa-para-la-fecha-de-aplicacion-por-favor-contacte-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1469: Error en la aplicación de la tasa. No se puede calcular el importe de la tasa para la fecha de aplicación. Por favor, contacte con el equipo de soporte.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6107-no-se-ha-podido-aplicar-la-tasa-porque-no-existe-en-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6107: No se ha podido aplicar la tasa porque no existe en HOST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi3939-la-tasa-no-es-reaplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI3939: La tasa no es reaplicable al trámite seleccionado, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-pongase-en-contacto-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI5000 Se ha producido un problema interno en la aplicación. Póngase en contacto con el equipo de soporte
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6017-identificador-del-tramite-no-valido-para-aplicar-la-tasa-ya-que-sobre-la-misma-hay-realizada-una-desaplicacion-parcial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6017 Identificador del trámite no válido para aplicar la tasa ya que sobre la misma hay realizada una desaplicación parcial.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6113-error-en-la-aplicacion-de-la-tasa-en-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6113 Error en la aplicación de la tasa en HOST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6018-identificador-del-tramite-no-valido-para-reaplicar-la-tasa-seleccione-el-identificador-de-la-aplicacion-vigente-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6018 Identificador del trámite no válido para reaplicar la tasa, seleccione el identificador de la aplicación vigente, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-varios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores varios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores varios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hstval08-validacion-erronea-al-consultar-el-registro-de-vehiculos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HSTVAL08: Validación errónea al consultar el registro de vehículos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-del-servicio-atri-no-envia-respuesta-valida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error del servicio ATRI, no envía respuesta válida.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#envio-incidencia-a-la-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envio incidencia a la DGT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Envio incidencia a la DGT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#procedimientos-recuperacion-doble-pago-de-tasas-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Procedimientos Recuperación Doble Pago de Tasas DGT:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../consulta_antecedentes_dgt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consulta de antecedentes en DGT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7">
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facturación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Facturación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/crear-un-descuento/crear-un-descuento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crear un descuento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/forma-pago-texto-incorrecto/forma-pago-texto-incorrecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forma pago texto incorrecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/generar-facturacion-mensual/generar-facturacion-mensual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generar facturacion mensual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/gestion-de-gastos/gestion-de-gastos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion de gastos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/gestionar-formas-de-pago/gestionar-formas-de-pago/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formas de pago
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/gestion-de-facturas/gestion-de-facturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de facturas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/mostrar-subtotales-acumulados-de-facturas/mostrar-subtotales-acumulados-de-facturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    mostrar subtotales acumulados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/resolucion-problemas-exportacion-contabilidad/resolucion-problemas-exportacion-contabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolucion problemas exportacion contabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas de facturas o albaranes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../facturacion/generar-remesas/generar-remesas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Remesas bancarias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8">
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Descuentos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Descuentos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../descuentos/crear-descuentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crear descuentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9">
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recordatorios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recordatorios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recordatorios/configuracion-de-envio-de-recordatorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración envío de recordatorios por SMS y Email
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recordatorios/envio-de-recordatorios-con-digital-servi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Envio de recordatorios con digital servi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recordatorios/envio-de-recordatorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Envío de recordatorios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10">
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subida de Inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Subida de Inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../subida-de-inspecciones/subida-industria-murcia/subir-inspecciones-al-servicio-industria-de-murcia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subir inspecciones al servicio industria de murcia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11">
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Varios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Varios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../varios/cambiar-periodicidad-a-una-clasificaci%C3%B3n-en-concreto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cambiar la periodicidad de una clasificación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../varios/cualificacion-de-inspectores/cualificacion-de-inspectores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema de cualificación de inspectores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1">
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de perfiles y usuarios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gestión de perfiles y usuarios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-perfiles/gestión de perfiles.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-usuarios/gestión de usuarios.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2">
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opciones globlales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opciones globlales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Configuraracion/opciones-globales/impresion/impresion.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configuracion/alcance-segundas-inspecciones/alcance-segundas-inspecciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alcance de segundas inspecciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consultas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Consultas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Consultas administrativas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Servicios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Servicios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1">
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados electrónicos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificados electrónicos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Servicios/certificados-electronicos/emision-de-certificados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emisión de certificados digitales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Servicios/certificados-electronicos/certificados-electronicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados electrónicos para estación de ITV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modulos/modulo-control-horario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo Control Horario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acerca de
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acerca de
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1">
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notas de la versión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Notas de la versión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../acerca-de/notas-de-la-version/version-2025-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Versión 2025-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../acerca-de/notas-de-la-version/version-2026-1.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#errores-atri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores ATRI
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores ATRI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atri0100-vehiculo-sin-antecedentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0100 - Vehículo sin antecedentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0207-el-codigo-de-la-estacion-itv-debe-tener-4-caracteres-alfanumericos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0207 - El código de la estación ITV debe tener 4 caracteres alfanuméricos.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0225-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0225 - No se pudo aplicar la tasa a través del sistema INDI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0227-los-datos-siguientes-son-incompatibles-clasificacion-industria-3200-servicio-b1b-tipo-matricula-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0227 Los datos siguientes son incompatibles. Clasificación Industria = 3200, Servicio = B1B, Tipo matrícula = 0.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0228-es-necesario-informar-la-clasificacion-de-industria-para-llevar-a-cabo-la-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0228 - Es necesario informar la Clasificación de Industria para llevar a cabo la reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0229-es-necesario-informar-el-servicio-para-llevar-a-cabo-la-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0229 - Es necesario informar el Servicio para llevar a cabo la reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0231-el-tipo-de-anotacion-introducido-no-es-correcto-debe-ser-una-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0231 - El tipo de anotación introducido no es correcto, debe ser una "I".
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1091-y-la-descripcion-indi1091-numero-de-tasa-no-existente-en-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1091 y la descripción INDI1091 - Número de tasa no existente en el sistema.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1092y-la-descripcion-indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1092y la descripción INDI1092- El importe de la tasa recibida no coincide con el precio actual de la tasa.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi3939-y-la-descripcion-indi3939-la-tasa-no-es-re-aplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0236 No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI3939 y la descripción INDI3939 - La tasa no es re-aplicable al trámite seleccionado, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0254-el-servicio-a03-solo-es-compatible-para-la-clasificacion-de-industria-terminada-en-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0254 – El servicio A03 sólo es compatible para la clasificación de industria terminada en 05.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0255-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0255 - La clasificación industria [clasificación], sólo es compatible con el servicio A03.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0256-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03-puede-cambiar-el-servicio-realizando-una-reforma-tipo-1100-modificaciones-de-los-datos-que-afectan-a-las-tarjetas-itv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0256 - La clasificación industria [clasificación], sólo es compatible con el servicio A03. Puede cambiar el servicio realizando una reforma tipo “11.00- Modificaciones de los datos que afectan a las tarjetas ITV”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0302-el-vehiculo-matricula-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-fecha-caducidad-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0302 - El vehículo [MATRICULA] tiene una inspección desfavorable, la subsanación de la misma caduca el [FECHA CADUCIDAD]. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0324-error-el-bastidor-introducido-no-coincide-con-el-real-del-vehiculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0324 Error, el bastidor introducido no coincide con el real del vehículo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0326-error-no-puede-informar-mas-de-100-defectos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0326 - Error, no puede informar más de 100 defectos.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0329-la-referencia-a-la-tasa-es-obligatoria-y-no-puede-tener-una-longitud-mayor-de-12-digitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0329: La referencia a la tasa es obligatoria y no puede tener una longitud mayor de 12 dígitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0333-las-anotaciones-con-calificacion-desfavorable-o-negativa-deben-informar-al-menos-un-defecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0333-Las anotaciones con calificación Desfavorable o Negativa deben informar al menos un defecto.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0334-error-no-puede-informar-mas-de-100-tipos-de-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0334 - Error, no puede informar más de 100 tipos de reforma.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0335-error-al-menos-debe-informar-de-una-reforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0335: Error, al menos debe informar de una reforma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0369-error-ya-fue-anotada-una-inspeccion-con-estos-datos-en-la-fecha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0369: Error, ya fue anotada una inspección con estos datos en la fecha...
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0376-la-fecha-de-validez-en-caso-favorable-no-puede-ser-igual-o-inferior-a-la-fecha-de-inspeccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0376: La fecha de validez en caso favorable no puede ser igual o inferior a la fecha de inspección.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri00500-error-de-sistema-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI00500: Error de sistema. null
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri0302-el-vehiculo-r9085bcn-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-24032020-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI0302: El vehículo R9085BCN tiene una inspección desfavorable, la subsanación de la misma caduca el 24/03/2020. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri7005-servicio-de-consultar-tarjeta-dgt-eitv-see-nested-exception-nested-exception-is-javalangnullpointerexception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI7005: Servicio de Consultar Tarjeta DGT EITV: See nested exception; nested exception is: java.lang.NullPointerException.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri15031-error-de-sistema-error-generico-capturado-en-el-procesamiento-ejb-de-intranet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI15031: Error de sistema. Error genérico capturado en el procesamiento EJB de intranet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atri15040-error-de-sistema-error-al-realizar-llamada-a-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ATRI15040: Error de sistema. Error al realizar llamada a host
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-tasas-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores tasas DGT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores tasas DGT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-detecto-un-error-en-la-compra-de-tasas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Como detecto un error en la compra de tasas?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Como detecto un error en la compra de tasas?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-1-error-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #1: Error técnico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-2-se-ha-producido-un-problema-al-realizar-la-recuperacion-o-el-pago-de-las-tasas-en-aeat-pongase-en-contacto-con-el-060" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #2: Se ha producido un problema al realizar la recuperación o el pago de las tasas en AEAT. Póngase en contacto con el 060.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-3-error-de-conexion-con-la-url-httpsoapaplp3traficoes94ws_indi7gestionpagoswsservice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #3: Error de conexión con la URL http://soap.apl.p3.trafico.es:94/WS_INDI7/GestionPagosWSService
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-4-error-por-tiempo-de-conexion-agotado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error #4: Error por tiempo de conexión agotado.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-relacionados-con-el-uso-de-tasas-compradas-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores relacionados con el uso de tasas compradas (INDI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores relacionados con el uso de tasas compradas (INDI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-por-favor-vuelva-a-intentarlo-en-unos-minutos-si-el-problema-continua-avise-a-un-administrador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI5000: Se ha producido un problema interno en la aplicación. Por favor, vuelva a intentarlo en unos minutos. Si el problema continua, avise a un administrador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1031-recibido-un-valor-nulo-no-permitido-en-numerotasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1031: Recibido un valor nulo no permitido en {numeroTasa}.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1032-se-ha-producido-un-error-en-la-conexion-con-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1032: Se ha producido un error en la conexión con host.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1091-numero-de-tasa-no-existente-en-el-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1091: Número de tasa no existente en el sistema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1092: El importe de la tasa recibida no coincide con el precio actual de la tasa.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1093-aplicacion-llamante-no-valida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1093: Aplicación llamante no válida.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1094-el-identificador-del-comprador-no-coincide-con-el-registrado-previamente-en-indi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1094: El identificador del comprador no coincide con el registrado previamente en INDI.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1095-tramite-no-autorizado-para-aplicar-el-tipo-de-tasa-solicitado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1095: Trámite no autorizado para aplicar el tipo de tasa solicitado.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1097-la-tasa-no-es-aplicable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1097: La tasa no es aplicable.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1467-la-fecha-de-aplicacion-no-puede-ser-posterior-a-la-fecha-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1467: La fecha de aplicación no puede ser posterior a la fecha actual.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1468-el-importe-de-la-tasa-no-coincide-con-el-precio-de-la-tasa-para-la-fecha-de-aplicacion-es-necesaria-una-actualizacion-de-la-tasa-por-favor-contacte-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1468: El importe de la tasa no coincide con el precio de la tasa para la fecha de aplicación. Es necesaria una actualización de la tasa. Por favor, contacte con el equipo de soporte.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi1469-error-en-la-aplicacion-de-la-tasa-no-se-puede-calcular-el-importe-de-la-tasa-para-la-fecha-de-aplicacion-por-favor-contacte-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI1469: Error en la aplicación de la tasa. No se puede calcular el importe de la tasa para la fecha de aplicación. Por favor, contacte con el equipo de soporte.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6107-no-se-ha-podido-aplicar-la-tasa-porque-no-existe-en-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6107: No se ha podido aplicar la tasa porque no existe en HOST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi3939-la-tasa-no-es-reaplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI3939: La tasa no es reaplicable al trámite seleccionado, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-pongase-en-contacto-con-el-equipo-de-soporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI5000 Se ha producido un problema interno en la aplicación. Póngase en contacto con el equipo de soporte
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6017-identificador-del-tramite-no-valido-para-aplicar-la-tasa-ya-que-sobre-la-misma-hay-realizada-una-desaplicacion-parcial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6017 Identificador del trámite no válido para aplicar la tasa ya que sobre la misma hay realizada una desaplicación parcial.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6113-error-en-la-aplicacion-de-la-tasa-en-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6113 Error en la aplicación de la tasa en HOST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indi6018-identificador-del-tramite-no-valido-para-reaplicar-la-tasa-seleccione-el-identificador-de-la-aplicacion-vigente-la-tasa-esta-ya-aplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INDI6018 Identificador del trámite no válido para reaplicar la tasa, seleccione el identificador de la aplicación vigente, la tasa esta ya aplicada.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errores-varios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errores varios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Errores varios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hstval08-validacion-erronea-al-consultar-el-registro-de-vehiculos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HSTVAL08: Validación errónea al consultar el registro de vehículos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-del-servicio-atri-no-envia-respuesta-valida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error del servicio ATRI, no envía respuesta válida.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#envio-incidencia-a-la-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envio incidencia a la DGT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Envio incidencia a la DGT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#procedimientos-recuperacion-doble-pago-de-tasas-dgt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Procedimientos Recuperación Doble Pago de Tasas DGT:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="codigos-de-error-dgt-atri-indi">Códigos de error DGT (ATRI, INDI)</h1>
+<table>
+<thead>
+    <tr>
+        <th>Versión</th>
+        <th>Fecha</th>
+        <th>Descripción</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1.0</td>
+        <td>16/04/2021</td>
+        <td>Versión inicial</td>
+    </tr>
+    <tr>
+        <td>1.1</td>
+        <td>16/08/2022</td>
+        <td>Actualización con varios códigos nuevos</td>
+    </tr>
+    <tr>
+        <td>1.2</td>
+        <td>29/08/2022</td>
+        <td>Actualización. Se añade código ATRI0335.</td>
+    </tr>
+    <tr>
+        <td>1.3</td>
+        <td>24/10/2022</td>
+        <td>Actualización. Se añade error conexión en compra de tasas</td>
+    </tr>
+    <tr>
+        <td>1.4</td>
+        <td>12/01/2023</td>
+        <td>Actualización. Se añaden nuevos códigos</td>
+    </tr>
+    <tr>
+        <td>1.5</td>
+        <td>14/04/2023</td>
+        <td>Actualización. Se añaden nuevos códigos publicados por AECA-DGT</td>
+    </tr>
+    <tr>
+        <td>1.6</td>
+        <td>18/07/2023</td>
+        <td>Actualización. Se añaden nuevos códigos publicados en documento de DGT-AECA "manual tipos errores"</td>
+    </tr>
+</tbody>
+</table>
+
+<p>En este documento se trata de dar una solución a los distintos errores que se producen en los procedimientos de compra de tasas, anotación de inspecciones y reformas y en el caso de no tener solución de forma local, cual es el procedimiento estándar que hay que usar cuando no queda otra que lo solucione la DGT.</p>
+<ul>
+<li><a href="#errores-atri">Errores relacionados con subida de inspecciones (ATRI)</a></li>
+<li><a href="#errores-tasas-dgt">Errores relacionados con la compra de tasas de la DGT</a></li>
+<li><a href="#errores-indi">Errores relacionados con el uso de tasas (INDI)</a></li>
+<li><a href="#errores-varios">Otros errores</a></li>
+<li><a href="#procedimiento-estándar-de-resolución-de-incidencia-de-la-dgt-easyvista">Procedimiento estándar de resolución de incidencia de la DGT (EasyVista)</a></li>
+</ul>
+<h2 id="errores-atri">Errores ATRI</h2>
+<h3 id="atri0100-vehiculo-sin-antecedentes">ATRI0100 - Vehículo sin antecedentes</h3>
+<p>El Vehículo no se encuentra informatizado en el registro de vehículos de la DGT.</p>
+<p><strong>Solución:</strong></p>
+<ol>
+<li>Comprobar en ATEX si el vehículo existe.</li>
+<li>Si ATEX informa de vehículo sin antecedentes, solicitar a JEFATURA dar de alta el vehículo.</li>
+</ol>
+<h3 id="atri0207-el-codigo-de-la-estacion-itv-debe-tener-4-caracteres-alfanumericos">ATRI0207 - El código de la estación ITV debe tener 4 caracteres alfanuméricos.</h3>
+<p>El código de la estación que incorpora la inspección es erróneo.</p>
+<p><strong>Solución:</strong></p>
+<p>Revisar el alta de inspección e introducir el código de la estación correcta.</p>
+<h3 id="atri0225-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi">ATRI0225 - No se pudo aplicar la tasa a través del sistema INDI</h3>
+<p>Error de los sistemas de compra internos en la DGT, las tasas que se están tratando de usar para subir la inspección, están usadas/asignadas (para ellos).</p>
+<p><strong>Solución</strong>: Enviar una incidencia a la DGT siguiendo el <a href="#procedimiento-estándar-de-resolución-de-incidencia-de-la-dgt-easyvista" target="_blank">procedimiento estándar</a>. Antes de enviar una incidencia, comprobar que no se está usando una tasa ya asignada. Para comprobarlo, acceder a <code>Gestión&gt;DGT&gt;Tasas usadas</code> y buscar la tasa que tiene asignada la inspección que da este error. Si aparece más de una vez, bastará con eliminar de la inspección actual, la tasa usada.</p>
+<blockquote>
+<p>Para eliminar una tasa de una inspección que no se sube, editar la inspección, y en la pestaña </p>
+</blockquote>
+<p>En caso de estar todo bien, debe mandarse un correo electrónico a las direcciones siguientes y con copia a AECA.</p>
+<p><a href="mailto:sdi-integracion@dgt.es" target="_blank">sdi-integracion@dgt.es</a></p>
+<blockquote>
+<p>Nota: Recientemente ya se muestran errores descriptivos del sistema INDI, por lo que se debe consultar más abajo la sección Errores INDI, para entender que es lo que ocurre y su posible solución. <a href="#errores-indi">Ver errores INDI</a></p>
+</blockquote>
+<h3 id="atri0227-los-datos-siguientes-son-incompatibles-clasificacion-industria-3200-servicio-b1b-tipo-matricula-0">ATRI0227 Los datos siguientes son incompatibles. Clasificación Industria = 3200, Servicio = B1B, Tipo matrícula = 0.</h3>
+<p><strong>Causa</strong>: Este error se puede dar porque se trata de anotar una reforma a un vehículo que no se le puede hacer porque alguna de sus características no lo permiten. En este caso, es una camperización de un vehículo de uso comercial, que se supone que debe ser de uso particular. Para determinar esto, se ha mirado en la página de ATEX de la DGT.</p>
+<p><strong>Solución</strong>: Se debe compatibilizar el vehículo con la reforma a realizar.</p>
+<h3 id="atri0228-es-necesario-informar-la-clasificacion-de-industria-para-llevar-a-cabo-la-reforma">ATRI0228 - Es necesario informar la Clasificación de Industria para llevar a cabo la reforma.</h3>
+<p>Se presenta en reformas, dándose este problema cuando no se ha puesto clasificación del vehículo durante el alta o no está presente en el expediente o la tarjeta.</p>
+<p><strong>Solución:</strong></p>
+<p>Revisar la clasificación del vehículo en la inspección, el expediente y la tarjeta.</p>
+<h3 id="atri0229-es-necesario-informar-el-servicio-para-llevar-a-cabo-la-reforma">ATRI0229 - Es necesario informar el Servicio para llevar a cabo la reforma.</h3>
+<p>Se presenta en reformas. No se ha establecido el servicio al que va destinado el vehículo.</p>
+<p><strong>Solución:</strong></p>
+<p>Corregir el dato referente al servicio al que va destinado el vehículo. Añadirlo si no se ha especificado.</p>
+<h3 id="atri0231-el-tipo-de-anotacion-introducido-no-es-correcto-debe-ser-una-i">ATRI0231 - El tipo de anotación introducido no es correcto, debe ser una "I".</h3>
+<p>Se produce durante el "Borrado de anotación ITV" (solo disponible para inspecciones previamente anotadas con resultado FAVORABLE.</p>
+<p><strong>Solución:</strong> </p>
+<p>Revisar la solicitud de borrado y poner en <tipoanotacion> el valor I. (Informar a Creativa de este error)</tipoanotacion></p>
+<h3 id="atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1091-y-la-descripcion-indi1091-numero-de-tasa-no-existente-en-el-sistema">ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1091 y la descripción INDI1091 - Número de tasa no existente en el sistema.</h3>
+<p>La tasa posiblemente sea erronea. En Creativa es dificil que ocurra, pues se compran de forma automática y el nº se recibe de forma electrónica.</p>
+<p><strong>Solución:</strong></p>
+<p>Comprobar que la tasa que se está usando es correcta. Solo en el caso de que se introduzcan tasas en el sistema de forma manual, tiene sentido.</p>
+<p>Informar a la DGT mediante incidencia EasyVista siguiendo el procedimiento disponible en el menú de ayuda de Creativa.</p>
+<h3 id="atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi1092y-la-descripcion-indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa">ATRI0236 - No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI1092y la descripción INDI1092- El importe de la tasa recibida no coincide con el precio actual de la tasa.</h3>
+<p>La tasa que se ha usado en la inspección no tiene el precio actualizado. Posiblemente es una tasa del año anterior. Este problema se puede dar cuando se introducen tasas de forma manual o hay un cambio de precio de tasas y al comenzar el nuevo año no se han usado todas las del pasado (las que tenían precio antiguo).</p>
+<p><strong>Solución:</strong></p>
+<p>Ir a la web de tasas de trafico y actualizar todas las tasas no actualizadas.</p>
+<h3 id="atri0236-no-se-pudo-aplicar-la-tasa-a-traves-del-sistema-indi-el-codigo-de-error-que-ha-devuelto-indi-ha-sido-indi3939-y-la-descripcion-indi3939-la-tasa-no-es-re-aplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada">ATRI0236 No se pudo aplicar la tasa a través del sistema INDI. El código de error que ha devuelto INDI ha sido INDI3939 y la descripción INDI3939 - La tasa no es re-aplicable al trámite seleccionado, la tasa esta ya aplicada.</h3>
+<p>Problema relacionado con la tasa asociada a la inspección. Indica que ya está usada en otra inspección.</p>
+<p><strong>Solución</strong>: Notificar a la DGT (mediante incidencia EasyVista) de las tasas afectadas por este error. Una vez recepcionada la solución, actuar de la siguiente forma:</p>
+<ul>
+<li>Para las tasas recuperadas o reactivadas: Volver a intentar la subida.</li>
+<li>Para las tasas que no se han reactivado: Editar la inspección y eliminar la tasa que se está aplicando actualmente.</li>
+</ul>
+<blockquote>
+<p>Se puede comprobar antes de eliminarla si esta está ya usada buscándola en <code>Gestión &gt; DGT &gt; Tasas usadas</code> y contrastarla con la matrícula en el caso de que nos la hayan indicado en la respuesta.</p>
+<p>Este error se está dando también en la aplicación de tasa a 2º inspecciones, que su primera está anotada de forma correcta, en cambio la 2º no es admitida. <u>Igualmente hay que notificarlo a la DGT</u>, ya que no hay un problema en CREATIVA.</p>
+</blockquote>
+<h3 id="atri0254-el-servicio-a03-solo-es-compatible-para-la-clasificacion-de-industria-terminada-en-05">ATRI0254 – El servicio A03 sólo es compatible para la clasificación de industria terminada en 05.</h3>
+<p>Referente a Reformas. El servicio del vehículo no es compatible con la clasificación.</p>
+<p><strong>Solución</strong>:</p>
+<p>Anotar reforma 11.00 cambiando la clasificación de industria a XX05 y/o servicio a A03</p>
+<h3 id="atri0255-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03">ATRI0255 - La clasificación industria [clasificación], sólo es compatible con el servicio A03.</h3>
+<p>Relativo a reformas. El servicio del vehículo no es compatible con la clasificación.</p>
+<p><strong>Solución:</strong> </p>
+<p>Anotar reforma 11.00 cambiando la clasificación de industria a XX05 y/o servicio a A03</p>
+<h3 id="atri0256-la-clasificacion-industria-clasificacion-solo-es-compatible-con-el-servicio-a03-puede-cambiar-el-servicio-realizando-una-reforma-tipo-1100-modificaciones-de-los-datos-que-afectan-a-las-tarjetas-itv">ATRI0256 - La clasificación industria [clasificación], sólo es compatible con el servicio A03. Puede cambiar el servicio realizando una reforma tipo  “11.00- Modificaciones de los datos que afectan a las tarjetas ITV”</h3>
+<p>Relativo a reformas. El servicio del vehículo no es compatible con la clasificación.</p>
+<p><strong>Solución:</strong></p>
+<p>Anotar reforma 11.00 cambiando la clasificación de industria a XX05 y/o servicio a A03.</p>
+<h3 id="atri0302-el-vehiculo-matricula-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-fecha-caducidad-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados">ATRI0302 - El vehículo [MATRICULA] tiene una inspección desfavorable, la subsanación de la misma caduca el [FECHA CADUCIDAD]. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados.</h3>
+<p>Relativo a anotación en la DGT. La inspección de 2º orden o sucesivo, se intenta anotar "Fuera de plazo".</p>
+<p><strong>Solución:</strong></p>
+<p>Se ha pasado el plazo de 60 días** para la subsanación de la desfavorable. Debe anotar una inspección periódica pagando una tasa. Es decir, una nueva inspección.</p>
+<p>**PENDIENTE DE MODIFICAR PLAZO A 2 MESES PARA CUMPLIR CON el RD 920/2017. SE AVISARÁ CUANDO SE REALICE LA MODIFICACIÓN Y SE ENVIARÁ DOCUMENTO ACTUALIZADO</p>
+<h3 id="atri0324-error-el-bastidor-introducido-no-coincide-con-el-real-del-vehiculo">ATRI0324 Error, el bastidor introducido no coincide con el real del vehículo</h3>
+<p>Corregir el bastidor durante el alta o usar posteriormente la opción de corregir bastidor de la pantalla inspecciones por fecha.</p>
+<h3 id="atri0326-error-no-puede-informar-mas-de-100-defectos">ATRI0326 - Error, no puede informar más de 100 defectos.</h3>
+<p>Se han enviado más de 100 unidades de defecto</p>
+<p><strong>Solución:</strong></p>
+<p>Por ahora, si hay más de 100 defectos, reducirlos a menos de 100 o repartirlos en más de una inspección periódica. Cada una con su tasa correspondiente.</p>
+<h3 id="atri0329-la-referencia-a-la-tasa-es-obligatoria-y-no-puede-tener-una-longitud-mayor-de-12-digitos">ATRI0329: La referencia a la tasa es obligatoria y no puede tener una longitud mayor de 12 dígitos</h3>
+<p>Existen varias causas que producen este error y en todos los casos son producidas porque la inspección no tiene un nº de tasa asignado.</p>
+<ol>
+<li>La tasa no se ha asignado porque no quedan tasas en el banco de tasas.</li>
+<li>La tasa no se ha aplicado porque el tipo de inspección no supone aplicación de tasa y ahora a DGT si la solicita.</li>
+</ol>
+<h3 id="atri0333-las-anotaciones-con-calificacion-desfavorable-o-negativa-deben-informar-al-menos-un-defecto">ATRI0333-Las anotaciones con calificación Desfavorable o Negativa deben informar al menos un defecto.</h3>
+<p>No ha informado unidad de defecto en inspección con resultado desfavorable.</p>
+<p><strong>Solución:</strong></p>
+<p>Modificar inspección y añadir unidad de defecto o cambiar resultado.</p>
+<h3 id="atri0334-error-no-puede-informar-mas-de-100-tipos-de-reforma">ATRI0334 - Error, no puede informar más de 100 tipos de reforma.</h3>
+<p>Se han enviado más de 100 tipos de reforma.</p>
+<p><strong>Solución:</strong></p>
+<p>Reducir el número de unidades de defecto o anotar varias reformas.</p>
+<h3 id="atri0335-error-al-menos-debe-informar-de-una-reforma">ATRI0335: Error, al menos debe informar de una reforma</h3>
+<p>La inspección que se está subiendo es de tipo reforma, pero no se ha indicado ninguna en el apartado del expediente. En el expediente debe figurar al menos un código de reforma y un máximo de 10. Si la inspección tiene más de 10 códigos, deberán realizarse dos inspecciones.</p>
+<h3 id="atri0369-error-ya-fue-anotada-una-inspeccion-con-estos-datos-en-la-fecha">ATRI0369: Error, ya fue anotada una inspección con estos datos en la fecha...</h3>
+<p><strong>Causa</strong>:
+1. Generalmente se ha modificado el alta de una inspección y se ha tratado de subir nuevamente, ya que la marca "DGTSN" (presente al editar una inspección en la pestaña "Subidas Online") se desactiva tras las modificaciones del alta de inspección.</p>
+<p><strong>Solución:</strong> No es un error como tal. Simplemente avisa que no se sube porque ya está subida.</p>
+<h3 id="atri0376-la-fecha-de-validez-en-caso-favorable-no-puede-ser-igual-o-inferior-a-la-fecha-de-inspeccion">ATRI0376: La fecha de validez en caso favorable no puede ser igual o inferior a la fecha de inspección.</h3>
+<p><strong>Causa</strong>: Hay un error en la introducción de la fecha de próxima inspección producido durante el alta de la inspección.</p>
+<p><strong>Solución</strong>: Modificar el alta de inspección y corregir la fecha de caducidad. Posteriormente volver a subir la inspección.</p>
+<h3 id="atri00500-error-de-sistema-null">ATRI00500: Error de sistema. null</h3>
+<p><strong>Causa</strong>: Error interno de la DGT.</p>
+<ul>
+<li>Se da por ejemplo en Duplicados por rehabilitación cuyo tipo de subida a trafico es "B" (rehabilitación).</li>
+</ul>
+<p><strong>Solución</strong>: Reintentar la subida. Si no es posible subirlo, enviar incidencia a la DGT.</p>
+<h3 id="atri0302-el-vehiculo-r9085bcn-tiene-una-inspeccion-desfavorable-la-subsanacion-de-la-misma-caduca-el-24032020-puede-realizar-una-inspeccion-para-su-correccion-siempre-que-la-fecha-de-legalizacion-sea-previa-a-la-caducidad-puede-revisar-los-defectos-asociados">ATRI0302: El vehículo R9085BCN tiene una inspección desfavorable, la subsanación de la misma caduca el 24/03/2020. Puede realizar una inspección para su corrección siempre que la fecha de legalización sea previa a la caducidad. Puede revisar los defectos asociados</h3>
+<p><strong>Causa:</strong> Se da en 2º inspecciones que se intentan subir pero la 1º no está subida y la que hay en tráfico anterior es desfavorable.</p>
+<p><strong>Solución</strong>: Editar la inspección de 1º orden, desmarcar la casilla de "DGT Subido?" y reintentar la subida. TRas esto, volver a subir la de 2º orden.</p>
+<h3 id="atri7005-servicio-de-consultar-tarjeta-dgt-eitv-see-nested-exception-nested-exception-is-javalangnullpointerexception">ATRI7005: Servicio de Consultar Tarjeta DGT EITV: See nested exception; nested exception is: java.lang.NullPointerException.</h3>
+<p><strong>Causa</strong>: Error interno en los servicios de la DGT. Ha aparecido por primera vez a mediados del mes de abril, al parecer debido a una actualización de la DGT en su servicio de anotación ITICI.</p>
+<p><strong>Solución</strong>: Reintentar la subida en varias ocasiones y si no se consigue, mandar una incidencia mediante el <a href="#procedimiento-estándar-de-resolución-de-incidencia-de-la-dgt-easyvista" target="_blank">procedimiento estándar de resolución de incidencias de la DGT</a>.</p>
+<h3 id="atri15031-error-de-sistema-error-generico-capturado-en-el-procesamiento-ejb-de-intranet">ATRI15031: Error de sistema. Error genérico capturado en el procesamiento EJB de intranet</h3>
+<p>Error interno de los servidores de la DGT. Solución: Enviar incidencia a la DGT. <a href="http://www.creativa3d.com/servidorITVReformas/dgtgestionincidencias.pdf">Pulsa aquí para ver un manual sobre como enviar las incidencias de forma correcta</a>.</p>
+<h3 id="atri15040-error-de-sistema-error-al-realizar-llamada-a-host">ATRI15040: Error de sistema. Error al realizar llamada a host</h3>
+<p><strong>Causa</strong>: Error fortuito y temporal, por tiempo de espera cumplido o por colapso de sus servidores.</p>
+<p><strong>Solución</strong>: Reintentar la operación de subida</p>
+<h2 id="errores-tasas-dgt">Errores tasas DGT</h2>
+<p>Creativa3D ITV es capaz de gestionar la compra de tasas de forma automática. Basta con que esté configurada dicha sección en las opciones del programa.
+En caso de no estar configurada la compra automática, se pueden realizar importaciones de <a href="https://sedeclave.dgt.gob.es/WEB_Tasas7/">tasas obtenidas desde la web de la DGT</a>.</p>
+<p>Como en todos los servicios de la DGT, este también es proclive a los fallos. Por lo que a continuación se muestran los códigos de error habituales y como solucionarlos si es posible.</p>
+<blockquote>
+<p>En todos los casos se recomienda que sean revisado si se ha efectuado algún cargo en la cuenta bancaria asociada a la compra de tasas en la fecha que indica el pedido con error.</p>
+</blockquote>
+<h3 id="como-detecto-un-error-en-la-compra-de-tasas">¿Como detecto un error en la compra de tasas?</h3>
+<p>Las inspecciones que no se han podido subir debido a un error en la compra de tasas generalmente tienen un error asociado del tipo "DGT TASAS". Los errores tipo "INDI" se producen al usar las tasas ya compradas.</p>
+<blockquote>
+<p>Por defecto, cuando se produce un error en la compra de tasas, mientras no se solucione el error, no se volverán a realizar compras de forma automática.</p>
+</blockquote>
+<h4 id="error-1-error-tecnico">Error #1: Error técnico</h4>
+<p>Este error se produce en el momento del procesado del pago de las tasas. Se produce tanto en el programa (mediante el servicio API de compra de tasas) como en la web de la DGT para compra de tasas.</p>
+<p>Solución:</p>
+<ol>
+<li>
+<p>Ir a <code>Gestión&gt;DGT&gt;Tasas compras</code> y comprobar que hay una compra con el error que se ha mostrado al subir la inspección y que no tiene código <strong>NRC</strong> y tampoco código <strong>Autoliquidación</strong>.</p>
+</li>
+<li>
+<p>Comprobar que no hay cargos en la cuenta bancaria asociada a las tasas en la fecha que indica la línea que tiene el error.</p>
+</li>
+<li>
+<p>Eliminar la línea con el error de compra</p>
+</li>
+<li>
+<p>Subir una inspección a la DGT manualmente (Botón DGT en Inspecciones por fecha). EL programa antes de subir, intentará nuevamente realizar una compra de tasas.</p>
+</li>
+</ol>
+<blockquote>
+<p>En caso de fallo, repetir los pasos anteriores de nuevo hasta que funcione o si no, enviar incidencia a la DGT (ver manual de incidencias DGT en el menú de ayuda de la aplicación).</p>
+</blockquote>
+<h4 id="error-2-se-ha-producido-un-problema-al-realizar-la-recuperacion-o-el-pago-de-las-tasas-en-aeat-pongase-en-contacto-con-el-060">Error #2: Se ha producido un problema al realizar la recuperación o el pago de las tasas en AEAT. Póngase en contacto con el 060.</h4>
+<p>Error interno del servicio de pagos de la DGT para las tasas.</p>
+<p>Solución:</p>
+<ol>
+<li>
+<p>Comprobar si ha habido cargos en el banco en la fecha de la compra.</p>
+</li>
+<li>
+<p>Ir a <code>Gestión&gt;DGT&gt;Tasas compras</code> y comprobar que hay una compra con el error que se ha mostrado al subir la inspección. Comprobar si tiene código <strong>NRC</strong> y código <strong>Autoliquidación</strong>.</p>
+</li>
+<li>
+<p>Si tiene códigos de NRC y Autoiquidación, hay que ir a la web de tasas de la DGT y con estos datos comprobar el estado de la compra. En caso de que no los haya, se puede eliminar.</p>
+</li>
+<li>
+<p>Subir una inspección de nuevo. Se intentará realizar la compra de nuevo. Si el propblema persiste, contactar con la DGT mediante incidencia.</p>
+</li>
+</ol>
+<h4 id="error-3-error-de-conexion-con-la-url-httpsoapaplp3traficoes94ws_indi7gestionpagoswsservice">Error #3: Error de conexión con la URL http://soap.apl.p3.trafico.es:94/WS_INDI7/GestionPagosWSService</h4>
+<p>Es un error temporal de sus servicios.</p>
+<p>Solución: </p>
+<ol>
+<li>
+<p>Acceder a <code>Gestión&gt;DGT&gt;Tasas Compras</code> y comprobar que no haya habido cargos en el banco en la fecha de la compra que indica la línea con el error.</p>
+</li>
+<li>
+<p>Eliminar la línea de compra de tasas con el error.</p>
+</li>
+<li>
+<p>Reintentar la subida de una inspección a la DGT (botón DGT en pantalla Inspecciones por fecha).</p>
+</li>
+</ol>
+<p>Si vuelve a mostrar el error, intentarlo más tarde. Si se pasa un día, contactar con la DGT mediante incidencia.</p>
+<h4 id="error-4-error-por-tiempo-de-conexion-agotado">Error #4: Error por tiempo de conexión agotado.</h4>
+<p>El error que se muestra en Creativa es:</p>
+<p><code>TASADGT:com.sun.xml.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection timed out: connect</code></p>
+<p>Si se accede a <code>Gestión &gt; DGT &gt; Tasas compras</code>, se puede ver que hay una línea con error, y que dicha línea no tiene ninguno de los tres códigos: nrc, numeroautoliquidación y justificante.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/tasas-dgt-error-comunicacion-timeout.png" data-desc-position="bottom"><img alt="" src="../images/tasas-dgt-error-comunicacion-timeout.png"></a></p>
+<p>En este caso, se puede eliminar dicha línea para que se inicie de nuevo el proceso de compra con la siguiente inspección terminada. Si se desea, se puede forzar una subida a la DGT desde inspecciones por fecha.</p>
+<h2 id="errores-relacionados-con-el-uso-de-tasas-compradas-indi">Errores relacionados con el uso de tasas compradas (INDI)</h2>
+<h3 id="indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-por-favor-vuelva-a-intentarlo-en-unos-minutos-si-el-problema-continua-avise-a-un-administrador">INDI5000: Se ha producido un problema interno en la aplicación. Por favor, vuelva a intentarlo en unos minutos. Si el problema continua, avise a un administrador</h3>
+<p>Es un error al tratar de comprar tasas la aplicación de Creativa. Es devuelto por los sistemas de la DGT.</p>
+<p><strong>Solución</strong>: Envío de incidencia mediante el <a href="#procedimiento-estándar-de-resolución-de-incidencia-de-la-dgt-easyvista" target="_blank">procedimiento estándar de la DGT</a>. Si tras su resolución la inspección sigue sin subirse, hay que remitir el problema a la dirección <a href="mailto:sdi-integracion@dgt.es">sdi-integracion@dgt.es</a></p>
+<h3 id="indi1031-recibido-un-valor-nulo-no-permitido-en-numerotasa">INDI1031: Recibido un valor nulo no permitido en {numeroTasa}.</h3>
+<p>Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<h3 id="indi1032-se-ha-producido-un-error-en-la-conexion-con-host">INDI1032: Se ha producido un error en la conexión con host.</h3>
+<p>Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi1091-numero-de-tasa-no-existente-en-el-sistema">INDI1091: Número de tasa no existente en el sistema</h3>
+<p>La tasa asignada a la inspección no existe en trafico. Elimina la tasa asociada a la inspección para que el programa asigne otra tasa válida cuando se intente la subida de nuevo pulsando el botón DGT.</p>
+<h3 id="indi1092-el-importe-de-la-tasa-recibida-no-coincide-con-el-precio-actual-de-la-tasa">INDI1092: El importe de la tasa recibida no coincide con el precio actual de la tasa.</h3>
+<p>Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<h3 id="indi1093-aplicacion-llamante-no-valida">INDI1093: Aplicación llamante no válida.</h3>
+<p>Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi1094-el-identificador-del-comprador-no-coincide-con-el-registrado-previamente-en-indi">INDI1094: El identificador del comprador no coincide con el registrado previamente en INDI.</h3>
+<p>Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi1095-tramite-no-autorizado-para-aplicar-el-tipo-de-tasa-solicitado">INDI1095: Trámite no autorizado para aplicar el tipo de tasa solicitado.</h3>
+<p>Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<h3 id="indi1097-la-tasa-no-es-aplicable">INDI1097: La tasa no es aplicable.</h3>
+<p>Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<h3 id="indi1467-la-fecha-de-aplicacion-no-puede-ser-posterior-a-la-fecha-actual">INDI1467: La fecha de aplicación no puede ser posterior a la fecha actual.</h3>
+<p>Cambiar la fecha para poner una fecha válida e intentar de nuevo la anotación</p>
+<h3 id="indi1468-el-importe-de-la-tasa-no-coincide-con-el-precio-de-la-tasa-para-la-fecha-de-aplicacion-es-necesaria-una-actualizacion-de-la-tasa-por-favor-contacte-con-el-equipo-de-soporte">INDI1468: El importe de la tasa no coincide con el precio de la tasa para la fecha de aplicación. Es necesaria una actualización de la tasa. Por favor, contacte con el equipo de soporte.</h3>
+<p><strong>Causa:</strong> Esto ocurre porque hay alguna tasa devuelta por la DGT (mediante incidencia) que es de otro año al actual. Cualquier tasa que no sea del año actual tendrá que ser actualizada antes de poder volver a ser utilizada.    </p>
+<p><strong>Solución:</strong> Actualizar la tasa previamente a intentar de nuevo la anotación</p>
+<h3 id="indi1469-error-en-la-aplicacion-de-la-tasa-no-se-puede-calcular-el-importe-de-la-tasa-para-la-fecha-de-aplicacion-por-favor-contacte-con-el-equipo-de-soporte">INDI1469: Error en la aplicación de la tasa. No se puede calcular el importe de la tasa para la fecha de aplicación. Por favor, contacte con el equipo de soporte.</h3>
+<p>Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi6107-no-se-ha-podido-aplicar-la-tasa-porque-no-existe-en-host">INDI6107: No se ha podido aplicar la tasa porque no existe en HOST</h3>
+<h3 id="indi3939-la-tasa-no-es-reaplicable-al-tramite-seleccionado-la-tasa-esta-ya-aplicada">INDI3939: La tasa no es reaplicable al trámite seleccionado, la tasa esta ya aplicada.</h3>
+<p>Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<blockquote>
+<p>No siempre el fallo es de la estación. Remitir las tasas afectadas a la DGT mediante una incidencia. Esperar contestación y realizar el cambio de tasa solo en las que no se hayan reactivado o podido subir.</p>
+</blockquote>
+<h3 id="indi5000-se-ha-producido-un-problema-interno-en-la-aplicacion-pongase-en-contacto-con-el-equipo-de-soporte">INDI5000 Se ha producido un problema interno en la aplicación. Póngase en contacto con el equipo de soporte</h3>
+<p>Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi6017-identificador-del-tramite-no-valido-para-aplicar-la-tasa-ya-que-sobre-la-misma-hay-realizada-una-desaplicacion-parcial">INDI6017 Identificador del trámite no válido para aplicar la tasa ya que sobre la misma hay realizada una desaplicación parcial.</h3>
+<p>Utilizar la tasa para anotar la misma inspección para la que fue utilizada inicialmente o cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación</p>
+<h3 id="indi6113-error-en-la-aplicacion-de-la-tasa-en-host">INDI6113 Error en la aplicación de la tasa en HOST</h3>
+<p>Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h3 id="indi6018-identificador-del-tramite-no-valido-para-reaplicar-la-tasa-seleccione-el-identificador-de-la-aplicacion-vigente-la-tasa-esta-ya-aplicada">INDI6018 Identificador del trámite no válido para reaplicar la tasa, seleccione el identificador de la aplicación vigente, la tasa esta ya aplicada.</h3>
+<p>Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)</p>
+<h2 id="errores-varios">Errores varios</h2>
+<h3 id="hstval08-validacion-erronea-al-consultar-el-registro-de-vehiculos">HSTVAL08: Validación errónea al consultar el registro de vehículos</h3>
+<p>Este error es devuelto por la DGT y no da indicios sobre si hay datos no válidos, aunque la consulta de esta matrícula devuelve los mismos datos que son enviados posteriormente.</p>
+<p><strong>Solución</strong>: Reintentar varias veces, o enviar incidencia a la DGT si persiste.</p>
+<h3 id="error-del-servicio-atri-no-envia-respuesta-valida">Error del servicio ATRI, no envía respuesta válida.</h3>
+<p>Si se muestra: <code>La anotacion ONLINE de la inspección inspección 22029063 tiene mensajes (-La DGT no ha enviado una respuesta correcta, no se puede saber si se ha subido correctamente, volverlo a intentar)</code></p>
+<p>Reintentar una o dos veces la subida a tráfico.</p>
+<h2 id="envio-incidencia-a-la-dgt">Envio incidencia a la DGT</h2>
+<p><del>Consiste en el envío de un email a <a href="mailto:soportecau@dgt.es" target="_blank">soportecau@dgt.es</a>, siguiendo las instrucciones que se detallan en la Guía de uso que desde su página web han publicado.</del></p>
+<p>La DGT ha creado un nuevo método para el envío de incidencias y además ha añadido un bot para chatear directamente con ellos en relación a alguna incidencia que exista.</p>
+<p>Para el evío de incidencia, hay que acceder a la dirección:
+<a href="https://sede.dgt.gob.es/es/formularios/gestion-peticiones-e-incidencias/index.html">https://sede.dgt.gob.es/es/formularios/gestion-peticiones-e-incidencias/index.html</a></p>
+<p>Para saber como cumplimentar los diferentes campos puedes seguir las instrucciones que se muestran en creativa, en el menú <code>Ayuda/Manual incidencias DGT</code>, suministrado por la propia DGT.</p>
+<p><del><a href="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/menu-secundario/recursos-para-proveedores/gestion-incidencias/Procedimiento-Gestion-Incidencias-ATRI-Canal-automatico-de-entrada-Guia-de-Usuario.pdf" target="_blank">Consultar guía de procedimiento estándar de incidencias del sistema ATRI</a></del></p>
+<h3 id="procedimientos-recuperacion-doble-pago-de-tasas-dgt">Procedimientos Recuperación Doble Pago de Tasas DGT:</h3>
+<p>Cuando se elimina una inspección en creativa, la tasa usada es recuperada cuando es posible.</p>
+<ol>
+<li>
+<p>Para el caso de anotaciones que por cualquier motivo hayan fallado, pero sin embargo haya quedado la tasa aplicada, y la estación ha tenido que utilizar una segunda tasa para realizar la anotación: debe mandarse un correo al buzón SDI Integración sdi-integracion@dgt.es , con la siguiente información:</p>
+</li>
+<li>
+<p>Tasa</p>
+</li>
+<li>Estación ITV</li>
+<li>NIF</li>
+<li>Matrícula</li>
+<li>
+<p>Fecha aplicación de la tasa</p>
+</li>
+<li>
+<p>En el caso en el que, la Estación ITV haya anotado una Inspección Técnica Periódica Favorable, antes del sistema de Pre-pago de tasas, y una vez integrado en el sistema de Pre-pago de tasas, necesite rectificar algún dato de esta inspección a través del sistema de Borrado de inspecciones, como esta nueva anotación requerirá una tasa nueva, se podrá solicitar la desaplicación de la tasa nueva siempre y cuando se justifique esta casuística enviando al buzón SDI Integración sdi-integracion@dgt.es los siguientes datos:</p>
+</li>
+<li>
+<p>Borrado de la inspección anterior</p>
+</li>
+<li>Anotar la inspección corregida</li>
+<li>
+<p>Enviar la tasa de la nueva anotación para ser desaplicada, informando la siguiente información al buzón SDI Integración sdi-integracion@dgt.es:</p>
+<ul>
+<li>Estación ITV</li>
+<li>Fecha de la primera inspección   -  Referencia de la inspección</li>
+<li>Fecha de la segunda anotación o corrección  -   tasa nueva aplicada.</li>
+</ul>
+</li>
+<li>
+<p>En el caso de las inspecciones realizadas antes de la fecha de integración en el sistema de Pre-pago de tasas, que no se anotaron en su momento y se quieren anotar una vez integrados en el sistema de Pre-pago de tasas, DGT nos informa que no puede determinar si se ha pagado la tasa por el sistema antiguo o no. Por tanto, no pueden justificar que se han abonado dos tasas por una misma anotación.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../js/print-site.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

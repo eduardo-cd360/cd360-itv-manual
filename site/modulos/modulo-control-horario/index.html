@@ -1,0 +1,4172 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación oficial de los proyectos de Creativa Digital 360">
+      
+      
+      
+        <link rel="canonical" href="https://docs.programaitv.com/modulos/modulo-control-horario/">
+      
+      
+        <link rel="prev" href="../../Servicios/certificados-electronicos/certificados-electronicos/">
+      
+      
+        <link rel="next" href="../../acerca-de/notas-de-la-version/version-2025-5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Módulo Control Horario - Documentación Creativa Digital 360</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modulo-control-horario" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Documentación Creativa Digital 360" class="md-header__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
+      
+  <img src="../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentación Creativa Digital 360
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo Control Horario
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentación Creativa Digital 360" class="md-nav__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
+      
+  <img src="../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
+
+    </a>
+    Documentación Creativa Digital 360
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenido
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bienvenido
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bienvenido/bienvenido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bienvenido/introduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bienvenido/requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bienvenido/obtener-ayuda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obtener ayuda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de inicio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guía de inicio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1">
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instalacion
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Instalacion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/instalacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instalación de Creativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primeros pasos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primeros pasos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/iniciar-sesion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iniciar sesión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/cambiar-contrase%C3%B1a/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cambio de la contraseña
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaz de usuario
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interfaz de usuario
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/interfaz-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pantalla principal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-archivo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Archivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-mantenimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Mantenimiento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-gestion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menú Gestión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-consultas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu consultas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-ventanas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu ventanas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/interfaz-de-usuario/menu-ayuda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu ayuda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4">
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Alta de inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de una inspección periódica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alta de inspección no periódica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de uso
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Casos de uso
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1">
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clientes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Clientes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/clientes/bloquear-clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como bloquear un cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/clientes/fidelizacion-de-clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fidelización de clientes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Altas de inspección" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expedientes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Expedientes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ampliación campos tarjetas ITV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Añadir nueva documentación a códigos de reforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados digitales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificados digitales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como añadir las firmas a usuario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentos personalizados
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentos personalizados
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/configuracion/documentos-personalizados/configurar-documento-personalizado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurar documento personalizado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impresión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Impresión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/impresion/sincronizar-godex-g530-g500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solución de problemas con impresoras de etiquetas Godex G500/G530
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6">
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DGT
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DGT
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/dgt/codigos-errores-dgt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Códigos de error DGT (ATRI, INDI)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/dgt/consulta_antecedentes_dgt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consulta de antecedentes en DGT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7">
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facturación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Facturación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/crear-un-descuento/crear-un-descuento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crear un descuento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/forma-pago-texto-incorrecto/forma-pago-texto-incorrecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forma pago texto incorrecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/generar-facturacion-mensual/generar-facturacion-mensual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generar facturacion mensual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/gestion-de-gastos/gestion-de-gastos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion de gastos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/gestionar-formas-de-pago/gestionar-formas-de-pago/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formas de pago
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/gestion-de-facturas/gestion-de-facturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de facturas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/mostrar-subtotales-acumulados-de-facturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    mostrar subtotales acumulados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/resolucion-problemas-exportacion-contabilidad/resolucion-problemas-exportacion-contabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolucion problemas exportacion contabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas de facturas o albaranes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/facturacion/generar-remesas/generar-remesas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Remesas bancarias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8">
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Descuentos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Descuentos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/descuentos/crear-descuentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crear descuentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9">
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recordatorios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recordatorios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/recordatorios/configuracion-de-envio-de-recordatorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración envío de recordatorios por SMS y Email
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/recordatorios/envio-de-recordatorios-con-digital-servi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Envio de recordatorios con digital servi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/recordatorios/envio-de-recordatorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Envío de recordatorios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10">
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subida de Inspecciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Subida de Inspecciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/subida-de-inspecciones/subida-industria-murcia/subir-inspecciones-al-servicio-industria-de-murcia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subir inspecciones al servicio industria de murcia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11">
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Varios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Varios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/varios/cambiar-periodicidad-a-una-clasificaci%C3%B3n-en-concreto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cambiar la periodicidad de una clasificación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/varios/cualificacion-de-inspectores/cualificacion-de-inspectores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema de cualificación de inspectores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1">
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de perfiles y usuarios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gestión de perfiles y usuarios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-perfiles/gestión de perfiles.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-usuarios/gestión de usuarios.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2">
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opciones globlales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Opciones globlales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Configuraracion/opciones-globales/impresion/impresion.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casos-de-uso/configuracion/alcance-segundas-inspecciones/alcance-segundas-inspecciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alcance de segundas inspecciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consultas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Consultas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Consultas administrativas" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Servicios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Servicios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1">
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados electrónicos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificados electrónicos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Servicios/certificados-electronicos/emision-de-certificados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emisión de certificados digitales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Servicios/certificados-electronicos/certificados-electronicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificados electrónicos para estación de ITV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo Control Horario
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo Control Horario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-el-modulo-de-control-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Que es el módulo de control horario
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso-de-control-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso de control horario
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uso de control horario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-automaticos-de-entrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes automáticos de entrada
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-manuales-desde-aplicacion-de-escritorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes manuales desde aplicación de escritorio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marcajes manuales desde aplicación de escritorio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marcaje-manual-desde-la-aplicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcaje manual desde la aplicación.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcaje-manual-desde-controlador-de-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcaje manual desde controlador de horarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marcaje manual desde controlador de horarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activar-el-controlador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activar el controlador
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-desde-itvandroid-tablet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes desde ITVAndroid (Tablet)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-y-gestion-de-control-horario-para-administradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración y gestión de Control Horario para administradores
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración y gestión de Control Horario para administradores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos previos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#horarios-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horarios de usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Horarios de usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crear horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listado-de-dias-festivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listado de días festivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Listado de días festivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alta-de-dia-festivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alta de día festivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identificacion-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificación de usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Identificación de usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alta-de-un-nuevo-identificador-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alta de un nuevo identificador de usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificacion-de-identificadores-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificación de identificadores de usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listado-de-marcajes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listado de Marcajes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-horario-proceso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Horario Proceso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-horario-para-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Horario para usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Control Horario para usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mi-control-de-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mi control de horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acerca de
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acerca de
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1">
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notas de la versión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Notas de la versión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acerca-de/notas-de-la-version/version-2025-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Versión 2025-5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acerca-de/notas-de-la-version/version-2026-1.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-el-modulo-de-control-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Que es el módulo de control horario
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso-de-control-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso de control horario
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uso de control horario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-automaticos-de-entrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes automáticos de entrada
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-manuales-desde-aplicacion-de-escritorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes manuales desde aplicación de escritorio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marcajes manuales desde aplicación de escritorio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marcaje-manual-desde-la-aplicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcaje manual desde la aplicación.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcaje-manual-desde-controlador-de-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcaje manual desde controlador de horarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Marcaje manual desde controlador de horarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activar-el-controlador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activar el controlador
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marcajes-desde-itvandroid-tablet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcajes desde ITVAndroid (Tablet)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-y-gestion-de-control-horario-para-administradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración y gestión de Control Horario para administradores
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración y gestión de Control Horario para administradores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos previos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#horarios-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horarios de usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Horarios de usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crear horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listado-de-dias-festivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listado de días festivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Listado de días festivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alta-de-dia-festivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alta de día festivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identificacion-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificación de usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Identificación de usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alta-de-un-nuevo-identificador-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alta de un nuevo identificador de usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificacion-de-identificadores-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificación de identificadores de usuario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listado-de-marcajes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listado de Marcajes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-horario-proceso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Horario Proceso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-horario-para-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Horario para usuarios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Control Horario para usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mi-control-de-horario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mi control de horario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modulo-control-horario">Módulo Control Horario</h1>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/reloj-fichaje.png" data-desc-position="bottom"><img alt="reloj-de-fichar" src="../images/reloj-fichaje.png"></a></p>
+<h2 id="que-es-el-modulo-de-control-horario">Que es el módulo de control horario</h2>
+<p>Es un módulo que permite controlar el nº de horas trabajadas de cada uno de los empleados de la estación.</p>
+<p>La estación puede establecer los horarios de trabajo que deben respetar los empleados, a la vez que puede sacar informes sobre cada uno de ellos a final de mes para que sean firmados.</p>
+<p>Los empleados pueden consultar las horas trabajadas y saber si cumplen con el horario de la estación.</p>
+<h2 id="uso-de-control-horario">Uso de control horario</h2>
+<p>El control horario de creativa puede ser usado por todos los usuarios de la estación. De forma automática cuando se registran en el programa al inicio de la jornada y de forma manual para el resto de marcajes en su propio equipo o en un equipo que actúa de controlador de horario.</p>
+<p>Los usuarios normales pueden realizar marcajes y consultarlos. No tienen permitido realizar más operaciones.</p>
+<p>Los usuarios administradores o los que tienen permisos para gestionar el control horario, pueden además de realizar sus marcajes, realizar labores de configuración y mantenimiento del sistema de control horario. </p>
+<h3 id="marcajes-automaticos-de-entrada"><strong>Marcajes automáticos de entrada</strong></h3>
+<p>El hecho de iniciar sesión en el programa o en la tablet, creará el primer marcaje de la jornada y será de tipo automático.</p>
+<p>A partir de ese momento, el resto habrá que hacerlos manualmente y serán de tipo manual.</p>
+<h3 id="marcajes-manuales-desde-aplicacion-de-escritorio"><strong>Marcajes manuales desde aplicación de escritorio</strong></h3>
+<p>Existen dos formas de crear marcajes manuales. La primera de ellas es exclusivamente para los que trabajan a diario delante de los equipos que ejecutan el programa. La segunda es para todos los usuarios, tanto de equipos como de tablet.</p>
+<h4 id="marcaje-manual-desde-la-aplicacion"><strong>Marcaje manual desde la aplicación.</strong></h4>
+<p>En la pantalla principal de la aplicación hay disponible un nuevo botón "<strong>Marcar salida</strong>" que muestra un menú para seleccionar el motivo.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image1.png" data-desc-position="bottom"><img alt="" src="../images/image1.png"></a><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image2.png" data-desc-position="bottom"><img alt="" src="../images/image2.png"></a></p>
+<h4 id="marcaje-manual-desde-controlador-de-horarios"><strong>Marcaje manual desde controlador de horarios</strong></h4>
+<p>Aunque cada usuario puede realizar marcajes manuales en su equipo o dispositivo, en la estación se puede emplear un lector o dispositivo de entrada conectado a un equipo (exclusivo o compartido) que registre mediante un TAG o Tarjeta de proximidad u otro medio (consultar dispositivos compatibles) los marcajes que se van produciendo a lo largo de la jornada.</p>
+<p>El usuario dispone de una pantalla de acceso, donde verá información relativa a su marcaje.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image3.png" data-desc-position="bottom"><img alt="" src="../images/image3.png"></a></p>
+<p>Esta pantalla permanecerá siempre visible para que los usuarios puedan ir pasando sus identificadores o escribiendo su pin o inicio de sesión uno detrás de otro.</p>
+<h5 id="activar-el-controlador">Activar el controlador</h5>
+<p>El ordenador que actúa como control de horarios debe tener en marcha un servicio. Este servicio se llama <strong><em>Control Horario proceso</em></strong>.</p>
+<p>El controlador de control horario se encuentra en <em>Mantenimiento &gt; Gestión de usuarios &gt; Control Horario</em>.</p>
+<p>Seleccionando la opción <strong><em>Control Horario proceso</em></strong>, se pondrá a la vista la ventana que se ha mostrado en el punto anterior.</p>
+<h4 id="marcajes-desde-itvandroid-tablet"><strong>Marcajes desde ITVAndroid (Tablet)</strong></h4>
+<p>Desde la tablet, a parte del marcaje que de forma automática se realiza, se ha añadido al menú superior la opción marcaje manual.</p>
+<p>Cuando se pulsa sobre la opción “Marcar salida” mostrará la pantalla para seleccionar el tipo de marcaje.</p>
+<p>Y haciendo clic sobre un tipo de marcaje, se realiza, mostrando mensaje de confirmación.</p>
+<h2 id="configuracion-y-gestion-de-control-horario-para-administradores">Configuración y gestión de Control Horario para administradores</h2>
+<p>Todos los puntos de esta sección son para el uso por parte de administradores o personal autorizado, ya que permiten la consulta y/o modificación de los fichajes de todos los trabajadores.</p>
+<h3 id="requisitos-previos"><strong>Requisitos previos</strong></h3>
+<p>El control horario solo funcionará correctamente con usuarios que cumplan ciertos requisitos, por lo que previamente al uso de este módulo, se deben comprobar los siguientes elementos de esta lista:</p>
+<ul>
+<li><strong>Listado de usuarios actualizado</strong>. Disponible desde el menú <em>Archivo &gt; Seguridad &gt; Usuarios</em>. Asegurarse de que están todos activos y desactivar los que ya no estén trabajando en la estación.  </li>
+<li><strong>Los usuarios deben tener DNI</strong>. Todos los usuarios que vayan a utilizar el servicio de control horario, deben tener asignado un DNI. Desde el menú <em>Mantenimiento &gt; Gestión de Usuarios &gt; Propiedades de los usuarios</em>, se puede acceder a cada usuario para añadir su DNI.</li>
+</ul>
+<p>Se selecciona el usuario y se pulsa <em>Editar datos personales</em> (que sea un usuario real) y se cumplimenta el campo DNI.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image4.png" data-desc-position="bottom"><img alt="" src="../images/image4.png"></a></p>
+<h3 id="configuracion"><strong>Configuración</strong></h3>
+<p>A continuación se deben crear los distintos horarios de los usuarios de la empresa, agregar listado de días festivos, asignar una identificación a cada usuario para que pueda hacer la entrada o la salida.</p>
+<p>Una vez se hayan obtenido marcajes por parte de los usuarios, se pueden obtener los listados de Marcajes, que contendrán toda la información almacenada durante los periodos que se soliciten.</p>
+<p>Para que la aplicación esté disponible para realizar los marcajes, es necesario ejecutar un proceso que se mantenga en pantalla, presentando el menú de hacer el marcaje a los trabajadores.</p>
+<h4 id="horarios-de-usuarios"><strong>Horarios de usuarios</strong></h4>
+<p>Accesible desde <em>Mantenimiento &gt; Gestión de usuarios &gt; Control horario &gt; Horarios de usuarios</em>.</p>
+<p>Muestra el listado de horarios disponibles para el uso.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image5.png" data-desc-position="bottom"><img alt="" src="../images/image5.png"></a></p>
+<h5 id="crear-horario">Crear horario</h5>
+<p>Para la creación de un nuevo horario, pulsar Nuevo y cumplimentar los campos disponibles.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image6.png" data-desc-position="bottom"><img alt="" src="../images/image6.png"></a></p>
+<ul>
+<li><strong>ID</strong>: nº de horario. Si no se especifica, el programa asigna automáticamente este nº.  </li>
+<li><strong>Nombre</strong>: Denominación que queremos dar a este horario y que servirá para identificarlo en otras partes del programa.  </li>
+<li><strong>Hora de entrada y de salida</strong>: La hora en la que comienza la jornada laboral y termina.  </li>
+<li><strong>Inicio y fin del descanso</strong>: En el caso de ser jornadas en las que hay una interrupción (comida por ejemplo), la hora de comienzo y de fin de la pausa.</li>
+</ul>
+<p>Una vez introducidos los datos, pulsar sobre el botón <em>Aceptar (aspa verde)</em>, y a continuación en <em>Salir</em>.</p>
+<p>Como se puede ver en la imagen inferior, se han agregado los horarios.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image7.png" data-desc-position="bottom"><img alt="" src="../images/image7.png"></a></p>
+<h5 id="modificar-horario">Modificar horario</h5>
+<p>Para modificar un horario seleccionar el horario y pulsar en Modificar.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image8.png" data-desc-position="bottom"><img alt="" src="../images/image8.png"></a></p>
+<p>Para cambiar los valores de cada campo, eliminar el contenido y volver a escribir la hora y los minutos.</p>
+<h4 id="listado-de-dias-festivos"><strong>Listado de días festivos</strong></h4>
+<p>Permite asignar los días festivos comunes o los aplicables a cada usuario.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image9.png" data-desc-position="bottom"><img alt="" src="../images/image9.png"></a></p>
+<p>Estos días serán tenidos en cuenta únicamente en la generación de marcajes automáticos, ya que de forma manual (realizado el marcaje por el usuario) prevalece que el usuario está presente en ese momento.</p>
+<h5 id="alta-de-dia-festivo">Alta de día festivo</h5>
+<p>Pulsando el botón Nuevo, se accede al formulario donde se puede elegir el día.</p>
+<p>Seleccionar una fecha, un nº de Usuario (se puede buscar entre los existentes mediante la lupa) y una descripción que permita identificarlo correctamente.</p>
+<h4 id="identificacion-de-usuarios"><strong>Identificación de usuarios</strong></h4>
+<p>La identificación de los usuarios es necesaria para realizar los marcajes. Un usuario no puede realizar el marcaje si no dispone de algún elemento que lo identifique.</p>
+<p>En el listado se muestran todos los usuarios que tienen asignado un identificador. Dicho identificador puede ser un PIN, una tarjeta de proximidad, un ID obtenido mediante sensor de huella, etc..</p>
+<p>Un usuario puede disponer de más de un tipo de identificador o de varios identificadores del mismo tipo, aunque no es habitual su uso. En el caso de extravío de su identificador se debe eliminar el que tuviese y crear uno nuevo.</p>
+<h5 id="alta-de-un-nuevo-identificador-de-usuario">Alta de un nuevo identificador de usuario</h5>
+<p>Con este proceso se asocia un identificador a un usuario.</p>
+<p>Para realizar el alta, pulsa en Nuevo y cumplimenta los campos:</p>
+<ul>
+<li><strong>Cod. Usuario</strong>: Selecciona un usuario de la lista.  </li>
+<li><strong>Tipo de ID</strong>: elige si es PIN, Tarjeta..  </li>
+<li><strong>ID</strong>: escribe el PIN deseado o pasa la tarjeta por el lector conectado al equipo y se rellenará.  </li>
+<li><strong>Fecha de Inicialización</strong>: Se establecerá de forma automática al guardar con la fecha actual o bien, establecer la fecha real de alta del identificador.</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image10.png" data-desc-position="bottom"><img alt="" src="../images/image10.png"></a></p>
+<h5 id="modificacion-de-identificadores-de-usuario">Modificación de identificadores de usuario</h5>
+<p>Para editar un identificador de usuario, pulsar Editar.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image11.png" data-desc-position="bottom"><img alt="" src="../images/image11.png"></a></p>
+<p>Solo se puede reasignar a un nuevo usuario o bien cambiar la fecha de Inicialización de cuando fue creado.</p>
+<h4 id="listado-de-marcajes"><strong>Listado de Marcajes</strong></h4>
+<p>En esta pantalla se muestran todos los marcajes efectuados por los usuarios de la aplicación que están habilitados en el control horario (DNI cumplimentado en Propiedades de usuario).</p>
+<p>Mediante el filtro de la parte superior se puede seleccionar el periodo (por defecto el mes actual) y el usuario. Dejando en blanco el campo del usuario sale el listado de todos.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image12.png" data-desc-position="bottom"><img alt="" src="../images/image12.png"></a></p>
+<p>Desde esta pantalla se pueden crear marcajes manuales, editar los existentes, imprimir la hoja resumen de marcajes o generar los marcajes entre fechas.</p>
+<h4 id="control-horario-proceso"><strong>Control Horario Proceso</strong></h4>
+<p>La pantalla donde fichan o realizan los marcajes los usuarios se muestra cuando se ejecuta el “proceso de control horario” (de la misma forma que se utiliza el “proceso de máquinas”) en uno de los equipos de la estación.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image13.png" data-desc-position="bottom"><img alt="" src="../images/image13.png"></a></p>
+<p>En esta pantalla cada usuario introducirá o seleccionará su usuario y escribirá su contraseña o bien puede escribir su ID (asignado manualmente o en base a una tarjeta de proximidad).</p>
+<h2 id="control-horario-para-usuarios">Control Horario para usuarios</h2>
+<p>Existen dos formas de realizar un marcaje. Bien de forma automática mediante la autenticación que realiza el usuario en la aplicación o en la tablet o bien con un método de identificación tal como un PIN o una tarjeta de proximidad.</p>
+<p>El usuario realizará los diferentes marcajes de la siguiente forma:</p>
+<p>Marcaje de entrada:</p>
+<ul>
+<li>De forma automática: Utilizando la aplicación de escritorio, la primera vez que inicie la sesión (seleccione su usuario e introduzca la contraseña) en el día. Los inspectores, de forma similar en la tablet al introducir su usuario y contraseña la primera vez.  </li>
+<li>De forma manual: En un ordenador específico con la pantalla de marcajes visible, usando el selector de usuario e introduciendo la contraseña correspondiente o bien introduciendo un identificador (PIN, Tarjeta, etc.).</li>
+</ul>
+<p>Resto de marcajes:</p>
+<p>Los usuarios de la aplicación de escritorio dispondrán de una opción en el escritorio que les permitirá seleccionar el motivo y crear el marcaje.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image14.png" data-desc-position="bottom"><img alt="" src="../images/image14.png"></a></p>
+<p>De forma adicional y para los usuarios que utilicen la tablet o móvil con la app ITV Android, podrán efectuar su marcaje de salida desde el menú, seleccionando la opción “Marcar salida”</p>
+<h3 id="mi-control-de-horario"><strong>Mi control de horario</strong></h3>
+<p>Desde esta pantalla cada usuario puede comprobar su listado de marcajes, así como el motivo de salida si lo hubo.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image15.png" data-desc-position="bottom"><img alt="" src="../images/image15.png"></a></p>
+<p>Se muestra una línea por cada pareja de marcajes, es decir, uno de entrada y otro de salida. Por lo tanto, al final del día o jornada, los marcajes siempre deben ser pares.</p>
+<p>Como los marcajes de entrada se realizan de forma automática al abrir la aplicación, si falta un marcaje manual (no se ha realizado la acción de marcaje de salida en la aplicación de escritorio o en la app) el responsable debe rellenar los faltantes cuando esté regularizando a cada usuario.</p>
+<p>Se puede obtener un informe con todos los marcajes para el mes o meses que indique.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image16.png" data-desc-position="bottom"><img alt="" src="../images/image16.png"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
