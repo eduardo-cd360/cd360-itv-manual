@@ -74,7 +74,7 @@ Elementos de la pantalla de conexiones
 
 !!! Nota
 
-    El uso de varias conexiones permite conectarse además de la estación, por ejemplo, al entorno de pruebas de Creativa Digital 360 y realizar inspeccio-nes de prueba.
+    El uso de varias conexiones permite conectarse además de la estación, por ejemplo, al entorno de pruebas de Creativa Digital 360 y realizar inspecciones de prueba.
 
 **Añadir una conexión**
 
@@ -89,7 +89,7 @@ Proporciona los siguientes datos:
 - **URL**: Dirección del servidor de BBDD de la estación de ITV.
 - **Token**: Palabra o código para autorizar la conexión. Solicítala si no la conoces.
 
-Una vez creada la conexión, cierra el programa y ábrelo nuevamente para verla en el lis-tado de conexiones.
+Una vez creada la conexión, cierra el programa y ábrelo nuevamente para verla en el listado de conexiones.
 
 **Editar conexión**
 
@@ -101,7 +101,7 @@ A continuación, modifica los datos a tu gusto o según indicaciones y pulsa sob
 
 **Crear conexión de forma automática**
 
-Utiliza el botón llamado Local automático para crear una conexión al servidor de la esta-ción.
+Utiliza el botón llamado Local automático para crear una conexión al servidor de la estación.
 
 Se mostrará una ventana preguntándote si deseas hacerlo.
 
@@ -119,11 +119,13 @@ En este caso, solicita los datos de conexión o pide ayuda.
 . -->
 ### Actualizar estructura y datos (administradores e ingenieros)
 
-En determinadas ocasiones, cuando ha habido una actualización, es necesario usar esta opción para que funciones nuevas estén disponibles (seguir instrucciones de Creativa) o se actualicen las tablas comunes (mantenidas por creativa digital).
+En determinadas ocasiones, cuando ha habido una actualización, es necesario usar esta opción para que funciones nuevas estén disponibles (seguir instrucciones de Creativa) o se actualicen las tablas comunes (solo si son mantenidas por creativa digital).
+
+<!-- TODO: Poner opción de menú que lleva al check de tablas comunes -->
 
 !!! Nota
 
-    Se pueden marcar si se actualizan o no las tablas comunes de forma automá-tica configurándolo en Archivo > Opciones > Importar / Exportar. Opción [  ] Actualizar tablas comunes al actualizar estructura.
+    Se pueden marcar si se actualizan o no las tablas comunes de forma automática configurándolo en Archivo > Opciones > Importar / Exportar. Opción [  ] Actualizar tablas comunes al actualizar estructura.
 
     Las tablas comunes, si se decide no actualizarlas con creativa, deberán ser mantenidas por la propia estación.
 
@@ -137,23 +139,31 @@ También contiene otras propiedades extendidas de los usuarios.
 
 !!! Nota
 
-    Ciertos elementos que forman también parte de los usuarios se pueden en-contrar en el menú Mantenimiento > Gestión de usuarios > Propiedades de usua-rio, como firmas electrónicas, permisos para usarlas, etc..
+    Ciertos elementos que forman también parte de los usuarios se pueden encontrar en el menú Mantenimiento > Gestión de usuarios > Propiedades de usuario, como firmas electrónicas, permisos para usarlas, etc..
 
 #### Perfiles
 
-Los perfiles son un conjunto de permisos y características que pueden asignarse a un conjunto de usuarios, de forma que todos los usuarios implicados, tengan los mismos permi-sos.
+Los perfiles son un conjunto de permisos y características que pueden asignarse a un conjunto de usuarios, de forma que todos los usuarios implicados, tengan los mismos permisos.
+
 La modificación de los diferentes permisos de un perfil afectará a cada usuario que pertenezca a él.
+
+![alt text](images/menu-archivo_seguridad-perfiles.png)
  
 Cuando se selecciona un perfil, este tiene unas propiedades generales como su código, su nombre y un listado de usuarios que están asignados a este perfil.
+
 Además, dispone de una pestaña de permisos que permiten modificar a que zonas del programa o que acciones puede realizar cualquier usuario que herede de este perfil. 
 
 #### Usuarios
 
 Los usuarios son las cuentas con las que se identifican los trabajadores de la estación en el sistema. Por norma general cada trabajador dispondrá de una cuenta de usuario.
-Cada cuenta de usuario tendrá un perfil asignado que asignará los permisos preestableci-dos por este como si de una plantilla se tratase.
+
+Cada cuenta de usuario tendrá un perfil asignado que asignará los permisos preestablecidos por este como si de una plantilla se tratase.
+
 Además, puede contener otros datos o atributos que son usados en diferentes zonas de la aplicación o mostrarse en documentos.
+
+![alt text](images/menu-archivo_seguridad-usuarios.png)
  
-!!! Note "Nota"
+!!! Nota
 
     Existe una gestión de usuarios para cuestiones de firma, imparcialidad y otras gestiones. Puedes saber más accediendo a Gestión de Usuarios.
 
@@ -181,16 +191,19 @@ Si a un usuario que tiene asignado un cierto perfil, se le modifican los permiso
 
 #### Otros atributos
 
-Bajo la sección o pestaña de atributos se encuentran otras propiedades del usuario que son empleadas por ejemplo en la impresión del informe o la etiqueta, para que aparezca alguna referencia relacionada con el, o bien para guardar otra información relaciona con el usuario, como por ejemplo la disposición de la pantalla de “panel de control” y los elementos que en ella se encuentran.
+Bajo la sección o pestaña de atributos se encuentran otras propiedades del usuario que son empleadas por ejemplo en la impresión del informe o la etiqueta, para que aparezca alguna referencia relacionada con él, o bien para guardar otra información relaciona con el usuario, como por ejemplo la disposición de la pantalla de “panel de control” y los elementos que en ella se encuentran.
 
 ### Opciones locales (opciones de usuario)
 Esta opción de menú muestra el panel de configuración del programa para el usuario. Estas configuraciones son locales y solo afectan al equipo y a todos los usuarios que lo utilicen en él.
 
 !!! Nota "Tip avanzado"
 
-    Si vas a cambiar de equipo o te van a actualizar o formatear el equipo, pue-des conservar las configuraciones y las personalizaciones de los filtros de las diferentes pantallas guardando los ficheros ConfigurationParameters.xml y ConfigurationLongITVReformas.xml que se encuentran en la carpeta de la aplicación de creativa, situada en C:\Users\[tu-usuario]\listDatos. Copiándolas en el mismo lugar en el equipo nuevo o restaurado, volverás a tener la mis-ma configuración.
+    Si vas a cambiar de equipo o te van a actualizar o formatear el equipo, pue-des conservar las configuraciones y las personalizaciones de los filtros de las diferentes pantallas guardando los ficheros ConfigurationParameters.xml y ConfigurationLongITVReformas.xml que se encuentran en la carpeta de la aplicación de creativa, situada en *C:\Users\[tu-usuario]\listDatos*. Copiando los archivos en el mismo lugar en el equipo nuevo o restaurado, volverás a tener la misma configuración.
 
 #### Impresión
+
+![Menú impresión](images/menu-archivo_opciones-locales_impresion.png)
+
 Opciones de configuración de impresoras que se utilizarán para cada tipo de documento usado en el programa y los márgenes y números de copias.
 
 **Impresión local/Propiedades impresora**
@@ -200,88 +213,110 @@ Para cada tipo de documento se dispone de los siguientes ajustes:
 - **Nombre**: Tipo de documento impreso.
 - **Margen superior, inferior, izquierdo, derecho**: Ajuste del documento a la hoja contenedora. En el caso de hojas pre-impresas, permite el ajuste del contenido al hueco disponible para que encaje todo. Medidas en centímetros.
 - **Impresora**: La impresora por la que será impreso el documento. El listado se ob-tiene del listado de impresoras de Windows. Si no se elige ninguna impresora o la que había elegida no está disponible, el programa imprimirá por la que Windows tenga por defecto en ese momento.
-- **Nº Copias**: copias que se imprimirán por cada impresión que se ordene en el pro-grama. Útil por ejemplo en los tickets o facturas o imprimir dos copias del informe que envía el inspector.
+- **Nº Copias**: copias que se imprimirán por cada impresión que se ordene en el programa. Útil por ejemplo en los tickets o facturas o imprimir dos copias del informe que envía el inspector.
 
-**Asignar valores por defecto**: Establece los valores configurados por defecto en las colum-nas de márgenes para uno o más registros seleccionados.
+**Asignar valores por defecto**: Establece los valores configurados por defecto en las columnas de márgenes para uno o más registros seleccionados.
 
-**Configurar valores defecto**: Permite establecer el valor para cada uno de los cuatro már-genes.
+**Configurar valores defecto**: Permite establecer el valor para cada uno de los cuatro márgenes.
 
 #### Otros
 
 ##### Opciones varias
 
-**Formato de pantalla**
+###### Formato de pantalla
 
-Permite seleccionar el tipo de pantalla o dispositivo donde se está ejecutando la aplica-ción, con el fin de adaptar el tamaño de la letra para que sea más fácil leerlo en pantallas de alta resolución.
+Permite seleccionar el tipo de pantalla o dispositivo donde se está ejecutando la aplicación, con el fin de adaptar el tamaño de la letra para que sea más fácil leerlo en pantallas de alta resolución.
 
-**Desactivar mensajes emergentes**
+###### Desactivar mensajes emergentes
 
 Oculta los mensajes que aparecen cuando sucede algo en el programa. Un error, un archivo recibido al anotar una inspección en la DGT, etc.
 
 ##### Tarjeta
 
-Las tarjetas de ITV contienen una serie de logos y textos que pueden configurarse depen-diendo de si se han adquirido pre-impresas en su totalidad, solo con la cuadricula o vacías.
+Las tarjetas de ITV contienen una serie de logos y textos que pueden configurarse dependiendo de si se han adquirido pre-impresas en su totalidad, solo con la cuadricula o vacías.
 
 - Comunidad autónoma: Texto a rellenar con el nombre de la comunidad.
-- Consejeria1, Consejeria2: Campos para escribir el nombre de la consejería comple-to. Se dejarán vacíos si la ficha o el logo ya los incluye.
-- Desactivar logo fichas: En caso de que las fichas ya incluyan el grafico, logo de la comunidad o elemento gráfico, se desmarca para que no se imprima con el que se ha especificado en la sección Logos y Documentos del menú de Opciones globales.
+- Consejeria1, Consejeria2: Campos para escribir el nombre de la consejería completo. Se dejarán vacíos si la ficha o el logo ya los incluye.
+- Desactivar logo fichas: En caso de que las fichas ya incluyan el gráfico, logo de la comunidad o elemento gráfico, se desmarca para que no se imprima con el que se ha especificado en la sección Logos y Documentos del menú de Opciones globales.
 - Tarjetas con nombres de campos: Se marcará si la tarjeta tiene los nombres de los campos pre-impresos. Estando marcado, no se imprimirán al imprimir los datos de esta y se usarán los que ya vienen impresos.
+
+![Texto imprimible en ficha tarjeta](images/menu-archivo_opciones-locales-tarjeta.png)
 
 ##### Homologaciones
 
 Permite establecer una conexión con el sistema de fichas reducidas incorporado en Creativa Digital 360 ITV.
 
-Si está disponible, se rellenará con los datos provistos por Creativa con respecto a la esta-ción.
+Si está disponible, se rellenará con los datos provistos por Creativa con respecto a la estación.
 
 ##### Taxímetros
 
 Opciones relativas a la inspección de taxímetros.
+
+!!! Nota
+
+    Esta opción solo tiene aplicación en la Comunidad Valenciana.
+
+
   
 #### General
-
-##### Certificados y DGT
-
-Desde esté menú de configuración se permite seleccionar un certificado para su uso du-rante la firma de inspecciones y etiquetas.
-Cuando se utiliza esta opción, sustituye a cualquier firma que se utilice de forma automá-tica desde las acciones que realiza el servidor. Es decir, se antepone a las demás firmas que pudiesen emplearse.
- 
-Ilustración 33 - Opciones locales / Certificados y DGT
-Hay tres formas de poder usar un certificado de forma local:
-
-1. Un certificado instalado en Windows
-2. Un certificado DNI Electrónico instalado en una tarjeta inteligente con lector
-3. Seleccionando un certificado en software (fichero .p12 o .pfx)
-
-Para utilizar cada una de las formas se procede como sigue:
-
-**Con certificado instalado en Windows**
-
-Se marca la casilla [ ] certificados de Windows y se selecciona de la lista que aparece pul-sando [Elegir].
-Cada vez que se tenga que usar la firma, utilizará la seleccionada.
-
-**Usando certificado EDNI**
-
-Se marcará la casilla [ ] Usar certificado E-DNI, en cuyo caso, al utilizar la firma, leerá el certificado y preguntará por la contraseña.
-
-**Usando un certificado software en fichero.**
-
-Se deberá importar el fichero al programa mediante el botón Seleccionar y preguntará la contraseña para poder terminar la importación.
 
 #### Altas inspección
 
 Permite modificar eventos que se producen durante el alta de una inspección.
+
+![Altas de inspección](images/menu-archivo_opciones-locales_general-altas-de-inspeccion.png)
 
 **General**
 
 En cada equipo, se podrán activar o desactivar las siguientes opciones
 
 - **Ver detalle factura:** Al imprimirse la factura (de forma manual o automática), se desglosan los conceptos. Si no se marca, solo incluirá un detalle mínimo.
-- **Imprimir factura al dar de alta:** Marcado siempre emite la factura de forma automática. Si está configurada en Impresión local, se imprime por la impresora, pero si no está configurada saldrá por pantalla.
+- **Si la inspección está en vigor cerrar automáticamente:** <!-- TODO: Ver que es esto ->
 - **No presentar pantalla de anulación y otros avisos al empezar la inspección:** No muestra una pantalla de aviso con alternativas para evitar errores que provoquen la sobre-escritura de una inspección.
-- **Presentar lista CP cuando hay más de uno:** Muestra al introducir el Código postal durante el alta una lista de poblaciones que comparten el mismo. Si no se marca, se elige el primero de la lista, teniendo que corregirlo si es distinto.
-- **Presentar Lista titulares cuando no hay NIF:** Sin un NIF los titulares pueden estar repetidos. Marcada esta opción muestra la lista de los coincidentes. (Es una opción que no tiene utilidad en estaciones nuevas porque siempre se recoge el DNI/NIF).
+
+**Impresión**
+
+- **Imprimir factura al dar de alta:** Marcado siempre emite la factura de forma automática. Si está configurada en Impresión local, se imprime por la impresora, pero si no está configurada saldrá por pantalla.
+- **Imprimir expediente al dar de alta:** Imprime de forma automática la solicitud de expediente. Si no se marca, preguntará si se imprime.
+- **Imprimir inspección al dar de alta:** En casos concretos es necesario que se imprima el informe vacío al cobrar la inspección.
+
+**Listas cuando hay mas de uno**
+
+- **Presentar CP:** Muestra al introducir el Código postal durante el alta una lista de poblaciones que comparten el mismo. Si no se marca, se elige el primero de la lista, teniendo que corregirlo si es distinto.
+- **Presentar titulares:** Sin un NIF los titulares pueden estar repetidos. Marcada esta opción muestra la lista de los coincidentes. (Es una opción que no tiene utilidad en estaciones nuevas porque siempre se recoge el DNI/NIF).
+- **Presentar homologaciones:** Si la homologación está compartida con varios modelos / series de coche se muestra la lista para elegir.
+
+**Etiquetas**
+- **Mostrar etiquetas en alta:** El listado de etiquetas (ver Uso de etiquetas) se muestra en la pantalla de altas para seleccionar un valor de los disponibles.
+- **Etiqueta obligatoria:** La inspección no se puede dar de alta si no se elige una etiqueta de la lista..
+- **Mantener valor entre inspecciones:** El valor de la etiqueta seleccionada en la última inspección se mantiene para la siguiente.
+
+!!! Nota
+    
+    Las dos opciones últimas son usadas generalmente por las ITV's móviles para etiquetar ubicaciones.
+
+**Avisos opcionales**
+
+- **Mensaje aviso si no hay motor**: Muestra una alerta al guardar la inspección porque no se ha puesto un tipo de motor. Esto provocaría un error al aplicar la tarifa si no se corrige.
+- **Mensaje aviso en voluntarias**: <!-- TODO: Rellenar para que sirve esta opción. ->
+- **Aviso si no hay telf. o email en cliente**: Muestra alerta por haber dejado sin rellenar alguno de los campos indicados. Indica que no se podrá contactar con el cliente de ninguna forma si no se rellena al menos uno de los campos.
+
+- **Dias a fecha caducidad AVISO**: Muestra alerta de que aún faltan más de x días para pasar la ITV nuevamente. Los días se toman de la consulta realizada a la DGT previamente.
+- **Numero inspecciones mismo titular AVISO**: Muestra una alerta informando que el cliente ha superado el umbral establecido en cuanto a inspecciones. Un valor **0** desactiva la alerta/aviso.
+
+**Datos opcionales**
+
+- **Presentar fecha nacimiento en cliente**: Habilita el campo de "fecha nacimiento" en la sección de datos de alta del cliente, que en caso de rellenarse se almacena en la ficha del cliente.
+
+Posteriormente puede ser usada la opción para mandar recordatorios de cumpleaños (solo recordatorios enviados desde creativa).
+- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido. <!-- TODO: Que hace realmente esto? ->
+- **Presentar cliente cuando no hay DNI**: Muestra un dialogo para introducir los datos de un nuevo cliente si en el campo DNI/CIF no hay ninguno.
+
+**Caja y cuentas de cobro**
+
 - **Pantalla de Euros al dar de alta:** Después de dar el alta, se muestra la pantalla de cobro, con información sobre el coste y diferentes utilidades, como sacar ticket.
 - **Presentar fecha de nacimiento en cliente:** Por defecto en la pantalla de alta no se muestra un campo para la fecha de nacimiento. Si se marca, se muestra el campo. Dicho campo está en la ficha del cliente y tiene utilidad para el envío de recordatorios o para su uso con descuentos.
-- **Imprimir expediente al dar de alta:** Imprime de forma automática la solicitud de expediente. Si no se marca, preguntará si se imprime.
+
 - **Fecha caducidad obligatoria:** Cuando está marcado, si no se ha introducido la fecha de caducidad, muestra un mensaje alertando de ello.
 - **Caja por defecto:** Especifica que caja se asigna al equipo por defecto. Se pueden dar de alta las cajas en Mantenimiento > Auxiliares > Cajas.
 - **Ruta cajero automático:** Campo específico para el módulo opcional “Cajero automático”, que funciona con cajeros de la marca CashDro.
