@@ -111,7 +111,7 @@ nav:
     - bienvenido/novedades.md
   
   - Guía de inicio:
-    - Instalacion:
+    - Instalación:
       - guia-de-inicio/instalacion.md
     
     - Primeros pasos:
@@ -146,6 +146,7 @@ nav:
     - Expedientes:
       - casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv.md
       - casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma.md
+      - casos-de-uso/expedientes/expedientes_crear-nuevo-codigo-de-reforma.md
     - Configuración:
       - Certificados digitales:
         - casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario.md
