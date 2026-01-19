@@ -150,6 +150,7 @@ nav:
     - Configuración:
       - Certificados digitales:
         - casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario.md
+        - casos-de-uso/configuracion/lineas-y-fases/creacion-de-fases/creacion-de-fases.md
       - Documentos personalizados:
         - casos-de-uso/configuracion/documentos-personalizados/configurar-documento-personalizado.md
     - Impresión:
@@ -187,8 +188,8 @@ nav:
     - Opciones globlales:
       - Configuraracion/opciones-globales/impresion/impresion.md
     - casos-de-uso/configuracion/alcance-segundas-inspecciones/alcance-segundas-inspecciones.md
-  - Consultas:
-      - Consultas administrativas
+  #- Consultas:
+  #    - Consultas administrativas
   - Servicios:
     - Certificados electrónicos:
       - Servicios/certificados-electronicos/emision-de-certificados.md
@@ -199,4 +200,7 @@ nav:
   - Acerca de:
     - Notas de la versión:
       - acerca-de/notas-de-la-version/version-2025-5.md
-      - acerca-de/notas-de-la-version/version-2026-1.md
+      - acerca-de/notas-de-la-version/version-2025-6.md
+
+  - ITV Android:
+    - ITVAndroid/resolucion-errores-itvandroid/resolucion-errores-itvandroid.md

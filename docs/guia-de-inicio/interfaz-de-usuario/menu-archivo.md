@@ -271,7 +271,7 @@ Permite modificar eventos que se producen durante el alta de una inspección.
 En cada equipo, se podrán activar o desactivar las siguientes opciones
 
 - **Ver detalle factura:** Al imprimirse la factura (de forma manual o automática), se desglosan los conceptos. Si no se marca, solo incluirá un detalle mínimo.
-- **Si la inspección está en vigor cerrar automáticamente:** <!-- TODO: Ver que es esto ->
+- **Si la inspección está en vigor cerrar automáticamente:** <!-- TODO: Para que sirve?? -->
 - **No presentar pantalla de anulación y otros avisos al empezar la inspección:** No muestra una pantalla de aviso con alternativas para evitar errores que provoquen la sobre-escritura de una inspección.
 
 **Impresión**
@@ -298,7 +298,7 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 **Avisos opcionales**
 
 - **Mensaje aviso si no hay motor**: Muestra una alerta al guardar la inspección porque no se ha puesto un tipo de motor. Esto provocaría un error al aplicar la tarifa si no se corrige.
-- **Mensaje aviso en voluntarias**: <!-- TODO: Rellenar para que sirve esta opción. ->
+- **Mensaje aviso en voluntarias**: 
 - **Aviso si no hay telf. o email en cliente**: Muestra alerta por haber dejado sin rellenar alguno de los campos indicados. Indica que no se podrá contactar con el cliente de ninguna forma si no se rellena al menos uno de los campos.
 
 - **Dias a fecha caducidad AVISO**: Muestra alerta de que aún faltan más de x días para pasar la ITV nuevamente. Los días se toman de la consulta realizada a la DGT previamente.
@@ -309,7 +309,7 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Presentar fecha nacimiento en cliente**: Habilita el campo de "fecha nacimiento" en la sección de datos de alta del cliente, que en caso de rellenarse se almacena en la ficha del cliente.
 
 Posteriormente puede ser usada la opción para mandar recordatorios de cumpleaños (solo recordatorios enviados desde creativa).
-- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido. <!-- TODO: Que hace realmente esto? ->
+- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido. 
 - **Presentar cliente cuando no hay DNI**: Muestra un dialogo para introducir los datos de un nuevo cliente si en el campo DNI/CIF no hay ninguno.
 
 **Caja y cuentas de cobro**
@@ -355,7 +355,6 @@ Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de reco
 
     Más información: https://creativadigital360.com 
 
-
 ##### Vídeo público
 
 Es una característica especial de Creativa. Correctamente configurado, permite reproducir un video con sobreimpresión de algunos datos útiles sobreimpresos.
@@ -363,6 +362,6 @@ Se debe seleccionar la ruta del fichero a reproducir y especificar un código de
 Se puede mostrar información sobreimpresa sobre:
 
 - **Tiempos de espera**: Informa sobre el tiempo medio de espera.
-- **Vehículos terminados**: Muestra las matrículas de los vehículos que van terminán-dose.
+- **Vehículos terminados**: Muestra las matrículas de los vehículos que van terminándose.
 
 Otras configuraciones relacionadas.

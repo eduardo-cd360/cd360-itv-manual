@@ -1,5 +1,5 @@
 
-![](images/header.jpg)
+
 # Resolución de incidencias en ITVAndroid (app de inspectores)
 
 ## 1. El usuario no tiene permisos de mecánico
