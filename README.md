@@ -22,9 +22,8 @@ Para poder generar la documentación localmente, es necesario tener instalado Py
    git clone https://github.com/CreativaDigital360/manual-creativadigital360.git
     ```
 
-!!! note
-
-    Ver repositorio correcto
+>nota
+>Ver repositorio correcto
 
 2. Acceder a la carpeta del proyecto:
 
