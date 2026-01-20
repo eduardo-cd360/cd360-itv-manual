@@ -4,7 +4,7 @@ Esta documentación esta construida sobre MKDocs y el tema Material for MkDocs.
 
 Para poder generar la documentación localmente, es necesario tener instalado Python y MKDocs.
 
-## Prerequisitos
+## Prerrequisitos
 
 1. Instalar Python (si no está ya instalado). Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
 2. Instalar pip, el gestor de paquetes de Python. Normalmente viene incluido con Python.
@@ -20,6 +20,11 @@ Para poder generar la documentación localmente, es necesario tener instalado Py
 
    ```bash
    git clone https://github.com/CreativaDigital360/manual-creativadigital360.git
+    ```
+
+!!! note
+
+    Ver repositorio correcto
 
 2. Acceder a la carpeta del proyecto:
 
@@ -58,7 +63,7 @@ Si deseas contribuir a la documentación, puedes hacerlo mediante pull requests 
 ## Servidor de documentación en línea
 La documentación oficial está alojada en [https://docs.creativadigital360.com/](https://docs.creativadigital360.com/).
 
-Está alojado en el VPS de Creativa Digital 360 y se actualiza realizando un pull a la rama principal del repositorio de GitHub.
+Está disponible en la maquina 404 (docs.programaitv.com-manualusuario), en el VPS PROXMOX de Creativa Digital 360 y se actualiza realizando un pull a la rama principal del repositorio de GitHub.
 
 ```bash
 cd /ruta/al/repositorio/manual-creativadigital360
