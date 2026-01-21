@@ -327,8 +327,8 @@ Posteriormente puede ser usada la opción para mandar recordatorios de cumpleañ
 ##### Listado vehículos
 
 Configuración de la pantalla que muestra el listado de vehículos pendientes de realizar inspección a los inspectores.
- 
-Ilustración 34 - Opciones locales/Lista de vehículos
+
+![Pantalla de configuración del listado de vehículos](images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png)
 
 Se pueden configurar el tamaño de la fuente de letra y si se muestran todos los datos del vehículo o solo la matricula, para cada una de las tres vistas que tiene la pantalla de información.
 
@@ -336,7 +336,6 @@ Se pueden configurar el tamaño de la fuente de letra y si se muestran todos los
 
 Gestión de las plantillas para el envío de recordatorio. Estos recordatorios son nativos del programa.
 
-Ilustración 36 - Configuración/Comunicación/Recordatorios
 Son dos las plantillas que se pueden configurar/personalizar para el envío de recordatorios.
 
 ##### SMS

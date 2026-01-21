@@ -4,7 +4,9 @@ slug: version-2025-6
 ---
 
 # Notas de publicación - Creativa Digital 360 ITV - Versión 2025-6
-    
+
+[:fontawesome-solid-download: Descarga certificado de software](https://programaitv.com/wp-content/uploads/2026/01/Certificado-Software-2025-6.pdf){ .md-button }
+
 ## Subtarea
 * [ITV-5534](http://jira.creativa3d.com:8080/browse/ITV-5534) - Crear una sección Perfil en Android y en Escritorio.
 
