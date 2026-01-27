@@ -1,8 +1,8 @@
 ## Configuración y uso de documentos personalizados en CD360
 
-El software de Creativa Digital 360 ha incorporado un nuevo sistema de gestión de documentos, el cual permitirá configurar documentos/formularios autorrellenables.
+El software de Creativa Digital 360 ha incorporado un nuevo sistema de gestión de documentos, el cual permitirá crear y configurar documentos y formularios autorrellenables basados en PDF.
 
-Con esto se podrán agilizar los trámites, evitando tener que rellenar manualmente todos aquellos campos de los que el programa de gestión ya tenga los datos guardados, como pueden ser los datos del cliente, vehículo, estación, etc.
+Con esto se podrán agilizar los procesos, evitando tener que rellenar manualmente todos aquellos campos de los que el programa de gestión ya tenga los datos guardados, como pueden ser los datos del cliente, vehículo, estación, etc.
 
 Estos documentos se podrán configurar también para registrar la firma obtenida desde la tableta de firma (aquellos que dispongan del módulo de firma tableta), y se podrán guardar en el servidor, así como mostrar una vista previa de los mismos para su posterior impresión en papel.
 

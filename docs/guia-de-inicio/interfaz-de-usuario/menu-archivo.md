@@ -328,25 +328,57 @@ Posteriormente puede ser usada la opción para mandar recordatorios de cumpleañ
 
 Configuración de la pantalla que muestra el listado de vehículos pendientes de realizar inspección a los inspectores.
 
-![Pantalla de configuración del listado de vehículos](images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png)
+Esta es una captura de la pantalla accesible mediante el menú `*Archivo > Gestión > Listado de vehículos a inspeccionar*` que tienen los equipos de línea o final de línea.
 
-Se pueden configurar el tamaño de la fuente de letra y si se muestran todos los datos del vehículo o solo la matricula, para cada una de las tres vistas que tiene la pantalla de información.
+![Pantalla de listado de vehículos a inspeccionar que tienen los inspectores en los equipos de línea o final de línea](images/archivo-opciones-listado_de_vehiculos_a_inspeccionar.png)
+
+En la pantalla de configuración se pueden establecer los siguientes parámetros:
+
+Tamaño de fuente de letra para cada una de las tres vistas disponibles en la pantalla de información.
+
+Si no se especifica nada en el campo, se usará "16" que es el valor por defecto.
+
+![Pantalla de configuración del listado de vehículos](images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png)
 
 ##### Recordatorios
 
-Gestión de las plantillas para el envío de recordatorio. Estos recordatorios son nativos del programa.
+![alt text](images/menu-archivo-opciones-comunicacion-recordatorios_formulario-principal.png)
 
-Son dos las plantillas que se pueden configurar/personalizar para el envío de recordatorios.
+Permite configurar los parámetros necesarios para el envío de recordatorios a los clientes de la estación.
+
+**Pestaña General**
+
+Gestión de las plantillas para el envío de recordatorio por SMS, Email y Correo ordinario.
 
 ##### SMS
 
-Un texto de hasta 160 caracteres (sin caracteres acentuados ni símbolos), que puede combinarse usando los campos de combinación que se muestra más abajo.
-Email
-Se puede personalizar el asunto y mediante el editor el cuerpo del mensaje, aprovechan-do también la combinación de los campos de combinación.
+Se debe especificar un texto de hasta 160 caracteres (sin caracteres acentuados ni símbolos). Si se supera este límite, el proveedor de SMS puede cobrar más de un mensaje por cada envío.
+
+!!! Aviso
+
+    Esta plantilla solo funciona con el envío de SMS a través de proveedores específicos. En este momento, Creativa Digital 360 solo soporta el envío de SMS a través de la plataforma propia. Las plantillas son gestionadas por nuestro personal de marketing.
+
+Si se desea, se pueden utilizar los campos de combinación que se muestran al final de la pantalla. Serán sustituidos por los datos reales del cliente en el momento de realizar el envío.
+
+[ ] SMS por Json: Si tienes contratado el envío automático de recordatorios o de encuestas, esta opción habilita el uso de una API REST basada en JSON.
+
+!!! Nota
+
+    La activación de esta opción debe ser realizada por el personal de Creativa Digital 360.
+
+##### Email
+
+Configuración de la plantilla que se utilizará para enviar recordatorios por email a los clientes.
+
+Se rellena el asunto del mensaje y el cuerpo del mismo.
+
+Se puede utilizar el editor visual para crear un mensaje atractivo y profesional.
+
+También se pueden utilizar los campos de combinación que se muestran al final de la pantalla. Serán sustituidos por los datos reales del cliente en el momento de realizar el envío.
 
 ##### Correo ordinario
 
-Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de recordatorios, se generara un PDF multi-página con todas las cartas.
+[ ] Impresión en PDF: marcando el check, en vez de imprimirse las cartas de recordatorios, se generara un PDF multi-página con todas las cartas.
 
 !!! Nota "Servicios adicionales de marketing"
 
@@ -356,11 +388,102 @@ Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de reco
 
 ##### Vídeo público
 
-Es una característica especial de Creativa. Correctamente configurado, permite reproducir un video con sobreimpresión de algunos datos útiles sobreimpresos.
-Se debe seleccionar la ruta del fichero a reproducir y especificar un código de usuario y contraseña.
-Se puede mostrar información sobreimpresa sobre:
+Es una característica especial de Creativa. Permite reproducir un video con una sobreimpresión de datos útiles para los clientes que están esperando en la sala de espera. Está pensado para ser usado en pantallas grandes o televisores que disponen de entrada HDMI conectados a un equipo donde se ejecuta Creativa Digital 360 ITV. Este equipo está dedicado solo a esta función.
 
-- **Tiempos de espera**: Informa sobre el tiempo medio de espera.
-- **Vehículos terminados**: Muestra las matrículas de los vehículos que van terminándose.
+![Configuración de la pantalla de Video público](images/menu-archivo-opciones-comunicacion-video_publico.png)
 
-Otras configuraciones relacionadas.
+Los parámetros de configuración son:
+
+- **Ruta del vídeo**: Fichero de video que se reproducirá en bucle.
+- **Autologin**: Código de usuario con permisos para acceder a la función de vídeo público y su contraseña. Permitirá que el programa inicie automáticamente la función de vídeo público sin intervención del usuario.
+- **[  ] Arrancar automáticamente tiempos de espera**: Si se marca, al iniciar la función de vídeo público, se mostrará la pantalla de vehículos terminados e impresos. Puede mostrarse esta pantalla de forma manual desde el menú `*Consultas > Consulta público Vehículos terminados e impresos*`.
+<!-- TODO: Enlazar con menú consultas > Consulta público Vehículos terminados e impresos -->
+- **[  ] Arrancar automáticamente vehículos terminados**: Si se marca, al iniciar la función de vídeo público, se iniciará también la lista de vehículos terminados para mostrarlos sobreimpresos en el video.
+- **[  ] Efecto rotación**: Permite seleccionar un efecto de giro al texto mostrado en los vídeos.
+- **[  ] Transparencia**: El texto mostrado sobre el vídeo no tiene fondo.
+- **Duración efectos (sg)**: Tiempo en segundos que dura cada efecto de transición entre textos.
+- **Cada cuando mostrar (sg)**: Tiempo en segundos que transcurre entre la aparición de un texto y la siguiente aparición.
+- **Tiempo mostrar (sg)**: Durante cuanto tiempo se muestra el tiempo de espera (en segundos).
+- **Tiempo espera por inspección (min)**: Tiempo medio de espera para la inspección, que se muestra sobreimpreso en el vídeo.
+- **Tamaño fuente tiempo**: Tamaño de la letra del texto que muestra el tiempo en el vídeo.
+- **Texto**: Testo personalizable que se muestra sobreimpreso en el vídeo para el tiempo de espera.
+- **Tamaño fuente**: Tamaño de la letra del texto que se muestra sobreimpreso en el vídeo para el tiempo de espera.
+- **Texto2**: 2ª linea de texto personalizable que se muestra sobreimpreso en el vídeo.
+- **Tamaño fuente2**: Tamaño de la letra del 2º texto que se muestra sobreimpreso en el vídeo.
+- Calculo tiempos de espera: Permite seleccionar el método para calcular los tiempos de espera que se muestran en el vídeo.
+  - **Basado en tiempo medio**: Usa el tiempo medio de inspección configurado en minutos para calcular el tiempo de espera.
+  - **Basado en coche que mas tiempo se ha tardado de tipo turismo**: Usa el tiempo que más se ha tardado en inspeccionar un turismo para calcular el tiempo de espera.
+  - Basado en el nº de coches pendientes:
+
+##### Cita previa
+
+Configuración de la integración con el sistema de cita previa de Creativa Digital 360.
+
+![Configuración de la cita previa](images/menu-archivo-opciones-comunicacion-cita_previa.png)
+
+Los parámetros de configuración son:
+
+- **[  ] Conexión con cita previa en altas**: Activa o desactiva la integración con el sistema de cita previa.
+- Tipo: Selección del tipo de sistema de cita previa a utilizar.
+  - **Creativa Digital 360**: Sistema de cita previa proporcionado por Creativa Digital 360.
+  - **GestITV 15.1 [1]**: Sistema de cita previa Creativa3D (Anterior a la actual) [1].
+  - **GestITV 17.1 [2]**: Sistema de cita previa Digital Servi (Anterior a la actual) [2].
+- **URL del servicio**: Dirección del servidor de cita previa.
+- **User**: Usuario para la conexión con el servidor de cita previa.
+- **Token**: Contraseña o token para la conexión con el servidor de cita previa.
+- Prefijo tablas: Prefijo usado en las tablas de cita previa en el servidor. (valido para GestITV 15.1).
+- **[  ] Recuperar anticipos**: Si se marca, al dar de alta una inspección y comprobar que tiene cita, se recuperan los anticipos realizados en la cita previa y se aplican a la inspección, realizando el apunte correspondiente.
+- **Caja debe**: Cuenta contable que se usará para registrar los anticipos recuperados de la cita previa.
+- **Banco cita previa**: Cuenta contable que se usará para registrar los anticipos recuperados de la cita previa.
+<!-- TODO: Especificar correctamente esto de Caja Debe y Banco cita previa -->
+
+#### Facturación
+
+##### Factura
+
+##### Facturación
+
+#### Maquinas
+
+### Opciones (opciones globales)
+Estas opciones afectan al comportamiento general de la estación y a todos los equipos que se conectan al servidor.
+
+#### Opciones globales
+
+![Menú opciones globales](images/menu-archivo_opciones-globales.png)
+
+Permite configurar las opciones generales de la estación de ITV.
+Las opciones se encuentran agrupadas en diferentes secciones o pestañas.
+
+##### Logos y documentos
+
+Configuración de los logos y documentos que se usan en los documentos impresos.
+
+![Logos y documentos](images/menu-archivo_opciones-globales_logos_y_documentos.png)
+
+- **Logotipo**: Logo que se imprimirá en la cabecera del informe de inspección.
+- **Logotipo factura**: Logo que se imprimirá en la cabecera de la factura.
+- **Logotipo etiqueta**: Logo que se imprimirá en la etiqueta que irá pegada en la tarjeta de ITV.
+- **ENAC**: Logo que se imprimirá en el informe de inspección si la estación está acreditada por ENAC y el tipo de inspección lo requiere.
+- **Región**: Logo que se imprimirá en la cabecera del informe de inspección correspondiente a la comunidad autónoma donde se encuentra la estación.
+- **Region2**: Logo que se imprimirá en la tarjeta de ITV correspondiente a la comunidad autónoma donde se encuentra la estación.
+- **Region3**: Logo que se imprimirá en la factura correspondiente a la comunidad autónoma donde se encuentra la estación.
+- <!-- TODO: Ver para que es realmente y si hay que ponerlo o no -->
+- **Sello**: Logo correspondiente al sello oficial de la estación de ITV.
+
+Utiliza los botones de la derecha [+] y [-] para seleccionar las imágenes que se usarán en cada caso.
+
+##### Certificado digital documentos
+
+Configuración del certificado digital que se usará para firmar los documentos electrónicos generados o adjuntados por la estación de ITV.
+
+!!! Nota
+
+    Si la estación firma digitalmente los documentos tras su escaneo no es necesario configurar este certificado digital.
+
+![Certificado digital documentos](images/menu-archivo_opciones-globales_certificado_digital_documentos.png)
+
+- **Certificado documentación expedientes**: Selección del certificado digital instalado en el equipo que se usará para firmar los documentos electrónicos generados por la estación de ITV.
+
+Utiliza los botones de la derecha [+] y [-] para seleccionar el certificado digital que se usará.
+

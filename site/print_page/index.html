@@ -3330,7 +3330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ITVAndroid/resolucion-errores-itvandroid/resolucion-errores-itvandroid/" class="md-nav__link">
+      <a href="../ITVAndroid/casos-de-uso/resolucion-errores-itvandroid/" class="md-nav__link">
         
   
   
@@ -4414,7 +4414,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid" class="md-nav__link">
+  <a href="#itvandroid-casos-de-uso-resolucion-errores-itvandroid" class="md-nav__link">
     <span class="md-ellipsis">
       
         8.1 Resolución de incidencias en ITVAndroid (app de inspectores)
@@ -5074,31 +5074,125 @@ Aunque está permitido, es preferible cerrar la aplicación y abrir con nuevo us
 <h4 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-comunicacion">Comunicación</h4>
 <h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-listado-vehiculos">Listado vehículos</h5>
 <p>Configuración de la pantalla que muestra el listado de vehículos pendientes de realizar inspección a los inspectores.</p>
+<p>Esta es una captura de la pantalla accesible mediante el menú <code>*Archivo &gt; Gestión &gt; Listado de vehículos a inspeccionar*</code> que tienen los equipos de línea o final de línea.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/archivo-opciones-listado_de_vehiculos_a_inspeccionar.png" data-desc-position="bottom"><img alt="Pantalla de listado de vehículos a inspeccionar que tienen los inspectores en los equipos de línea o final de línea" src="../guia-de-inicio/interfaz-de-usuario/images/archivo-opciones-listado_de_vehiculos_a_inspeccionar.png"></a></p>
+<p>En la pantalla de configuración se pueden establecer los siguientes parámetros:</p>
+<p>Tamaño de fuente de letra para cada una de las tres vistas disponibles en la pantalla de información.</p>
+<p>Si no se especifica nada en el campo, se usará "16" que es el valor por defecto.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png" data-desc-position="bottom"><img alt="Pantalla de configuración del listado de vehículos" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png"></a></p>
-<p>Se pueden configurar el tamaño de la fuente de letra y si se muestran todos los datos del vehículo o solo la matricula, para cada una de las tres vistas que tiene la pantalla de información.</p>
 <h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-recordatorios">Recordatorios</h5>
-<p>Gestión de las plantillas para el envío de recordatorio. Estos recordatorios son nativos del programa.</p>
-<p>Son dos las plantillas que se pueden configurar/personalizar para el envío de recordatorios.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-recordatorios_formulario-principal.png" data-desc-position="bottom"><img alt="alt text" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-recordatorios_formulario-principal.png"></a></p>
+<p>Permite configurar los parámetros necesarios para el envío de recordatorios a los clientes de la estación.</p>
+<p><strong>Pestaña General</strong></p>
+<p>Gestión de las plantillas para el envío de recordatorio por SMS, Email y Correo ordinario.</p>
 <h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-sms">SMS</h5>
-<p>Un texto de hasta 160 caracteres (sin caracteres acentuados ni símbolos), que puede combinarse usando los campos de combinación que se muestra más abajo.
-Email
-Se puede personalizar el asunto y mediante el editor el cuerpo del mensaje, aprovechan-do también la combinación de los campos de combinación.</p>
+<p>Se debe especificar un texto de hasta 160 caracteres (sin caracteres acentuados ni símbolos). Si se supera este límite, el proveedor de SMS puede cobrar más de un mensaje por cada envío.</p>
+<div class="admonition aviso">
+<p class="admonition-title">Aviso</p>
+<p>Esta plantilla solo funciona con el envío de SMS a través de proveedores específicos. En este momento, Creativa Digital 360 solo soporta el envío de SMS a través de la plataforma propia. Las plantillas son gestionadas por nuestro personal de marketing.</p>
+</div>
+<p>Si se desea, se pueden utilizar los campos de combinación que se muestran al final de la pantalla. Serán sustituidos por los datos reales del cliente en el momento de realizar el envío.</p>
+<p>[ ] SMS por Json: Si tienes contratado el envío automático de recordatorios o de encuestas, esta opción habilita el uso de una API REST basada en JSON.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>La activación de esta opción debe ser realizada por el personal de Creativa Digital 360.</p>
+</div>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-email">Email</h5>
+<p>Configuración de la plantilla que se utilizará para enviar recordatorios por email a los clientes.</p>
+<p>Se rellena el asunto del mensaje y el cuerpo del mismo.</p>
+<p>Se puede utilizar el editor visual para crear un mensaje atractivo y profesional.</p>
+<p>También se pueden utilizar los campos de combinación que se muestran al final de la pantalla. Serán sustituidos por los datos reales del cliente en el momento de realizar el envío.</p>
 <h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-correo-ordinario">Correo ordinario</h5>
-<p>Marcando el check [ ] Impresión en PDF, en vez de imprimirse las cartas de recordatorios, se generara un PDF multi-página con todas las cartas.</p>
+<p>[ ] Impresión en PDF: marcando el check, en vez de imprimirse las cartas de recordatorios, se generara un PDF multi-página con todas las cartas.</p>
 <div class="admonition nota">
 <p class="admonition-title">Servicios adicionales de marketing</p>
 <p>Creativa Digital 360 provee de un servicio complementario e integrado totalmente con el programa, que permite realizar envíos personalizados con seguimiento y ofertas incluidas para atraer al cliente.</p>
 <p>Más información: https://creativadigital360.com </p>
 </div>
 <h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-video-publico">Vídeo público</h5>
-<p>Es una característica especial de Creativa. Correctamente configurado, permite reproducir un video con sobreimpresión de algunos datos útiles sobreimpresos.
-Se debe seleccionar la ruta del fichero a reproducir y especificar un código de usuario y contraseña.
-Se puede mostrar información sobreimpresa sobre:</p>
+<p>Es una característica especial de Creativa. Permite reproducir un video con una sobreimpresión de datos útiles para los clientes que están esperando en la sala de espera. Está pensado para ser usado en pantallas grandes o televisores que disponen de entrada HDMI conectados a un equipo donde se ejecuta Creativa Digital 360 ITV. Este equipo está dedicado solo a esta función.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-video_publico.png" data-desc-position="bottom"><img alt="Configuración de la pantalla de Video público" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-video_publico.png"></a></p>
+<p>Los parámetros de configuración son:</p>
 <ul>
-<li><strong>Tiempos de espera</strong>: Informa sobre el tiempo medio de espera.</li>
-<li><strong>Vehículos terminados</strong>: Muestra las matrículas de los vehículos que van terminándose.</li>
+<li><strong>Ruta del vídeo</strong>: Fichero de video que se reproducirá en bucle.</li>
+<li><strong>Autologin</strong>: Código de usuario con permisos para acceder a la función de vídeo público y su contraseña. Permitirá que el programa inicie automáticamente la función de vídeo público sin intervención del usuario.</li>
+<li><strong>[  ] Arrancar automáticamente tiempos de espera</strong>: Si se marca, al iniciar la función de vídeo público, se mostrará la pantalla de vehículos terminados e impresos. Puede mostrarse esta pantalla de forma manual desde el menú <code>*Consultas &gt; Consulta público Vehículos terminados e impresos*</code>.</li>
 </ul>
-<p>Otras configuraciones relacionadas.</p></body></html></section><section class="print-page" id="guia-de-inicio-interfaz-de-usuario-menu-mantenimiento" heading-number="2.3.3"><html><head>
+<!-- TODO: Enlazar con menú consultas > Consulta público Vehículos terminados e impresos -->
+<ul>
+<li><strong>[  ] Arrancar automáticamente vehículos terminados</strong>: Si se marca, al iniciar la función de vídeo público, se iniciará también la lista de vehículos terminados para mostrarlos sobreimpresos en el video.</li>
+<li><strong>[  ] Efecto rotación</strong>: Permite seleccionar un efecto de giro al texto mostrado en los vídeos.</li>
+<li><strong>[  ] Transparencia</strong>: El texto mostrado sobre el vídeo no tiene fondo.</li>
+<li><strong>Duración efectos (sg)</strong>: Tiempo en segundos que dura cada efecto de transición entre textos.</li>
+<li><strong>Cada cuando mostrar (sg)</strong>: Tiempo en segundos que transcurre entre la aparición de un texto y la siguiente aparición.</li>
+<li><strong>Tiempo mostrar (sg)</strong>: Durante cuanto tiempo se muestra el tiempo de espera (en segundos).</li>
+<li><strong>Tiempo espera por inspección (min)</strong>: Tiempo medio de espera para la inspección, que se muestra sobreimpreso en el vídeo.</li>
+<li><strong>Tamaño fuente tiempo</strong>: Tamaño de la letra del texto que muestra el tiempo en el vídeo.</li>
+<li><strong>Texto</strong>: Testo personalizable que se muestra sobreimpreso en el vídeo para el tiempo de espera.</li>
+<li><strong>Tamaño fuente</strong>: Tamaño de la letra del texto que se muestra sobreimpreso en el vídeo para el tiempo de espera.</li>
+<li><strong>Texto2</strong>: 2ª linea de texto personalizable que se muestra sobreimpreso en el vídeo.</li>
+<li><strong>Tamaño fuente2</strong>: Tamaño de la letra del 2º texto que se muestra sobreimpreso en el vídeo.</li>
+<li>Calculo tiempos de espera: Permite seleccionar el método para calcular los tiempos de espera que se muestran en el vídeo.</li>
+<li><strong>Basado en tiempo medio</strong>: Usa el tiempo medio de inspección configurado en minutos para calcular el tiempo de espera.</li>
+<li><strong>Basado en coche que mas tiempo se ha tardado de tipo turismo</strong>: Usa el tiempo que más se ha tardado en inspeccionar un turismo para calcular el tiempo de espera.</li>
+<li>Basado en el nº de coches pendientes:</li>
+</ul>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-cita-previa">Cita previa</h5>
+<p>Configuración de la integración con el sistema de cita previa de Creativa Digital 360.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/menu-archivo/images/menu-archivo-opciones-comunicacion-cita_previa.png" data-desc-position="bottom"><img alt="Configuración de la cita previa" src="../guia-de-inicio/interfaz-de-usuario/menu-archivo/images/menu-archivo-opciones-comunicacion-cita_previa.png"></a></p>
+<p>Los parámetros de configuración son:</p>
+<ul>
+<li><strong>[  ] Conexión con cita previa en altas</strong>: Activa o desactiva la integración con el sistema de cita previa.</li>
+<li>Tipo: Selección del tipo de sistema de cita previa a utilizar.</li>
+<li><strong>Creativa Digital 360</strong>: Sistema de cita previa proporcionado por Creativa Digital 360.</li>
+<li><strong>GestITV 15.1 [1]</strong>: Sistema de cita previa Creativa3D (Anterior a la actual) [1].</li>
+<li><strong>GestITV 17.1 [2]</strong>: Sistema de cita previa Digital Servi (Anterior a la actual) [2].</li>
+<li><strong>URL del servicio</strong>: Dirección del servidor de cita previa.</li>
+<li><strong>User</strong>: Usuario para la conexión con el servidor de cita previa.</li>
+<li><strong>Token</strong>: Contraseña o token para la conexión con el servidor de cita previa.</li>
+<li>Prefijo tablas: Prefijo usado en las tablas de cita previa en el servidor. (valido para GestITV 15.1).</li>
+<li><strong>[  ] Recuperar anticipos</strong>: Si se marca, al dar de alta una inspección y comprobar que tiene cita, se recuperan los anticipos realizados en la cita previa y se aplican a la inspección, realizando el apunte correspondiente.</li>
+<li><strong>Caja debe</strong>: Cuenta contable que se usará para registrar los anticipos recuperados de la cita previa.</li>
+<li><strong>Banco cita previa</strong>: Cuenta contable que se usará para registrar los anticipos recuperados de la cita previa.</li>
+</ul>
+<!-- TODO: Especificar correctamente esto de Caja Debe y Banco cita previa -->
+
+<h4 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-facturacion">Facturación</h4>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-factura">Factura</h5>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-facturacion_1">Facturación</h5>
+<h4 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-maquinas">Maquinas</h4>
+<h3 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-opciones-opciones-globales">Opciones (opciones globales)</h3>
+<p>Estas opciones afectan al comportamiento general de la estación y a todos los equipos que se conectan al servidor.</p>
+<h4 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-opciones-globales">Opciones globales</h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales.png" data-desc-position="bottom"><img alt="Menú opciones globales" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales.png"></a></p>
+<p>Permite configurar las opciones generales de la estación de ITV.
+Las opciones se encuentran agrupadas en diferentes secciones o pestañas.</p>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-logos-y-documentos">Logos y documentos</h5>
+<p>Configuración de los logos y documentos que se usan en los documentos impresos.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_logos_y_documentos.png" data-desc-position="bottom"><img alt="Logos y documentos" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_logos_y_documentos.png"></a></p>
+<ul>
+<li><strong>Logotipo</strong>: Logo que se imprimirá en la cabecera del informe de inspección.</li>
+<li><strong>Logotipo factura</strong>: Logo que se imprimirá en la cabecera de la factura.</li>
+<li><strong>Logotipo etiqueta</strong>: Logo que se imprimirá en la etiqueta que irá pegada en la tarjeta de ITV.</li>
+<li><strong>ENAC</strong>: Logo que se imprimirá en el informe de inspección si la estación está acreditada por ENAC y el tipo de inspección lo requiere.</li>
+<li><strong>Región</strong>: Logo que se imprimirá en la cabecera del informe de inspección correspondiente a la comunidad autónoma donde se encuentra la estación.</li>
+<li><strong>Region2</strong>: Logo que se imprimirá en la tarjeta de ITV correspondiente a la comunidad autónoma donde se encuentra la estación.</li>
+<li><strong>Region3</strong>: Logo que se imprimirá en la factura correspondiente a la comunidad autónoma donde se encuentra la estación.</li>
+<li><!-- TODO: Ver para que es realmente y si hay que ponerlo o no --></li>
+<li><strong>Sello</strong>: Logo correspondiente al sello oficial de la estación de ITV.</li>
+</ul>
+<p>Utiliza los botones de la derecha [+] y [-] para seleccionar las imágenes que se usarán en cada caso.</p>
+<h5 id="guia-de-inicio-interfaz-de-usuario-menu-archivo-certificado-digital-documentos">Certificado digital documentos</h5>
+<p>Configuración del certificado digital que se usará para firmar los documentos electrónicos generados o adjuntados por la estación de ITV.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>Si la estación firma digitalmente los documentos tras su escaneo no es necesario configurar este certificado digital.</p>
+</div>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_certificado_digital_documentos.png" data-desc-position="bottom"><img alt="Certificado digital documentos" src="../guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_certificado_digital_documentos.png"></a></p>
+<ul>
+<li><strong>Certificado documentación expedientes</strong>: Selección del certificado digital instalado en el equipo que se usará para firmar los documentos electrónicos generados por la estación de ITV.</li>
+</ul>
+<p>Utiliza los botones de la derecha [+] y [-] para seleccionar el certificado digital que se usará.</p></body></html></section><section class="print-page" id="guia-de-inicio-interfaz-de-usuario-menu-mantenimiento" heading-number="2.3.3"><html><head>
         <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
             remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
@@ -5599,8 +5693,8 @@ hay que seleccionar la pestaña "Frases tipo".</p>
         })
         </script>
         </head><body><h2 id="configuracion-y-uso-de-documentos-personalizados-en-cd360">Configuración y uso de documentos personalizados en CD360</h2>
-<p>El software de Creativa Digital 360 ha incorporado un nuevo sistema de gestión de documentos, el cual permitirá configurar documentos/formularios autorrellenables.</p>
-<p>Con esto se podrán agilizar los trámites, evitando tener que rellenar manualmente todos aquellos campos de los que el programa de gestión ya tenga los datos guardados, como pueden ser los datos del cliente, vehículo, estación, etc.</p>
+<p>El software de Creativa Digital 360 ha incorporado un nuevo sistema de gestión de documentos, el cual permitirá crear y configurar documentos y formularios autorrellenables basados en PDF.</p>
+<p>Con esto se podrán agilizar los procesos, evitando tener que rellenar manualmente todos aquellos campos de los que el programa de gestión ya tenga los datos guardados, como pueden ser los datos del cliente, vehículo, estación, etc.</p>
 <p>Estos documentos se podrán configurar también para registrar la firma obtenida desde la tableta de firma (aquellos que dispongan del módulo de firma tableta), y se podrán guardar en el servidor, así como mostrar una vista previa de los mismos para su posterior impresión en papel.</p>
 <p>En este documento se tratarán los siguientes temas:</p>
 <ul>
@@ -7388,17 +7482,17 @@ Se puede elegir entre 1,2,3,4 o 5 años.</p>
                     <section class='print-page md-section' id='section-8' heading-number='8'>
                         <h1>ITV Android<a class='headerlink' href='#section-8' title='Permanent link'></a>
                         </h1>
-                    <section class="print-page" id="itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid" heading-number="8.1"><html><head>
+                    <section class="print-page" id="itvandroid-casos-de-uso-resolucion-errores-itvandroid" heading-number="8.1"><html><head>
         <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
             remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
         })
         </script>
         </head><body><h1 id="resolucion-de-incidencias-en-itvandroid-app-de-inspectores">Resolución de incidencias en ITVAndroid (app de inspectores)</h1>
-<h2 id="itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-1-el-usuario-no-tiene-permisos-de-mecanico">1. El usuario no tiene permisos de mecánico</h2>
+<h2 id="itvandroid-casos-de-uso-resolucion-errores-itvandroid-1-el-usuario-no-tiene-permisos-de-mecanico">1. El usuario no tiene permisos de mecánico</h2>
 <p>Como dice el mensaje, el usuario que se está intentando autenticar en la aplicación, carece de permisos de mecánico o los permisos no están correctamente asignados.</p>
 <p>Para solucionarlo, un usuario con permisos para editar las opciones de seguridad, deberá acceder a <code>Archivo &gt; Seguridad</code> y cambiar o ajustar correctamente los permisos.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ITVAndroid/resolucion-errores-itvandroid/images/creativa3d-itvandroid-seguridad-permisos-mecanico.png" data-desc-position="bottom"><img alt="" src="../ITVAndroid/resolucion-errores-itvandroid/images/creativa3d-itvandroid-seguridad-permisos-mecanico.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ITVAndroid/casos-de-uso/images/creativa3d-itvandroid-seguridad-permisos-mecanico.png" data-desc-position="bottom"><img alt="" src="../ITVAndroid/casos-de-uso/images/creativa3d-itvandroid-seguridad-permisos-mecanico.png"></a></p>
 <p>Cada usuario del programa dispone de una asignación de perfil que determina todos los permisos que le afectan, pero además de forma individual dispone de una pestaña que permite alterar los permisos heredados del perfil.</p>
 <p>Lo primero es asegurarse que tiene en la pestaña "General" el perfil adecuado asignado, en este caso, <strong>Mecánico</strong>, y si esto no resuelve el problema, en la pestaña "Permisos" en la opción "permisos base", verificar que está marcada la casilla "¿es mecánico?".</p>
 <p>A cada modificación el usuario de la aplicación ITVAndroid deberá cerrar su sesión de usuario y cargarla de nuevo para comprobar si ya funciona adecuadamente.</p></body></html></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
@@ -8003,19 +8097,19 @@ Se puede elegir entre 1,2,3,4 o 5 años.</p>
                 .print-site-enumerate-headings #acerca-de-notas-de-la-version-version-2025-6 h4 {  counter-increment: counter-acerca-de-notas-de-la-version-version-2025-6-4 }
             
 .print-site-enumerate-headings #section-8 > h1:before { content: '8 ' }
-.print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid > h1:before { content: '8.1 ' }
+.print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid > h1:before { content: '8.1 ' }
 
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h2:before { content: '8.1.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-2) ' ' }
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h2 {  counter-reset: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-3  counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-4  counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-2 }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h2:before { content: '8.1.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-2) ' ' }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h2 {  counter-reset: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-3  counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-4  counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-2 }
             
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h3:before { content: '8.1.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-3) ' ' }
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h3 {  counter-reset: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-4  counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-3 }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h3:before { content: '8.1.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-3) ' ' }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h3 {  counter-reset: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-4  counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-3 }
             
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h4:before { content: '8.1.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-3) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-4) ' ' }
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h4 {  counter-reset: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-4 }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h4:before { content: '8.1.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-3) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-4) ' ' }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h4 {  counter-reset: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-5 ;  counter-increment: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-4 }
             
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h5:before { content: '8.1.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-3) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-4) '.' counter(counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-5) ' ' }
-                .print-site-enumerate-headings #itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid h5 {  counter-increment: counter-itvandroid-resolucion-errores-itvandroid-resolucion-errores-itvandroid-5 }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h5:before { content: '8.1.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-2) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-3) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-4) '.' counter(counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-5) ' ' }
+                .print-site-enumerate-headings #itvandroid-casos-de-uso-resolucion-errores-itvandroid h5 {  counter-increment: counter-itvandroid-casos-de-uso-resolucion-errores-itvandroid-5 }
             </style>
 
 
