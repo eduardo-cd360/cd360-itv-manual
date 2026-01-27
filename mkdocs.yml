@@ -150,6 +150,7 @@ nav:
     - Configuración:
       - Certificados digitales:
         - casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario.md
+      - Lineas y fases:
         - casos-de-uso/configuracion/lineas-y-fases/creacion-de-fases/creacion-de-fases.md
       - Documentos personalizados:
         - casos-de-uso/configuracion/documentos-personalizados/configurar-documento-personalizado.md
