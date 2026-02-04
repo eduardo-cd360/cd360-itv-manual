@@ -473,7 +473,7 @@ Configuración de los logos y documentos que se usan en los documentos impresos.
 
 Utiliza los botones de la derecha [+] y [-] para seleccionar las imágenes que se usarán en cada caso.
 
-##### Certificado digital documentos
+##### Certificado expedientes documentación
 
 Configuración del certificado digital que se usará para firmar los documentos electrónicos generados o adjuntados por la estación de ITV.
 
@@ -486,4 +486,67 @@ Configuración del certificado digital que se usará para firmar los documentos 
 - **Certificado documentación expedientes**: Selección del certificado digital instalado en el equipo que se usará para firmar los documentos electrónicos generados por la estación de ITV.
 
 Utiliza los botones de la derecha [+] y [-] para seleccionar el certificado digital que se usará.
+
+##### Correo y SMS
+
+Configuración de los parámetros necesarios para el envío de correos electrónicos y SMS desde la estación de ITV.
+![Correo y SMS](images/menu-archivo_opciones-globales_correo_y_sms.png)
+
+###### Correo electrónico
+
+Se pueden dar de alta múltiples cuentas de correo electrónico para el envío de correos desde la estación de ITV.
+
+La primera cuenta de correo electrónico que se dé de alta será la cuenta por defecto y se usará para el envío de correos electrónicos desde la estación de ITV de forma automática (recordatorios, encuestas, etc.).
+
+En cada cuenta de correo electrónico se deben especificar los siguientes parámetros:
+
+- **Nombre de la cuenta**: Nombre descriptivo de la cuenta de correo electrónico.
+- **Dirección de correo**: Dirección de correo electrónico completa (usuario@dominio).
+- **Servidor SMTP**: Dirección del servidor SMTP que se usará para el envío de correos electrónicos.
+- **Puerto**: Puerto del servidor SMTP. Por defecto 25, 465 o 587.
+- **Usuario**: Usuario para la autenticación en el servidor SMTP.
+- **Contraseña**: Contraseña para la autenticación en el servidor SMTP.
+- **Usar SSL**: Indica si se debe usar una conexión segura SSL/TLS para la conexión con el servidor SMTP.
+
+**Plantilla**: Permite seleccionar una plantilla de correo electrónico por defecto que se usará para el envío de correos desde cualquiera de las cuentas.
+
+!!! Nota
+
+    La plantilla se puede crear o modificar desde la pantalla de edición de correo electrónico. Creando el diseño y guardando como plantilla usando los botones disponibles. La extensión de las plantillas es *.gtc*.
+
+###### SMS
+
+Configuración de los parámetros necesarios para el envío de SMS desde la estación de ITV.
+
+- **Cliente SMS**: Selección del proveedor de servicios de SMS que se usará para el envío de SMS desde la estación de ITV. Actualmente solo está disponible el proveedor propio de Creativa Digital 360 ITV.
+- **Url**: Dirección del servicio web del proveedor de servicios de SMS. Suministrado por creativa Digital 360 ITV.
+- **Numero de serie**: Sin uso
+- **Usuario**: Usuario para la autenticación en el servicio web del proveedor de servicios de SMS.
+- **Clave**: Contraseña para la autenticación en el servicio web del proveedor de servicios de SMS.
+- **SMS Remitente**: Texto que aparecerá como remitente del SMS enviado.
+
+##### DGT y Certificados
+Configuración de los servicios de conexión con la DGT, la compra de Tasas y los certificados digitales usados para la comunicación segura con la DGT.
+
+![DGT y certificados](images/menu-archivo_opciones-globales_dgt_y_certificados.png)
+
+###### DGT
+
+- **Usa DGT**: Activa o desactiva la conexión con los servicios de la DGT. Activado se realizan las consultas de la matricula durante el alta, consulta de vehículos por matricula o bastidor y se los envíos de inspecciones a la DGT.
+- **Subida DGT automática**: Si está activado, al finalizar una inspección que deba enviarse a la DGT, se envía automáticamente sin intervención del usuario.
+- **Consulta 24 horas**: Activa el servicio de consulta ATEX24. Este servicio de la DGT restringe las consultas de vehículos a que estén anotados como mínimo 24 horas antes de la consulta. Será obligatorio para todas las estaciones a partir de cierta fecha que aun no se ha publicado.
+- **Certificado DGT**: Selección del certificado digital que se usará para la comunicación segura con los servicios de la DGT. Utiliza los botones de la derecha [+] y [-] para seleccionar el certificado digital que se usará.
+- **Url servicio DGT**: Dirección del servicio web de la DGT para la comunicación con los servicios de la DGT. Estos valores son suministrados por la DGT y pueden variar en función del entorno (producción, pruebas, etc.). No deben modificarse sin consultar previamente con Creativa Digital 360 ITV.
+  - URL Consulta
+  - URL Consulta ATEX24
+  - URL Anotación inspección
+  - URL Reformas
+  - URL borrado inspección
+- Correo incidencias: Dirección de correo electrónico donde se enviarán las notificaciones de incidencias en la comunicación con la DGT. (actualmente no usado al bloquear el servicio por este medio la DGT).
+
+###### Compra tasas DGT
+Creativa Digital 360 ITV dispone de un sistema integrado para la compra de tasas de la DGT desde el propio programa de gestión. La compra se realiza de forma automática y segura a través de los servicios web de la DGT.
+
+Si se produce un error durante la compra, se paraliza el proceso hasta que se solucione. Esto se deberá realizar en el menú de `Gestión > DGT > DGT compras`.
+
 
