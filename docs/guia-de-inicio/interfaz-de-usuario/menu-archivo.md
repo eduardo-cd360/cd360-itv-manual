@@ -530,6 +530,7 @@ Configuración de los servicios de conexión con la DGT, la compra de Tasas y lo
 
 ![DGT y certificados](images/menu-archivo_opciones-globales_dgt_y_certificados.png)
 
+
 ###### DGT
 
 - **Usa DGT**: Activa o desactiva la conexión con los servicios de la DGT. Activado se realizan las consultas de la matricula durante el alta, consulta de vehículos por matricula o bastidor y se los envíos de inspecciones a la DGT.
@@ -537,11 +538,11 @@ Configuración de los servicios de conexión con la DGT, la compra de Tasas y lo
 - **Consulta 24 horas**: Activa el servicio de consulta ATEX24. Este servicio de la DGT restringe las consultas de vehículos a que estén anotados como mínimo 24 horas antes de la consulta. Será obligatorio para todas las estaciones a partir de cierta fecha que aun no se ha publicado.
 - **Certificado DGT**: Selección del certificado digital que se usará para la comunicación segura con los servicios de la DGT. Utiliza los botones de la derecha [+] y [-] para seleccionar el certificado digital que se usará.
 - **Url servicio DGT**: Dirección del servicio web de la DGT para la comunicación con los servicios de la DGT. Estos valores son suministrados por la DGT y pueden variar en función del entorno (producción, pruebas, etc.). No deben modificarse sin consultar previamente con Creativa Digital 360 ITV.
-  - URL Consulta
-  - URL Consulta ATEX24
-  - URL Anotación inspección
-  - URL Reformas
-  - URL borrado inspección
+    * URL Consulta
+    * URL Consulta ATEX24
+    * URL Anotación inspección
+    * URL Reformas
+    * URL borrado inspección
 - Correo incidencias: Dirección de correo electrónico donde se enviarán las notificaciones de incidencias en la comunicación con la DGT. (actualmente no usado al bloquear el servicio por este medio la DGT).
 
 ###### Compra tasas DGT

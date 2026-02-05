@@ -26,6 +26,7 @@ markdown_extensions:
   - admonition
   
   # Annotations (Aparece un + y si se pulsa o se pone el cursor encima se muestra un mensaje)
+  # Grids
   - attr_list
   - md_in_html
   - pymdownx.superfences
@@ -34,12 +35,29 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+# Formatos especiales (Subrallado, {--tachado--}, {--añadido--}, {==añadido==})
+# Adding keyboard keys --> ++ctrl+alt+del++
   - pymdownx.blocks.caption
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+# Pestañas tabulador
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Tablas
+  - tables
+
+# Images
+
+  - pymdownx.blocks.caption
+
 
 plugins:
   - glightbox
