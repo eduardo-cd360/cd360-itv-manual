@@ -28,6 +28,7 @@ En el caso de que se esté ejecutando algún servicio, mostrará un aviso antes 
 
 Al seleccionar esta opción del menú Archivo, se muestra una ventana que permite cambiar el aspecto de la aplicación.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_listado-de-estilos.png -->
 ![Ventana de selección de estilos visuales mostrando una lista de opciones de estilos disponibles para la aplicación](images/menu-archivo_listado-de-estilos.png)
 
 Seleccionando un estilo cambia el aspecto en general. Los temas son variaciones como cambios de color disponibles solo en algún estilo.
@@ -60,6 +61,7 @@ El programa de gestión cliente de Creativa necesita de al menos una conexión p
 
 Elementos de la pantalla de conexiones
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/archivo-base-datos_pantalla-de-conexiones.png -->
 ![Pantalla de configuración de conexiones a base de datos](images/archivo-base-datos_pantalla-de-conexiones.png)
 
 - Filtro
@@ -80,6 +82,7 @@ Elementos de la pantalla de conexiones
 
 Para añadir una nueva conexión pulsa el botón Nuevo. Se abre el formulario que se ve en la imagen siguiente.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/nueva-conexion.png -->
 ![Nueva conexión](images/nueva-conexion.png)
 
 Proporciona los siguientes datos:
@@ -94,7 +97,8 @@ Una vez creada la conexión, cierra el programa y ábrelo nuevamente para verla 
 **Editar conexión**
 
 Selecciona una conexión del listado y pulsa el botón Editar, se mostrará la ventana con la información sobre la conexión seleccionada.
- 
+
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/edicion-de-una-conexion.png -->
 ![Edición de una conexión](images/edicion-de-una-conexion.png)
 
 A continuación, modifica los datos a tu gusto o según indicaciones y pulsa sobre Aceptar para guardar los cambios.
@@ -105,12 +109,14 @@ Utiliza el botón llamado Local automático para crear una conexión al servidor
 
 Se mostrará una ventana preguntándote si deseas hacerlo.
 
-![Pantalla de adicción de nueva conexión](images/pantalla-de-adiccion-de-nueva-conexion.png) 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/pantalla-de-adiccion-de-nueva-conexion.png -->
+![Pantalla de adicción de nueva conexión](images/pantalla-de-adiccion-de-nueva-conexion.png)
 
 Responde Si y espera a que termine.
 
 Si todo ha ido bien, se habrá creado una nueva conexión, pero si por el contrario, no se ha podido localizar al servidor de la ITV, un mensaje alertará de ello.
- 
+
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/mensaje-error-conexion-automatica.png -->
 ![Mensaje de error en la creación de la conexión de forma automática](images/mensaje-error-conexion-automatica.png)
 
 En este caso, solicita los datos de conexión o pide ayuda.
@@ -133,6 +139,7 @@ En determinadas ocasiones, cuando ha habido una actualización, es necesario usa
 
 El menú seguridad permite gestionar usuarios, perfiles y permisos que permitiendo dar de alta nuevos usuarios, asignarles perfiles y modificar el acceso a los menús y botones de las diferentes pantallas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/archivo-seguridad.png -->
 ![Opciones de seguridad](images/archivo-seguridad.png)
 
 También contiene otras propiedades extendidas de los usuarios.
@@ -147,8 +154,9 @@ Los perfiles son un conjunto de permisos y características que pueden asignarse
 
 La modificación de los diferentes permisos de un perfil afectará a cada usuario que pertenezca a él.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_seguridad-perfiles.png -->
 ![alt text](images/menu-archivo_seguridad-perfiles.png)
- 
+
 Cuando se selecciona un perfil, este tiene unas propiedades generales como su código, su nombre y un listado de usuarios que están asignados a este perfil.
 
 Además, dispone de una pestaña de permisos que permiten modificar a que zonas del programa o que acciones puede realizar cualquier usuario que herede de este perfil. 
@@ -161,8 +169,9 @@ Cada cuenta de usuario tendrá un perfil asignado que asignará los permisos pre
 
 Además, puede contener otros datos o atributos que son usados en diferentes zonas de la aplicación o mostrarse en documentos.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_seguridad-usuarios.png -->
 ![alt text](images/menu-archivo_seguridad-usuarios.png)
- 
+
 !!! Nota
 
     Existe una gestión de usuarios para cuestiones de firma, imparcialidad y otras gestiones. Puedes saber más accediendo a Gestión de Usuarios.
@@ -202,6 +211,7 @@ Esta opción de menú muestra el panel de configuración del programa para el us
 
 #### Impresión
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-locales_impresion.png -->
 ![Menú impresión](images/menu-archivo_opciones-locales_impresion.png)
 
 Opciones de configuración de impresoras que se utilizarán para cada tipo de documento usado en el programa y los márgenes y números de copias.
@@ -240,6 +250,7 @@ Las tarjetas de ITV contienen una serie de logos y textos que pueden configurars
 - Desactivar logo fichas: En caso de que las fichas ya incluyan el gráfico, logo de la comunidad o elemento gráfico, se desmarca para que no se imprima con el que se ha especificado en la sección Logos y Documentos del menú de Opciones globales.
 - Tarjetas con nombres de campos: Se marcará si la tarjeta tiene los nombres de los campos pre-impresos. Estando marcado, no se imprimirán al imprimir los datos de esta y se usarán los que ya vienen impresos.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-locales-tarjeta.png -->
 ![Texto imprimible en ficha tarjeta](images/menu-archivo_opciones-locales-tarjeta.png)
 
 ##### Homologaciones
@@ -264,6 +275,7 @@ Opciones relativas a la inspección de taxímetros.
 
 Permite modificar eventos que se producen durante el alta de una inspección.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-locales_general-altas-de-inspeccion.png -->
 ![Altas de inspección](images/menu-archivo_opciones-locales_general-altas-de-inspeccion.png)
 
 **General**
@@ -292,13 +304,13 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Mantener valor entre inspecciones:** El valor de la etiqueta seleccionada en la última inspección se mantiene para la siguiente.
 
 !!! Nota
-    
+
     Las dos opciones últimas son usadas generalmente por las ITV's móviles para etiquetar ubicaciones.
 
 **Avisos opcionales**
 
 - **Mensaje aviso si no hay motor**: Muestra una alerta al guardar la inspección porque no se ha puesto un tipo de motor. Esto provocaría un error al aplicar la tarifa si no se corrige.
-- **Mensaje aviso en voluntarias**: 
+- **Mensaje aviso en voluntarias**:
 - **Aviso si no hay telf. o email en cliente**: Muestra alerta por haber dejado sin rellenar alguno de los campos indicados. Indica que no se podrá contactar con el cliente de ninguna forma si no se rellena al menos uno de los campos.
 
 - **Dias a fecha caducidad AVISO**: Muestra alerta de que aún faltan más de x días para pasar la ITV nuevamente. Los días se toman de la consulta realizada a la DGT previamente.
@@ -309,7 +321,7 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Presentar fecha nacimiento en cliente**: Habilita el campo de "fecha nacimiento" en la sección de datos de alta del cliente, que en caso de rellenarse se almacena en la ficha del cliente.
 
 Posteriormente puede ser usada la opción para mandar recordatorios de cumpleaños (solo recordatorios enviados desde creativa).
-- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido. 
+- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido.
 - **Presentar cliente cuando no hay DNI**: Muestra un dialogo para introducir los datos de un nuevo cliente si en el campo DNI/CIF no hay ninguno.
 
 **Caja y cuentas de cobro**
@@ -330,6 +342,7 @@ Configuración de la pantalla que muestra el listado de vehículos pendientes de
 
 Esta es una captura de la pantalla accesible mediante el menú `*Archivo > Gestión > Listado de vehículos a inspeccionar*` que tienen los equipos de línea o final de línea.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/archivo-opciones-listado_de_vehiculos_a_inspeccionar.png -->
 ![Pantalla de listado de vehículos a inspeccionar que tienen los inspectores en los equipos de línea o final de línea](images/archivo-opciones-listado_de_vehiculos_a_inspeccionar.png)
 
 En la pantalla de configuración se pueden establecer los siguientes parámetros:
@@ -338,10 +351,12 @@ Tamaño de fuente de letra para cada una de las tres vistas disponibles en la pa
 
 Si no se especifica nada en el campo, se usará "16" que es el valor por defecto.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png -->
 ![Pantalla de configuración del listado de vehículos](images/menu-archivo-opciones-comunicacion_Listado-de-vehiculos.png)
 
 ##### Recordatorios
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-recordatorios_formulario-principal.png -->
 ![alt text](images/menu-archivo-opciones-comunicacion-recordatorios_formulario-principal.png)
 
 Permite configurar los parámetros necesarios para el envío de recordatorios a los clientes de la estación.
@@ -384,12 +399,13 @@ También se pueden utilizar los campos de combinación que se muestran al final 
 
     Creativa Digital 360 provee de un servicio complementario e integrado totalmente con el programa, que permite realizar envíos personalizados con seguimiento y ofertas incluidas para atraer al cliente.
 
-    Más información: https://creativadigital360.com 
+    Más información: https://creativadigital360.com
 
 ##### Vídeo público
 
 Es una característica especial de Creativa. Permite reproducir un video con una sobreimpresión de datos útiles para los clientes que están esperando en la sala de espera. Está pensado para ser usado en pantallas grandes o televisores que disponen de entrada HDMI conectados a un equipo donde se ejecuta Creativa Digital 360 ITV. Este equipo está dedicado solo a esta función.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-video_publico.png -->
 ![Configuración de la pantalla de Video público](images/menu-archivo-opciones-comunicacion-video_publico.png)
 
 Los parámetros de configuración son:
@@ -419,6 +435,7 @@ Los parámetros de configuración son:
 
 Configuración de la integración con el sistema de cita previa de Creativa Digital 360.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo-opciones-comunicacion-cita_previa.png -->
 ![Configuración de la cita previa](images/menu-archivo-opciones-comunicacion-cita_previa.png)
 
 Los parámetros de configuración son:
@@ -450,6 +467,7 @@ Estas opciones afectan al comportamiento general de la estación y a todos los e
 
 #### Opciones globales
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales.png -->
 ![Menú opciones globales](images/menu-archivo_opciones-globales.png)
 
 Permite configurar las opciones generales de la estación de ITV.
@@ -459,6 +477,7 @@ Las opciones se encuentran agrupadas en diferentes secciones o pestañas.
 
 Configuración de los logos y documentos que se usan en los documentos impresos.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_logos_y_documentos.png -->
 ![Logos y documentos](images/menu-archivo_opciones-globales_logos_y_documentos.png)
 
 - **Logotipo**: Logo que se imprimirá en la cabecera del informe de inspección.
@@ -481,6 +500,7 @@ Configuración del certificado digital que se usará para firmar los documentos 
 
     Si la estación firma digitalmente los documentos tras su escaneo no es necesario configurar este certificado digital.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_opciones-globales_certificado_digital_documentos.png -->
 ![Certificado digital documentos](images/menu-archivo_opciones-globales_certificado_digital_documentos.png)
 
 - **Certificado documentación expedientes**: Selección del certificado digital instalado en el equipo que se usará para firmar los documentos electrónicos generados por la estación de ITV.

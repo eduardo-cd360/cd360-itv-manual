@@ -1,5 +1,6 @@
 # Módulo Control Horario
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/modulos/images/reloj-fichaje.png -->
 ![reloj-de-fichar](images/reloj-fichaje.png)
 
 ## Que es el módulo de control horario
@@ -16,7 +17,7 @@ El control horario de creativa puede ser usado por todos los usuarios de la esta
 
 Los usuarios normales pueden realizar marcajes y consultarlos. No tienen permitido realizar más operaciones.
 
-Los usuarios administradores o los que tienen permisos para gestionar el control horario, pueden además de realizar sus marcajes, realizar labores de configuración y mantenimiento del sistema de control horario. 
+Los usuarios administradores o los que tienen permisos para gestionar el control horario, pueden además de realizar sus marcajes, realizar labores de configuración y mantenimiento del sistema de control horario.
 
 ### **Marcajes automáticos de entrada**
 
@@ -68,7 +69,7 @@ Todos los puntos de esta sección son para el uso por parte de administradores o
 
 El control horario solo funcionará correctamente con usuarios que cumplan ciertos requisitos, por lo que previamente al uso de este módulo, se deben comprobar los siguientes elementos de esta lista:
 
-- **Listado de usuarios actualizado**. Disponible desde el menú *Archivo \> Seguridad \> Usuarios*. Asegurarse de que están todos activos y desactivar los que ya no estén trabajando en la estación.  
+- **Listado de usuarios actualizado**. Disponible desde el menú *Archivo \> Seguridad \> Usuarios*. Asegurarse de que están todos activos y desactivar los que ya no estén trabajando en la estación.
 - **Los usuarios deben tener DNI**. Todos los usuarios que vayan a utilizar el servicio de control horario, deben tener asignado un DNI. Desde el menú *Mantenimiento \> Gestión de Usuarios \> Propiedades de los usuarios*, se puede acceder a cada usuario para añadir su DNI.
 
 Se selecciona el usuario y se pulsa *Editar datos personales* (que sea un usuario real) y se cumplimenta el campo DNI.
@@ -97,9 +98,9 @@ Para la creación de un nuevo horario, pulsar Nuevo y cumplimentar los campos di
 
 ![][image6]
 
-- **ID**: nº de horario. Si no se especifica, el programa asigna automáticamente este nº.  
-- **Nombre**: Denominación que queremos dar a este horario y que servirá para identificarlo en otras partes del programa.  
-- **Hora de entrada y de salida**: La hora en la que comienza la jornada laboral y termina.  
+- **ID**: nº de horario. Si no se especifica, el programa asigna automáticamente este nº.
+- **Nombre**: Denominación que queremos dar a este horario y que servirá para identificarlo en otras partes del programa.
+- **Hora de entrada y de salida**: La hora en la que comienza la jornada laboral y termina.
 - **Inicio y fin del descanso**: En el caso de ser jornadas en las que hay una interrupción (comida por ejemplo), la hora de comienzo y de fin de la pausa.
 
 Una vez introducidos los datos, pulsar sobre el botón *Aceptar (aspa verde)*, y a continuación en *Salir*.
@@ -144,9 +145,9 @@ Con este proceso se asocia un identificador a un usuario.
 
 Para realizar el alta, pulsa en Nuevo y cumplimenta los campos:
 
-- **Cod. Usuario**: Selecciona un usuario de la lista.  
-- **Tipo de ID**: elige si es PIN, Tarjeta..  
-- **ID**: escribe el PIN deseado o pasa la tarjeta por el lector conectado al equipo y se rellenará.  
+- **Cod. Usuario**: Selecciona un usuario de la lista.
+- **Tipo de ID**: elige si es PIN, Tarjeta..
+- **ID**: escribe el PIN deseado o pasa la tarjeta por el lector conectado al equipo y se rellenará.
 - **Fecha de Inicialización**: Se establecerá de forma automática al guardar con la fecha actual o bien, establecer la fecha real de alta del identificador.
 
 ![][image10]
@@ -185,7 +186,7 @@ El usuario realizará los diferentes marcajes de la siguiente forma:
 
 Marcaje de entrada:
 
-- De forma automática: Utilizando la aplicación de escritorio, la primera vez que inicie la sesión (seleccione su usuario e introduzca la contraseña) en el día. Los inspectores, de forma similar en la tablet al introducir su usuario y contraseña la primera vez.  
+- De forma automática: Utilizando la aplicación de escritorio, la primera vez que inicie la sesión (seleccione su usuario e introduzca la contraseña) en el día. Los inspectores, de forma similar en la tablet al introducir su usuario y contraseña la primera vez.
 - De forma manual: En un ordenador específico con la pantalla de marcajes visible, usando el selector de usuario e introduciendo la contraseña correspondiente o bien introduciendo un identificador (PIN, Tarjeta, etc.).
 
 Resto de marcajes:

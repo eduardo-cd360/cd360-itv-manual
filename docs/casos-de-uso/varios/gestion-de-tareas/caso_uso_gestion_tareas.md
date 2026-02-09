@@ -2,6 +2,7 @@
 
 La gestión de tareas está disponible al iniciar la aplicación, como una ventana flotante, donde se muestran las diferentes tareas activas o realizadas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/gestion-de-tareas/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Ilustración 1 - Lista de eventos de tarea
@@ -22,6 +23,7 @@ Marcar la tarea como completada
 
 Situado en la ventana de Tareas, pulsar sobre el botón +Nuevo y cumplimentar los campos que aparecen.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/gestion-de-tareas/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Ilustración 2 - Crear evento nuevo
@@ -44,12 +46,14 @@ Descripción permite escribir otros datos necesarios para poder completar la tar
 
 A continuación tras guardar se añaden Avisos si es necesario.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/gestion-de-tareas/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 Ilustración 3 - Pantalla de avisos del evento
 
 Se pulsa sobre Nuevo o Editar si se quiere modificar uno existente.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/gestion-de-tareas/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 Ilustración 4 - Nuevo aviso
@@ -60,6 +64,7 @@ Se establece la fecha y hora del aviso y si se desea que se muestre el aviso en 
 
 Cuando se ha realizado la tarea, se accede a ella haciendo doble clic sobre el evento y se marca la casilla completado.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/gestion-de-tareas/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Ilustración 5 - Marcar tarea como terminada

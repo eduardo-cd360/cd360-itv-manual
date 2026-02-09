@@ -12,10 +12,12 @@ Cada método de envío, dispone de una plantilla o texto maestro que debe adapta
 
 Todos los envíos de recordatorios, sean del tipo que sean se pueden emitir accediendo al menú `Consultas > Recordatorios > Recordatorios`.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/menu-recordatorios.png -->
 ![](images/menu-recordatorios.png)
 
 Desde la pantalla de la consulta, especificar el rango entre fechas (en que les caducará la ITV) y elegir una de las opciones según sea el caso.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/menu-recordatorios-consulta.png -->
 ![](images/menu-recordatorios-consulta.png)
 
 * **Todos**: En el listado se mostrarán todos los vehículos y es válido para emitir recordatorios por correo postal.
@@ -32,6 +34,7 @@ Una vez obtenido el listado de vehículos (con los respectivos datos del titular
 > El listado resultante, puede ser filtrado, de la misma forma que en cualquier pantalla de tabla mostrada en la aplicación.
 
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/menu-recordatorios-botones-envio.png -->
 ![](images/menu-recordatorios-botones-envio.png)
 
 **Envío de recordatorios por SMS o Email**

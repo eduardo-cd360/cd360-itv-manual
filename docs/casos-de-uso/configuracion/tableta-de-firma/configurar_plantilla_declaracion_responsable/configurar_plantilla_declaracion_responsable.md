@@ -6,6 +6,7 @@ En CREATIVA3D ITV se puede obtener desde la pantalla de Inspecciones por fecha.
 
 Para configurar el texto que aparece en la declaración, se accede a la configuración en:
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/tableta-de-firma/configurar_plantilla_declaracion_responsable/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Escribir en el campo de texto y con ayuda del editor, los textos necesarios. En el anexo está disponible el texto editable para poder copiar y pegar.

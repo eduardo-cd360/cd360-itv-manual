@@ -15,6 +15,8 @@ Para localizar las facturas mensuales o de cualquier otro tipo, se puede utiliza
 
 Las tareas que se pueden realizar con las facturas están repartidas en pestañas según su funcionalidad:
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-2.png -->
+
 ### Pestaña Principal
 
 ![Pestaña Principal](./images/gestion-facturas-2.png)
@@ -26,6 +28,8 @@ Las tareas que se pueden realizar con las facturas están repartidas en pestaña
 - **Cobrar factura:** Genera un movimiento de caja y deja la factura como cobrada.
 - **Marcar cobrada / no cobrada:** Cuando son facturas de crédito (diferentes de contado o tarjeta de crédito) las da por cobradas o por no cobradas. Se utiliza con las cuentas de crédito.
 - **Rectificar:** Seleccionando una factura cobrada previamente, pulsando este botón se genera una factura negativa o rectificativa por el valor total de la factura seleccionada. En caso de querer una rectificación parcial, habrá que eliminar los conceptos que no se rectifican y corregir el importe abonado en observaciones a cuenta.
+
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-3.png -->
 
 ### Pestaña Informes
 
@@ -41,6 +45,7 @@ Las tareas que se pueden realizar con las facturas están repartidas en pestaña
 
 ### Exportar
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-4.png -->
 ![Exportar](./images/gestion-facturas-4.png)
 
 Estas opciones permiten generar listados para diferentes programas de contabilidad.
@@ -72,6 +77,7 @@ Para realizar una factura de forma manual se pulsa sobre el botón **Nuevo+**, q
 
 ![Formulario nueva factura](./images/gestion-facturas-5.png)
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-5.png -->
 
 Se cumplimentarán los siguientes campos:
 
@@ -124,5 +130,3 @@ Creativa permite generar facturas de forma automática a clientes de crédito, c
 Este proceso genera las facturas correspondientes a cada cliente de crédito, con los conceptos y cantidades correspondientes a las inspecciones realizadas (en albaranes) durante el periodo de facturación. Las facturas generadas se pueden revisar, modificar si es necesario, y posteriormente marcar como cobradas, enviar por email, etc.
 
 Con la facturación mensual realizada y haciendo uso de la forma de pago presente en la ficha de cliente, se pueden realizar remesas bancarias para cobrar las facturas generadas. Para ello, se utiliza el proceso de remesas bancarias, que se encuentra en el menú **Facturación > Remesas bancarias**.
-
-

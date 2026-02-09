@@ -16,6 +16,7 @@ Para poder trabajar con esta característica, es necesario dar de alta a todos l
 
 Para asignar a los inspectores sus correspondientes cualificaciones, se debe acceder a la tabla de cualificación de inspectores, disponible en *`Mantenimiento/Maestras/Cualificación de usuarios`*.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cualificacion-de-inspectores/images/tabla-cualificaciones-de-usuarios.png -->
 ![Tabla de cualificaciones de usuarios](images/tabla-cualificaciones-de-usuarios.png)
 
 Desde esta pantalla se pueden realizar las acciones:
@@ -28,6 +29,7 @@ Desde esta pantalla se pueden realizar las acciones:
 ## Alta manual de inspectores y categorias
 Para dar de alta un nuevo inspector, pulsa sobre Nuevo, selecciona a que usuario (de tipo inspector) se le asigna una cualificación, categoría y subcategoría y la fecha de caducidad de esta.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cualificacion-de-inspectores/images/formulario-alta-cualificacion-usuario.png -->
 ![Formulario de alta de una cualificación a un usuario](images/formulario-alta-cualificacion-usuario.png)
 
 Repite este paso para cada una de las categorías que se quieran dar de alta, para cada uno de los inspectores.
@@ -35,10 +37,12 @@ Repite este paso para cada una de las categorías que se quieran dar de alta, pa
 ALTA DE FORMA AUTOMÁTICA DE INSPECTORES Y SUS CATEGORIAS
 Para realizar de forma automática el alta de varios inspectores y sus categorías, pulsa Añadir categorías.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cualificacion-de-inspectores/images/tabla-de-seleccion-usuarios-cualificacion-automatica.png -->
 ![Tabla de selección de usuarios](images/tabla-de-seleccion-usuarios-cualificacion-automatica.png)
 
 Selecciona las filas correspondientes a los inspectores y pulsa Aceptar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cualificacion-de-inspectores/images/tabla-cualificaciones-de-usuario-categorias.png -->
 ![Tabla de usuarios y categorias de cualificación](images/tabla-cualificaciones-de-usuario-categorias.png)
 
 Para finalizar, introducir la fecha de caducidad de las cualificaciones de cada categoría para cada inspector pulsando sobre Actualizar Fecha.
@@ -49,4 +53,5 @@ Para finalizar, introducir la fecha de caducidad de las cualificaciones de cada 
 
 Quedando introducidas todas las fechas iguales de una sola vez.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cualificacion-de-inspectores/images/tabla-cualificaciones-actualizacion-fecha.png -->
 ![Actualización de fechas](images/tabla-cualificaciones-actualizacion-fecha.png)

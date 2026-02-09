@@ -1,7 +1,7 @@
 # Emisión de certificados digitales
 
 En Creativa Digital 360 S.L. emitimos certificados digitales tanto para personas físicas como jurídicas permitiendo relacionarse con la Agencia Tributaria y el resto de administraciones públicas a través de sus sedes electrónicas.
-No es necesario desplazarse a las dependencias de la Administración pública para acreditar su identidad, todo el trámite lo hacemos nosotros desde nuestras oficinas. 
+No es necesario desplazarse a las dependencias de la Administración pública para acreditar su identidad, todo el trámite lo hacemos nosotros desde nuestras oficinas.
 
 **Creativa Digital 360 SL  como Autoridad  de  Registro  del  Prestador  de  Servicios  de Confianza Cualificado Uanataca**, puede emitir certificados digitales gestionando de forma autónoma toda la documentación relativa al reconocimiento y contratos.
 
@@ -48,6 +48,7 @@ La documentación que se debe aportar en el momento de la solicitud son:
   - DNI, NIE, Pasaporte o documento válido. No puede estar caducado, deteriorado o no legigle.
   - Email de empresa o email personal. El certificado es personal e intransferible, no se emitirán con direcciones de email genericas o compartidas. Ej.: ~~administracion@empresa.com~~.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/Servicios/certificados-electronicos/sello_garantía_uanataca@0.5x.png -->
 ![Sello confianza Uanataca](sello_garantía_uanataca@0.5x.png "Sello confianza Uanataca")
 
 *En el caso de administradores mancomunados que solicitan certificados, es necesario disponer de un documento de autorización entre ellos autorizando al solicitante firmado por 2/3 de los socios, o bién estar la solicitud de petición de certificados formada por 2/3 de los administradores.

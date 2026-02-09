@@ -20,6 +20,7 @@ El documento RGPD que firma el cliente contiene un texto legal que debe especifi
 
 Para cambiar el contenido de dicho documento se debe acceder al menú Archivo/Opciones/Altas de inspección/Plantilla RGPD.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/tableta-de-firma/personalizar_texto_tablet_firma/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Dentro del editor se debe escribir todo el texto legal que se debe mostrar en el documento una vez firmado.
@@ -40,6 +41,7 @@ Solicitud de apertura de expediente y retirada.
 
 Declaración responsable.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/tableta-de-firma/personalizar_texto_tablet_firma/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Este texto es personalizable dentro de la aplicación de creativa3D ITV y debe establecerse para cada uno de los equipos que tienen la tableta de firma.

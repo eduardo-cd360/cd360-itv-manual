@@ -24,6 +24,7 @@ Para la creación de un nuevo documento tenemos que acceder a **Archivo > opcion
 
 Una vez ahí pulsamos en **Nuevo**.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/crearNuevoDocumento.png -->
 ![Nuevo documento](images/crearNuevoDocumento.png)
 
 En la pestaña general podemos configurar:
@@ -39,6 +40,7 @@ En la pestaña general podemos configurar:
 
     Si los check de adjuntar al gestor documental y el de vista previa están sin seleccionar, la pestaña de **Plantilla documento** aparecerá deshabilitada. Este caso es únicamente para recoger la firma del cliente sin necesidad de asociarla a ningún documento. Es necesario tener activo el módulo de firma tableta.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/crearNuevoDocumentoGeneral.png -->
 ![Nuevo documento general](images/crearNuevoDocumentoGeneral.png)
 
 Una vez que hayamos configurado los puntos anteriores, pasamos a la pestaña **Plantilla documento.**
@@ -49,17 +51,19 @@ Aquí podremos adjuntar ficheros .pdf ó configurar un HTML.
 
     !!! Info "Campos rellenables automáticos"
 
-        Para generar campos que se rellenen automáticamente al generar el documento, se puede utilizar el botón de **ayuda campos**. 
+        Para generar campos que se rellenen automáticamente al generar el documento, se puede utilizar el botón de **ayuda campos**.
         En el caso de los pdf, es necesario configurar anteriormente el documento base como formulario editable en el que la ref. de cada campo corresponda con las combinaciones disponibles.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoPlantillaDocumentoPdf.png -->
 ![Nuevo documento plantilla pdf](images/panelDocNuevoPlantillaDocumentoPdf.png)
 
     Una vez que el fichero haya sido añadido, el icono del documento cambiará de la lupa a un check.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoPlantillaDocumentoPdfAdjunto.png -->
 ![Nuevo documento plantilla pdf](images/panelDocNuevoPlantillaDocumentoPdfAdjunto.png)
 
 
-- **Ficheros HTML.** En este caso, podemos escribir directamente en el editor el texto que queremos configurar. 
+- **Ficheros HTML.** En este caso, podemos escribir directamente en el editor el texto que queremos configurar.
 
     !!! Info "Campos rellenables automáticos"
 
@@ -69,6 +73,7 @@ Aquí podremos adjuntar ficheros .pdf ó configurar un HTML.
 
         En el caso de los documentos HTML, éstos se generarán con un encabezado con los datos de la estación y el cliente, y un pie de página con la firma y fecha de firma.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoPlantillaDocumentoHTML.png -->
 ![Nuevo documento plantilla HTML](images/panelDocNuevoPlantillaDocumentoHTML.png)
 
 Pestaña **Plantilla tableta**
@@ -79,21 +84,24 @@ Desde aquí podemos configurar el texto que aparece en la pantalla de la tableta
 
         Hay que tener en cuenta que la pantalla de la tableta de firma es limitada, por lo que hay que verificar si el texto configurado no se sale del espacio de la tableta. Si el texto es demasiado largo, hay que configurarlo con saltos de línea.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoPlantillaTableta.png -->
 ![Nuevo documento plantilla HTML](images/panelDocNuevoPlantillaTableta.png)
 
 Finalmente en la pestaña **Observaciones**, podemos anotar un resumen sobre el tipo de documento. Es un campo opcional.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoObservaciones.png -->
 ![Nuevo documento observaciones](images/panelDocNuevoObservaciones.png)
 
 Para confirmar el documento, debemos pulsar en el check verde que aparece en la parte baja de la ventana. Y el proceso quedaría finalizado.
 
 ### Uso de documentos personalizados
-Para utilizar los documentos personalizados creados en el apartado anterior, debemos situarnos en la ventana de **Inspecciones por fecha, expedientes ó clientes**, dependiendo de la ventana que hayamos configurado al dar de alta el documento en **Pantalla correspondiente.** 
+Para utilizar los documentos personalizados creados en el apartado anterior, debemos situarnos en la ventana de **Inspecciones por fecha, expedientes ó clientes**, dependiendo de la ventana que hayamos configurado al dar de alta el documento en **Pantalla correspondiente.**
 
 - Ejemplo de generación de un documento desde **Inspecciones por fecha.**
 
     Para generar un documento que hayamos configurado previamente, debemos seleccionar la inspección a la que se lo queremos asignar, y pinchar sobre el botón **Documentos ó Documentos firma** (esto depende de la versión).
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/generarDocumento.png -->
 ![Generar documento](images/generarDocumento.png)
 
     Una vez hecho eso, nos aparecerá un desplegable en el que dispondremos de todos los documentos disponibles para inspecciones.
@@ -101,4 +109,5 @@ Para utilizar los documentos personalizados creados en el apartado anterior, deb
 
 Éste sería un ejemplo de documento pdf autorrellenable generado.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/ejemploDocumento.png -->
 ![Documento ejemplo](images/ejemploDocumento.png)

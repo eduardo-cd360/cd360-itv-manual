@@ -6,6 +6,7 @@ La opción presente en el menú de Creativa3D ITV, Gestión / Lista de vehículo
 
 Está dividida en varias columnas, que se pueden ver con mayor o menos información según la vista que se elija de entre las tres disponibles: 3 columnas, 2 columnas y listado completo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Ilustración 1. Vista 3 columnas
@@ -40,6 +41,7 @@ En el caso de que la cita no este correcta, verificar si debe estar o no marcado
 
 Si el cliente es un taller, se dispone de la casilla ¿Mecánico? en la pantalla de alta de inspección. Para que los inspectores pueden diferenciar los vehículos que son de un taller de los que no lo son, debe marcarse esta casilla.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Ilustración 2. Opción a marcar si es un taller
@@ -48,20 +50,24 @@ Ilustración 2. Opción a marcar si es un taller
 
 El inspector, mediante una de las vistas disponibles en la pantalla del listado de vehículos a inspeccionar, puede observar la información relativa a cada vehículo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 Ilustración 3. Selector de vista
 
 Según la vista elegida, en cada sección se mostrará el listado de vehículos correspondiente, que entre otras columnas, muestra la fecha y hora de la cita previa y si el vehículo lo trae un taller (mecánico).
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 Ilustración 4. Vista 3 columnas
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Ilustración 5. Vista 2 Columnas
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/listado-vehiculos-inspeccionar/images/image_6.png -->
 ![Imagen 6](./images/image_6.png)
 
 Ilustración 6.Vista completa

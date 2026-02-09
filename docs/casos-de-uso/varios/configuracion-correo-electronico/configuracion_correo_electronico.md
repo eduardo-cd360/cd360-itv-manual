@@ -18,10 +18,12 @@ Enviar recordatorios por correo electrónico
 
 Acceder a la configuración de Correo y SMS
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Pulsar sobre “Nuevo” si no existe ningún correo o “Editar” para modificar la configuración de una cuenta nueva.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Cumplimentar los campos de correo entrante y saliente si se quiere usar Creativa3D para ver gestionar la cuenta de correo completamente, o solamente el correo saliente, si solo se quiere enviar correos.
@@ -67,10 +69,12 @@ En el caso de que se produzcan errores con los tipos de seguridad o los puertos,
 
 Para recibir y enviar correos de forma genérica se puede comprobar mediante el cliente de correo que incorpora el programa.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 Desde esta pantalla se puede enviar y recibir correo (si el correo entrante se ha configurado)
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 Pulsando sobre el botón “Nuevo”, aparece la pantalla de composición de mensajes, en donde se puede redactar como si de cualquier otro gestor de correo electrónico se tratase.
@@ -81,18 +85,22 @@ Para utilizar las funciones de CRM de Creativa, en especial el correo para comun
 
 Primeramente, localizamos al cliente a enviar el correo
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Se puede iniciar el cliente desde el botón “Mail”.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_6.png -->
 ![Imagen 6](./images/image_6.png)
 
 Y redactar el correo como en cualquier cliente de correo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_7.png -->
 ![Imagen 7](./images/image_7.png)
 
 O bien, se puede editar el cliente y acceder al CRM.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/configuracion-correo-electronico/images/image_8.png -->
 ![Imagen 8](./images/image_8.png)
 
 Y tomar notas, enviarle emails, crear tareas relacionadas o incluso asociarle documentos.

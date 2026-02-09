@@ -34,6 +34,7 @@ En esta nueva actualización se incluyen entre otras correcciones y mejoras las 
 
 - Se implementa el bloqueo de cuenta de usuario por intentos excesivos de autenticación. Si el usuario intenta entrar más de 5 veces con una contraseña errónea, se bloquea su cuenta por 60 min. Será necesario desbloquearla por una persona con rol de Administrador tener acceso inmediato. Se recomienda un cambio de contraseña en ese caso.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/acerca-de/notas-de-la-version/images/version-2025-5_mensaje-de-bloqueo-de-cuenta.png -->
 ![Mensaje-de-bloqueo-de-cuenta](images/version-2025-5_mensaje-de-bloqueo-de-cuenta.png)
 
 El administrador del sistema debe acceder a la opción de menú de _Archivo > Seguridad_, elegir al usuario bloqueado y pulsar sobre el botón de desbloqueo. Si no se conoce el acceso mediante Administrador, solicitarnoslo por soporte en soporte.creativadigital360.com
@@ -44,10 +45,12 @@ Se han creado dos mensajes para que salga el momento en la última vez que hicis
 
 En el escritorio sale arriba de la ventana principal
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/acerca-de/notas-de-la-version/images/version-2025-5_mensaje-ultimo-acceso.png -->
 ![Mensaje último acceso](images/version-2025-5_mensaje-ultimo-acceso.png)
 
 En la tablet al momento de conectar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/acerca-de/notas-de-la-version/images/version-2025-5_mensaje-en-tablet.png -->
 ![Mensaje en tablet](images/version-2025-5_mensaje-en-tablet.png)
 
 

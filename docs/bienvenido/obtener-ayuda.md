@@ -6,6 +6,7 @@ Los clientes que tengan contratado el sistema de cita previa, también tienen di
 
 ## Menú _Ayuda_ de la aplicación de escritorio CD360ITV:
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/bienvenido/images/menu-ayuda-manual-cd360itv.png -->
 ![Menú para acceder al manual de Creativa Digital 360 ITV](images/menu-ayuda-manual-cd360itv.png){ width="400"}
 
 - Manual Procedimiento, se descarga el manual de procedimiento de inspección de ITV en vigor de la DGT en formato PDF.

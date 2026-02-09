@@ -12,14 +12,17 @@ La creación de reglas permite establecer para una o varias clasificaciones:
 
 Para crear una regla accede a *`Mantenimiento/Maestras/Clasificaciones`*
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cambiar-periodicidad-a-una-clasificación-en-concreto/images/creativa3d-menu-mantenimiento-maestras-clasificaciones.png -->
 ![Menú de acceso a clasificaciones](images/creativa3d-menu-mantenimiento-maestras-clasificaciones.png "Menú de acceso a las clasificaciones")
 
 En esta pantalla se muestran las reglas ya creadas (que afectan a alguna clasificación o a varias) y se pueden editar las existentes o crear nuevas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cambiar-periodicidad-a-una-clasificación-en-concreto/images/creativa3d-tabla-clasificaciones.png -->
 ![Lista de clasificaciones disponibles](images/creativa3d-tabla-clasificaciones.png "Lista de clasificaciones disponibles")
 
 Pulsa sobre el botón [+ Nuevo] y cumplimenta los datos del formulario como sigue:
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/cambiar-periodicidad-a-una-clasificación-en-concreto/images/creativa3d-tabla-clasificaciones-nuevo.png -->
 ![Formulario de edición/creación de una nueva claasificación](images/creativa3d-tabla-clasificaciones-nuevo.png "Formulario de edición/creación de una nueva claasificación")
 
 En la sección de filtro, selecciona una clasificación por construcción, una clasificación por utilidad y opcionalmente una categoría si es que esa clasificación pudiese ser varias.

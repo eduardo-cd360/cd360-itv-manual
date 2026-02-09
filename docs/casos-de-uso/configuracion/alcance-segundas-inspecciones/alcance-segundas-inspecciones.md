@@ -12,10 +12,12 @@ Es aplicable tanto para inspecciones de la propia estación como de las que vien
 
 Para introducir defectos en una inspección de 2º orden, duarante el alta de una inspección se debe utilizar el botón [D] que hay a la derecha del campo Nº de informe anterior.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-altas-inspeccion-anterior.png -->
 ![](images/creativa3d-altas-inspeccion-anterior.png)
 
 En esta pantalla se deberán introducir todos los defectos que haya en el informe que presenta el cliente de la otra estación.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-altas-inspeccion-anterior-defectos.png -->
 ![](images/creativa3d-altas-inspeccion-anterior-defectos.png)
 
 > Las inspecciones de 2º orden de nuestra estación, de forma automática adquieren los defectos de la 1º desfavorable.
@@ -26,10 +28,12 @@ El alta de debe de terminar de forma habitual.
 
 Para modificar el alcance que se muestra a los inspectores cuando se realiza una inspección de 2º orden se deben modificar los registros de la tabla "Alcance de segundas inspecciones"
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones.png -->
 ![](images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones.png)
 
 En esta tabla hay un conjunto de registros que permiten asignar por cada Grupo de defectos, numero de defecto e incluso número de descripción de defecto, que puntos deben ser comprobados.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones-tabla.png -->
 ![](images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones-tabla.png)
 
 En esta tabla se pueden modificar o añadir registros nuevos, en el caso de ser necesarios.
@@ -41,6 +45,7 @@ En esta tabla se pueden modificar o añadir registros nuevos, en el caso de ser 
 
 Para modificar un alcance de un defecto en concreto, se selecciona el defecto, (por ejemplo el 4.1) y se pulsa sobre editar (o un doble clic con el ratón) y se escriben los grupos o defectos separados por comas, como se muestra en la imagen.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones-tabla-edicion.png -->
 ![](images/creativa3d-mantenimiento-maestras-alcance_segundas_inspecciones-tabla-edicion.png)
 
 > Usar el número o ID de descripción de defecto, aunque es posible, en la práctica no se utiliza porque entonces habría que especificar un alcance por cada una de las descripciones.

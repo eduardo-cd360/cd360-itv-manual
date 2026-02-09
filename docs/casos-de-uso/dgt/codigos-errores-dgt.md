@@ -81,7 +81,7 @@ Error de los sistemas de compra internos en la DGT, las tasas que se están trat
 
 **Solución**: Enviar una incidencia a la DGT siguiendo el <a href="#procedimiento-estándar-de-resolución-de-incidencia-de-la-dgt-easyvista" target="_blank">procedimiento estándar</a>. Antes de enviar una incidencia, comprobar que no se está usando una tasa ya asignada. Para comprobarlo, acceder a `Gestión>DGT>Tasas usadas` y buscar la tasa que tiene asignada la inspección que da este error. Si aparece más de una vez, bastará con eliminar de la inspección actual, la tasa usada.
 
-> Para eliminar una tasa de una inspección que no se sube, editar la inspección, y en la pestaña 
+> Para eliminar una tasa de una inspección que no se sube, editar la inspección, y en la pestaña
 
 En caso de estar todo bien, debe mandarse un correo electrónico a las direcciones siguientes y con copia a AECA.
 
@@ -115,7 +115,7 @@ Corregir el dato referente al servicio al que va destinado el vehículo. Añadir
 
 Se produce durante el "Borrado de anotación ITV" (solo disponible para inspecciones previamente anotadas con resultado FAVORABLE.
 
-**Solución:** 
+**Solución:**
 
 Revisar la solicitud de borrado y poner en <tipoAnotacion> el valor I. (Informar a Creativa de este error)
 
@@ -164,7 +164,7 @@ Anotar reforma 11.00 cambiando la clasificación de industria a XX05 y/o servici
 
 Relativo a reformas. El servicio del vehículo no es compatible con la clasificación.
 
-**Solución:** 
+**Solución:**
 
 Anotar reforma 11.00 cambiando la clasificación de industria a XX05 y/o servicio a A03
 
@@ -183,7 +183,7 @@ Relativo a anotación en la DGT. La inspección de 2º orden o sucesivo, se inte
 **Solución:**
 
 Se ha pasado el plazo de 60 días** para la subsanación de la desfavorable. Debe anotar una inspección periódica pagando una tasa. Es decir, una nueva inspección.
- 
+
 **PENDIENTE DE MODIFICAR PLAZO A 2 MESES PARA CUMPLIR CON el RD 920/2017. SE AVISARÁ CUANDO SE REALICE LA MODIFICACIÓN Y SE ENVIARÁ DOCUMENTO ACTUALIZADO
 
 ### ATRI0324 Error, el bastidor introducido no coincide con el real del vehículo
@@ -319,7 +319,7 @@ Solución:
 
 Es un error temporal de sus servicios.
 
-Solución: 
+Solución:
 
 1. Acceder a `Gestión>DGT>Tasas Compras` y comprobar que no haya habido cargos en el banco en la fecha de la compra que indica la línea con el error.
 
@@ -337,6 +337,7 @@ El error que se muestra en Creativa es:
 
 Si se accede a `Gestión > DGT > Tasas compras`, se puede ver que hay una línea con error, y que dicha línea no tiene ninguno de los tres códigos: nrc, numeroautoliquidación y justificante.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/tasas-dgt-error-comunicacion-timeout.png -->
 ![](images/tasas-dgt-error-comunicacion-timeout.png)
 
 En este caso, se puede eliminar dicha línea para que se inicie de nuevo el proceso de compra con la siguiente inspección terminada. Si se desea, se puede forzar una subida a la DGT desde inspecciones por fecha.
@@ -351,57 +352,57 @@ Es un error al tratar de comprar tasas la aplicación de Creativa. Es devuelto p
 
 
 ### INDI1031: Recibido un valor nulo no permitido en {numeroTasa}.
-	
+
 
 Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 ### INDI1032: Se ha producido un error en la conexión con host.
-	
+
 
 Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 ### INDI1091: Número de tasa no existente en el sistema
-	
+
 La tasa asignada a la inspección no existe en trafico. Elimina la tasa asociada a la inspección para que el programa asigne otra tasa válida cuando se intente la subida de nuevo pulsando el botón DGT.
 
 ### INDI1092: El importe de la tasa recibida no coincide con el precio actual de la tasa.
-	
+
 
 Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 ### INDI1093: Aplicación llamante no válida.
-	
+
 
 Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 ### INDI1094: El identificador del comprador no coincide con el registrado previamente en INDI.
-	
+
 
 Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 ### INDI1095: Trámite no autorizado para aplicar el tipo de tasa solicitado.
-	
+
 
 Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 ### INDI1097: La tasa no es aplicable.
-	
+
 
 Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 ### INDI1467: La fecha de aplicación no puede ser posterior a la fecha actual.
-	
+
 
 Cambiar la fecha para poner una fecha válida e intentar de nuevo la anotación
 
 ### INDI1468: El importe de la tasa no coincide con el precio de la tasa para la fecha de aplicación. Es necesaria una actualización de la tasa. Por favor, contacte con el equipo de soporte.
 
-**Causa:** Esto ocurre porque hay alguna tasa devuelta por la DGT (mediante incidencia) que es de otro año al actual. Cualquier tasa que no sea del año actual tendrá que ser actualizada antes de poder volver a ser utilizada.	
+**Causa:** Esto ocurre porque hay alguna tasa devuelta por la DGT (mediante incidencia) que es de otro año al actual. Cualquier tasa que no sea del año actual tendrá que ser actualizada antes de poder volver a ser utilizada.
 
 **Solución:** Actualizar la tasa previamente a intentar de nuevo la anotación
 
 ### INDI1469: Error en la aplicación de la tasa. No se puede calcular el importe de la tasa para la fecha de aplicación. Por favor, contacte con el equipo de soporte.
-	
+
 
 Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
@@ -410,29 +411,29 @@ Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 
 ### INDI3939: La tasa no es reaplicable al trámite seleccionado, la tasa esta ya aplicada.
-	
+
 
 Cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 > No siempre el fallo es de la estación. Remitir las tasas afectadas a la DGT mediante una incidencia. Esperar contestación y realizar el cambio de tasa solo en las que no se hayan reactivado o podido subir.
 
 ### INDI5000 Se ha producido un problema interno en la aplicación. Póngase en contacto con el equipo de soporte
-	
+
 
 Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 ### INDI6017 Identificador del trámite no válido para aplicar la tasa ya que sobre la misma hay realizada una desaplicación parcial.
-	
+
 
 Utilizar la tasa para anotar la misma inspección para la que fue utilizada inicialmente o cambiar la tasa para poner otra tasa válida e intentar de nuevo la anotación
 
 ### INDI6113 Error en la aplicación de la tasa en HOST
-	
+
 
 Reintentar la anotación pasados 60 minutos. Si el problema persiste, ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
 ### INDI6018 Identificador del trámite no válido para reaplicar la tasa, seleccione el identificador de la aplicación vigente, la tasa esta ya aplicada.
-	
+
 
 Ponerse en contacto con el equipo de Soporte de INDI (sdi-integracion@dgt.es)
 
@@ -470,7 +471,7 @@ Para saber como cumplimentar los diferentes campos puedes seguir las instruccion
 Cuando se elimina una inspección en creativa, la tasa usada es recuperada cuando es posible.
 
 1. Para el caso de anotaciones que por cualquier motivo hayan fallado, pero sin embargo haya quedado la tasa aplicada, y la estación ha tenido que utilizar una segunda tasa para realizar la anotación: debe mandarse un correo al buzón SDI Integración sdi-integracion@dgt.es , con la siguiente información:
- 
+
    - Tasa
    - Estación ITV
    - NIF

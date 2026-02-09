@@ -10,10 +10,12 @@ Para realizar el proceso de añadir tipos de documentación a los códigos de re
 
 3. Una vez editada la reforma, ir a la pestaña indicada en la captura, y añadir una nueva documentación.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/images/anadir-documentacion-codigos-reforma-1.png -->
 ![Imagen 1](./images/anadir-documentacion-codigos-reforma-1.png)
 
 4. En el formulario que se abre, elige, el tipo de inspección (que sea una tipo reforma generalmente) y la documentación que se ha creado anteriormente.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/images/anadir-documentacion-codigos-reforma-2.png -->
 ![Imagen 2](./images/anadir-documentacion-codigos-reforma-2.png)
 
 Este proceso se puede repetir para todas aquellas situación en las que se quiere meter varias documentación en un solo concepto. Es reutilizable para varios códigos de reforma.

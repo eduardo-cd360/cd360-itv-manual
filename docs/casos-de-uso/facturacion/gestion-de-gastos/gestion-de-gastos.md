@@ -14,10 +14,12 @@ Sacar un resumen de caja
 
 Para crear una nueva cuenta contable de tipo gasto, se accede mediante el menú Facturación/Cuentas contables.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-gastos/images/gestion-gastos-1.png -->
 ![Imagen 1](./images/gestion-gastos-1.png)
 
 Crear una nueva cuenta contable
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-gastos/images/gestion-gastos-2.png -->
 ![Imagen 2](./images/gestion-gastos-2.png)
 
 Cumplimentar los campos
@@ -38,6 +40,7 @@ Para finalizar, pulsar Aceptar.
 
 Para anotar gastos en caja, se accede al menú Facturación/Caja y se pulsa en nuevo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-gastos/images/gestion-gastos-3.png -->
 ![Imagen 3](./images/gestion-gastos-3.png)
 
 Tipo: General
@@ -56,6 +59,7 @@ Observaciones: Cualquier aclaración que ayude a la comprensión del gasto.
 
 Una vez cumplimentados los campos, pulsar en Aceptar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-gastos/images/gestion-gastos-4.png -->
 ![Imagen 4](./images/gestion-gastos-4.png)
 
 El gasto aparecerá junto a los demás movimientos de caja del día.
@@ -64,4 +68,5 @@ El gasto aparecerá junto a los demás movimientos de caja del día.
 
 Para sacar el resumen de caja donde se pueden ver todos los movimientos de caja, incluidos los gastos recién introducidos, ir a Facturación/Resumen Caja y se
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-gastos/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)

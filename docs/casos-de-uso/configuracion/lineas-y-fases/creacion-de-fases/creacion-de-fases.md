@@ -21,6 +21,7 @@ También se pueden utilizar en los perfiles de usuario, para hacer que se muestr
 
 ## Vista general
 En esta pantalla se define cada una de las fases que se utilizarán en las diferentes líneas de inspección.
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/lineas-y-fases/creacion-de-fases/images/creativa3d-itv-fases-descripcion.png -->
 ![Descripción de columnas de tabla fases](images/creativa3d-itv-fases-descripcion.png "Descripción de columnas de tabla fases")
 - **Código de fase**: Número id asignado de forma automática.
 - **Nombre**: Es el nombre utilizado para denominar a la fase y será empleado en el dispositivo portátil del inspector.
@@ -32,6 +33,7 @@ En esta pantalla se define cada una de las fases que se utilizarán en las difer
 
 En la imagen siguiente se ven los botones disponibles para trabajar con las fases.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/lineas-y-fases/creacion-de-fases/images/creativa3d-itv-fases-botones.png -->
 ![Creativa3d ITV - Botones disponibles](images/creativa3d-itv-fases-botones.png "Botones disponibles")
 
 - **Nuevo**: Crea una nueva fila para una nueva fase.
@@ -46,4 +48,5 @@ En la imagen siguiente se ven los botones disponibles para trabajar con las fase
 
 
 Este es un ejemplo de fases organizadas por categorías.
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/lineas-y-fases/creacion-de-fases/images/creativa3d-itv-fases-ejemplo.png -->
 ![Creativa3d - Ejemplo de fases creadas](images/creativa3d-itv-fases-ejemplo.png "Ejemplo de fases creadas")

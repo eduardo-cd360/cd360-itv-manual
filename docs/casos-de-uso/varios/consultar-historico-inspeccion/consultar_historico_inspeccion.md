@@ -4,6 +4,7 @@ Para consultar los motivos de repetición de alguna inspección o el histórico 
 
 Basta con señalar la inspección que se desea consultar su histórico y pulsar sobre el botón Informes archivados.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/consultar-historico-inspeccion/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Se mostrará junto a las diferentes versiones del informe, una nueva pestaña llamada HISTORICO. Donde se muestran todos los cambios que ha sufrido la inspección.

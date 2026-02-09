@@ -21,6 +21,7 @@ Para activar el certificado digital en el equipo con creativa3d ITV del responsa
 
 Ir a Archivo > Opciones > Altas de inspección y hacer clic en la pestaña DGT y certificado digital.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/images/como-anadir-las-firmas-a-usuario-1.png -->
 ![Imagen 1](./images/como-anadir-las-firmas-a-usuario-1.png)
 
 Seleccionar un certificado instalado de Windows o bien..

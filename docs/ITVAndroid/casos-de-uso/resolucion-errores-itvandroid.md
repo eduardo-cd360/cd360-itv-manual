@@ -8,6 +8,7 @@ Como dice el mensaje, el usuario que se está intentando autenticar en la aplica
 
 Para solucionarlo, un usuario con permisos para editar las opciones de seguridad, deberá acceder a `Archivo > Seguridad` y cambiar o ajustar correctamente los permisos.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/ITVAndroid/casos-de-uso/images/creativa3d-itvandroid-seguridad-permisos-mecanico.png -->
 ![](images/creativa3d-itvandroid-seguridad-permisos-mecanico.png)
 
 Cada usuario del programa dispone de una asignación de perfil que determina todos los permisos que le afectan, pero además de forma individual dispone de una pestaña que permite alterar los permisos heredados del perfil.
