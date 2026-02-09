@@ -1,5 +1,5 @@
 # Identificación de la pantalla de máquinas en ITVAndroid
- 
+
 ITVAndroid cuenta con una pantalla específica para la gestión de las máquinas utilizadas en las inspecciones técnicas de vehículos. Esta pantalla permite a los inspectores seleccionar, configurar y monitorear las máquinas durante el proceso de inspección.
 
 Según la marca de cada una de las máquinas, la interfaz y las opciones disponibles pueden variar para adaptarse a las características específicas de cada equipo.

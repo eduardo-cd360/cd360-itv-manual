@@ -19,13 +19,13 @@ Muestra información sobre la aplicación, sobre la estación de ITV y el usuari
 
 Es donde están todas las opciones disponibles en el programa. Los menús principales son:
 
-* Archivo  
-* Mantenimiento  
-* Gestión  
-* Consultas  
-* Facturación  
-* Ayuda  
-* Ventanas  
+* Archivo
+* Mantenimiento
+* Gestión
+* Consultas
+* Facturación
+* Ayuda
+* Ventanas
 * Búsqueda de menús, que es una utilidad para buscar cualquier opción que haya dentro de los diferentes menús.
 
 | Nota: Cada usuario tiene o puede tener una configuración en cuanto a permisos que impida ver todas las opciones que se muestran en el manual. |
@@ -140,10 +140,10 @@ Acciones que se pueden realizar con la información que se muestra actualmente e
 
 Todas las pantallas de trabajo, en donde se muestra una tabla de registros, comparten ciertos botones. Estos son comunes en todas ellas, por lo que se describen a continuación su función.
 
-* **Nuevo**: Crea un nuevo registro. Muestra un formulario para rellenar según acorde al tipo de tabla en la que se encuentre.  
-* **Editar**: Modifica los datos de un registro. Muestra un formulario con los datos del registro seleccionado para su edición.  
-* **Borrar**: Borra el registro o registros seleccionados. Si el/los registros están relacionados con otra información, puede que muestre una alerta mostrando un error. En ese caso, habría que eliminar primeramente los datos relacionados.  
-* **Refrescar**: Actualiza el contenido de la tabla. En muchos casos, al trabajar con la aplicación de gestión desde muchos puestos, puede que convenga refrescar los datos antes de realizar operaciones que impliquen nuevos registros o eliminación de registros.  
+* **Nuevo**: Crea un nuevo registro. Muestra un formulario para rellenar según acorde al tipo de tabla en la que se encuentre.
+* **Editar**: Modifica los datos de un registro. Muestra un formulario con los datos del registro seleccionado para su edición.
+* **Borrar**: Borra el registro o registros seleccionados. Si el/los registros están relacionados con otra información, puede que muestre una alerta mostrando un error. En ese caso, habría que eliminar primeramente los datos relacionados.
+* **Refrescar**: Actualiza el contenido de la tabla. En muchos casos, al trabajar con la aplicación de gestión desde muchos puestos, puede que convenga refrescar los datos antes de realizar operaciones que impliquen nuevos registros o eliminación de registros.
 * **Listado**: Vista por pantalla formateada en A4 para su impresión en papel o guardado en PDF.
 
 ## Pantalla de alta de Inspección

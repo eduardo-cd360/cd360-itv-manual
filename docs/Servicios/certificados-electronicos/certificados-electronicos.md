@@ -18,9 +18,9 @@ Los representantes legales (administradores) y/o los representantes voluntarios 
 
 - DNI, pasaporte o tarjeta de residencia del solicitante (original y copia).
 - Comprobación de la existencia y los datos aportados de la organización y la vigencia de los poderes del representante legal. Para ello, existen tres opciones:
-   
+
    - Aportar las escrituras de constitución de la entidad donde conste el nombramiento del representante legal (original y copia), acompañados de una Nota simple del Registro Mercantil expedida durante los 10 días anteriores a la fecha de inicio de la emisión del certificado.
-   
+
    - Presentar un certificado del Registro Mercantil relativo a la constitución, personalidad jurídica de la entidad, nombramiento y vigencia del cargo del representante legal expedido durante los 10 días anteriores a la fecha de inicio de la emisión del certificado.
 
 - DNI, pasaporte o tarjeta de residencia del firmante (a quien va destinado el certificado) (original y copia).

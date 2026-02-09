@@ -84,7 +84,7 @@ Las tarifas están compuestas por una parte relativa a los precios de cada uno d
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-mantenimiento-tarifas_formato-tarifas.png -->
 ![alt text](images/menu-mantenimiento-tarifas_formato-tarifas.png)
- 
+
 Las tarifas pueden ser activadas o desactivadas, según la conveniencia de la estación o bien eliminadas si no son empleadas en ninguna inspección.
 
 ## Maestras
@@ -109,7 +109,7 @@ Como dar de alta una nueva regla:
    - **Aviso en altas de inspección**: Muestra un mensaje de aviso al usuario.
 4. Guardar la regla.
 
-<!--- Tarea mejora: 
+<!--- Tarea mejora:
 - Añadir un campo para dar nombre a la regla. Opcional dar nombre, pero puede ayudar a identificarla. Ejemplo: Detección vehículos contraseña de homologación inválida Fabricante X.
 - Tipo periodicidad en vez de Tipo Periodicidad
 - [ ] BLOQUEARALTASN por [ ] Bloquear alta y situarlo después del mensaje de aviso

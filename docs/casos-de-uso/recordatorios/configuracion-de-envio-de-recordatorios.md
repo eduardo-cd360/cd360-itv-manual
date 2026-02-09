@@ -26,7 +26,7 @@ Para la configuración de los diferentes servicios son necesarios los datos sigu
     - Nombre de usuario
     - Clave de acceso (API)
     - Nombre de remitente (max. 11 caracteres)
- 
+
 Mensario
 
     - Nombre de usuario
@@ -34,7 +34,7 @@ Mensario
     - Usuario
     - Clave
     - Nombre de remitente (max. 11 caracteres)
-    
+
 Mensamundi
 
     - Nombre de usuario
@@ -46,7 +46,7 @@ Mensamundi
 Todos estos datos son obtenidos una vez se ha contratado el servicio correspondiente.
 
 En la sección SMS, hay que rellenar los campos que aparecen, teniendo especial cuidado con el nombre del remitente, que será por el que los clientes sabrán que es la estación la que remite los SMS.
-    
+
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/creativa3d-recordatorios-configuracion-sms-anadir-proveedor.png -->
 ![Pantalla de selección de proveedor de SMS](images/creativa3d-recordatorios-configuracion-sms-anadir-proveedor.png "Pantalla de selección de proveedor de SMS")
 

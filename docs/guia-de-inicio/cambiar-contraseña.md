@@ -12,6 +12,6 @@ Para cambiar tu contraseña, selecciona previamente tu usuario del listado e int
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/images/pantalla-login-contraseña-nueva.png -->
 ![Contraseña nueva](images/pantalla-login-contraseña-nueva.png)
 
-!!! Nota    
+!!! Nota
 
     La contraseña debe contener 6 o más caracteres y solamente letras (A-Z a-z) o números.

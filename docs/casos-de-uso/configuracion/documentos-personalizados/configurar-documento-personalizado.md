@@ -51,7 +51,7 @@ Aquí podremos adjuntar ficheros .pdf ó configurar un HTML.
 
     !!! Info "Campos rellenables automáticos"
 
-        Para generar campos que se rellenen automáticamente al generar el documento, se puede utilizar el botón de **ayuda campos**. 
+        Para generar campos que se rellenen automáticamente al generar el documento, se puede utilizar el botón de **ayuda campos**.
         En el caso de los pdf, es necesario configurar anteriormente el documento base como formulario editable en el que la ref. de cada campo corresponda con las combinaciones disponibles.
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/documentos-personalizados/images/panelDocNuevoPlantillaDocumentoPdf.png -->
@@ -63,7 +63,7 @@ Aquí podremos adjuntar ficheros .pdf ó configurar un HTML.
 ![Nuevo documento plantilla pdf](images/panelDocNuevoPlantillaDocumentoPdfAdjunto.png)
 
 
-- **Ficheros HTML.** En este caso, podemos escribir directamente en el editor el texto que queremos configurar. 
+- **Ficheros HTML.** En este caso, podemos escribir directamente en el editor el texto que queremos configurar.
 
     !!! Info "Campos rellenables automáticos"
 
@@ -95,7 +95,7 @@ Finalmente en la pestaña **Observaciones**, podemos anotar un resumen sobre el 
 Para confirmar el documento, debemos pulsar en el check verde que aparece en la parte baja de la ventana. Y el proceso quedaría finalizado.
 
 ### Uso de documentos personalizados
-Para utilizar los documentos personalizados creados en el apartado anterior, debemos situarnos en la ventana de **Inspecciones por fecha, expedientes ó clientes**, dependiendo de la ventana que hayamos configurado al dar de alta el documento en **Pantalla correspondiente.** 
+Para utilizar los documentos personalizados creados en el apartado anterior, debemos situarnos en la ventana de **Inspecciones por fecha, expedientes ó clientes**, dependiendo de la ventana que hayamos configurado al dar de alta el documento en **Pantalla correspondiente.**
 
 - Ejemplo de generación de un documento desde **Inspecciones por fecha.**
 

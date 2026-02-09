@@ -15,7 +15,7 @@ slug: version-2025-6
   Asimismo, en Android se ha creado una pantalla nativa llamada Perfil Usuario que hace exactamente lo mismo que en la versión de escritorio. En este caso se encuentra en los tres puntos al acceder al usuario (donde está el chat, la utilidad de los neumáticos, etc.).
 
 * [ITV-5613](http://jira.creativa3d.com:8080/browse/ITV-5613) - Actualizar botones del panel de Cualificaciones por Tipo Inspección.
-        
+
 ## Error
 * [ITV-5518](http://jira.creativa3d.com:8080/browse/ITV-5518) - Que el foco pase a la matrícula al dar de alta una inspección.
 
@@ -28,7 +28,7 @@ slug: version-2025-6
 ## Mejora
 * [ITV-5494](http://jira.creativa3d.com:8080/browse/ITV-5494) - ItvAndroid: realizar en 2º plano la recuperación de la inspección.
 <!-- TODO: Que hace esto? -->
-  
+
 * [ITV-5502](http://jira.creativa3d.com:8080/browse/ITV-5502) - Factura electrónica (FACe). Evitar líneas con importe 0.
 
   Solución para que en las facturas electrónicas enviadas a FACe no se incluyan líneas con importe 0 y los programas de las administraciones públicas no den error al procesarlas.
@@ -36,7 +36,7 @@ slug: version-2025-6
 * [ITV-5513](http://jira.creativa3d.com:8080/browse/ITV-5513) - Periódica de histórico que la fecha caducidad no sea obligatoria.
 
   En la configuración de altas de inspección (Archivo > Opciones > General > Altas de inspección) se ha añadido una nueva opción llamada "Fecha caducidad obligatoria".
-  
+
   Si se desmarca esta opción, al dar de alta una inspección periódica de histórico no será obligatorio rellenar la fecha de caducidad.
   <!-- TODO: Comprobar si es para históricos o para todos los casos -->
 
@@ -86,4 +86,3 @@ Se añade control de tiempos por fases en las inspecciones. Al finalizar cada fa
 Se homogeniza el uso de "serie" en lugar de "grupo" en la facturación. Se reagrupan las opciones disponibles en la configuración de facturación y se actualizan los textos para mayor claridad.
 
 * [ITV-5586](http://jira.creativa3d.com:8080/browse/ITV-5586) - Hacer sincronización con industria para los últimos 6 meses.
-    

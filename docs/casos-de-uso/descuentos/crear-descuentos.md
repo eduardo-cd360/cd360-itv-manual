@@ -1,8 +1,8 @@
 ---
 title: Crear descuentos
 description: Procedimiento para crear descuentos por cantidad o porcentaje en base a un conjunto de reglas establecidas.
-icon: 
-status: 
+icon:
+status:
 ---
 
 

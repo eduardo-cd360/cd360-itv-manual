@@ -28,6 +28,6 @@ En el formulario que se muesta a continuación, deberemos de rellenar:
 - Un descuento (porcentaje o cantidad directa). Puedes elegir si el descuento será un x por ciente a aplicar sobre la base o bien restar la cantidad que especifiques.
 - Definir las caracteristicas o reglas de aplicación. Si el descuento se quiere aplicar de forma automática, será necesario aplicar ciertos criterios que restrinjan la aplicación.
 
-!!! Nota 
+!!! Nota
     Los descuentos a clientes especificos deben realizarse uno por uno. No se permite elegir más de un cliente. De la misma forma que si se quiere aplicar más de un descuento a un cliente, con distintas reglas de aplicación, deberá ser creando tambien un descuento para cada una.
 

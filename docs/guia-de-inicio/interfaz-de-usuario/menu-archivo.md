@@ -97,7 +97,7 @@ Una vez creada la conexión, cierra el programa y ábrelo nuevamente para verla 
 **Editar conexión**
 
 Selecciona una conexión del listado y pulsa el botón Editar, se mostrará la ventana con la información sobre la conexión seleccionada.
- 
+
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/edicion-de-una-conexion.png -->
 ![Edición de una conexión](images/edicion-de-una-conexion.png)
 
@@ -110,12 +110,12 @@ Utiliza el botón llamado Local automático para crear una conexión al servidor
 Se mostrará una ventana preguntándote si deseas hacerlo.
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/pantalla-de-adiccion-de-nueva-conexion.png -->
-![Pantalla de adicción de nueva conexión](images/pantalla-de-adiccion-de-nueva-conexion.png) 
+![Pantalla de adicción de nueva conexión](images/pantalla-de-adiccion-de-nueva-conexion.png)
 
 Responde Si y espera a que termine.
 
 Si todo ha ido bien, se habrá creado una nueva conexión, pero si por el contrario, no se ha podido localizar al servidor de la ITV, un mensaje alertará de ello.
- 
+
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/mensaje-error-conexion-automatica.png -->
 ![Mensaje de error en la creación de la conexión de forma automática](images/mensaje-error-conexion-automatica.png)
 
@@ -156,7 +156,7 @@ La modificación de los diferentes permisos de un perfil afectará a cada usuari
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_seguridad-perfiles.png -->
 ![alt text](images/menu-archivo_seguridad-perfiles.png)
- 
+
 Cuando se selecciona un perfil, este tiene unas propiedades generales como su código, su nombre y un listado de usuarios que están asignados a este perfil.
 
 Además, dispone de una pestaña de permisos que permiten modificar a que zonas del programa o que acciones puede realizar cualquier usuario que herede de este perfil. 
@@ -171,7 +171,7 @@ Además, puede contener otros datos o atributos que son usados en diferentes zon
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-archivo_seguridad-usuarios.png -->
 ![alt text](images/menu-archivo_seguridad-usuarios.png)
- 
+
 !!! Nota
 
     Existe una gestión de usuarios para cuestiones de firma, imparcialidad y otras gestiones. Puedes saber más accediendo a Gestión de Usuarios.
@@ -304,13 +304,13 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Mantener valor entre inspecciones:** El valor de la etiqueta seleccionada en la última inspección se mantiene para la siguiente.
 
 !!! Nota
-    
+
     Las dos opciones últimas son usadas generalmente por las ITV's móviles para etiquetar ubicaciones.
 
 **Avisos opcionales**
 
 - **Mensaje aviso si no hay motor**: Muestra una alerta al guardar la inspección porque no se ha puesto un tipo de motor. Esto provocaría un error al aplicar la tarifa si no se corrige.
-- **Mensaje aviso en voluntarias**: 
+- **Mensaje aviso en voluntarias**:
 - **Aviso si no hay telf. o email en cliente**: Muestra alerta por haber dejado sin rellenar alguno de los campos indicados. Indica que no se podrá contactar con el cliente de ninguna forma si no se rellena al menos uno de los campos.
 
 - **Dias a fecha caducidad AVISO**: Muestra alerta de que aún faltan más de x días para pasar la ITV nuevamente. Los días se toman de la consulta realizada a la DGT previamente.
@@ -321,7 +321,7 @@ En cada equipo, se podrán activar o desactivar las siguientes opciones
 - **Presentar fecha nacimiento en cliente**: Habilita el campo de "fecha nacimiento" en la sección de datos de alta del cliente, que en caso de rellenarse se almacena en la ficha del cliente.
 
 Posteriormente puede ser usada la opción para mandar recordatorios de cumpleaños (solo recordatorios enviados desde creativa).
-- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido. 
+- **Presentar teléfono en cliente**: Muestra el campo de teléfono si no se ha introducido este durante el proceso de rellenado de campos. Evita que se quede vacío por olvido.
 - **Presentar cliente cuando no hay DNI**: Muestra un dialogo para introducir los datos de un nuevo cliente si en el campo DNI/CIF no hay ninguno.
 
 **Caja y cuentas de cobro**
@@ -399,7 +399,7 @@ También se pueden utilizar los campos de combinación que se muestran al final 
 
     Creativa Digital 360 provee de un servicio complementario e integrado totalmente con el programa, que permite realizar envíos personalizados con seguimiento y ofertas incluidas para atraer al cliente.
 
-    Más información: https://creativadigital360.com 
+    Más información: https://creativadigital360.com
 
 ##### Vídeo público
 
