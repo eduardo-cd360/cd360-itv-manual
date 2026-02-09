@@ -6,6 +6,8 @@ Según la marca de cada una de las máquinas, la interfaz y las opciones disponi
 
 A continuación, se describen las pantallas de control de cada una de las marcas de máquinas compatibles con ITVAndroid:
 
+![Pantalla de maquinas](images/itvandroid-pantalla-de-maquinas.png)
+
 ## Central Auto
 
 ### Gases
