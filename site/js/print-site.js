@@ -1,4 +1,4 @@
-/* 
+/*
 Javascript functions to help make the print page more PDF friendly
 */
 
@@ -36,7 +36,7 @@ function remove_mkdocs_theme_navigation() {
 
 function remove_element_by_classname(class_name) {
   var el = document.getElementsByClassName(class_name);
-  if( el.length > 0) {
+  if (el.length > 0) {
     el[0].style.display = "none"
   }
 }
