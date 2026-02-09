@@ -1,68 +1,68 @@
 <!DOCTYPE html><html lang="en" class="no-js"><head>
-
+    
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-
+      
         <meta name="description" content="Documentación oficial de los proyectos de Creativa Digital 360">
-
-
-
+      
+      
+      
         <link rel="canonical" href="https://docs.programaitv.com/casos-de-uso/facturacion/gestion-de-facturas/gestion-de-facturas/">
-
-
+      
+      
         <link rel="prev" href="../../gestionar-formas-de-pago/gestionar-formas-de-pago/">
-
-
+      
+      
         <link rel="next" href="../../mostrar-subtotales-acumulados-de-facturas/mostrar-subtotales-acumulados-de-facturas/">
-
-
-
-
-
+      
+      
+        
+      
+      
       <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
-
-
-
+    
+    
+      
         <title>Gestión de facturas - Documentación Creativa Digital 360</title>
-
-
-
+      
+    
+    
       <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
 
-
-
-
-
-
-
+  
+  
+  
+  
   <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
 
 
-
-
-
-
-
-
-
-
+    
+    
+      
+    
+    
+      
+        
+        
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-
-
-
+      
+    
+    
       <link rel="stylesheet" href="../../../../css/print-site.css">
-
+    
       <link rel="stylesheet" href="../../../../css/print-site-material.css">
-
+    
     <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
-
-
-
-
+    
+    
   <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
@@ -74,40 +74,40 @@
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
         </style></head>
-
-
+  
+  
     <body dir="ltr">
-
-
+  
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-
-
+      
+        
         <a href="#gestion-de-facturas" class="md-skip">
           Skip to content
         </a>
-
+      
     </div>
     <div data-md-component="announce">
-
+      
     </div>
+    
+    
+      
 
-
-
-
-
+  
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../.." title="Documentación Creativa Digital 360" class="md-header__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
-
+      
   <img src="../../../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
@@ -119,23 +119,23 @@
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-
+            
               Gestión de facturas
-
+            
           </span>
         </div>
       </div>
     </div>
-
-
+    
+    
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-
-
-
-
-
+    
+    
+    
+      
+      
         <label class="md-header__button md-icon" for="__search">
-
+          
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
         </label>
         <div class="md-search" data-md-component="search" role="dialog">
@@ -144,19 +144,19 @@
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
-
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-
+          
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
         </button>
       </nav>
-
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -170,3565 +170,3740 @@
     </div>
   </div>
 </div>
-
-
-
+      
+    
+    
   </nav>
-
+  
 </header>
-
+    
     <div class="md-container" data-md-component="container">
-
-
-
-
-
-
+      
+      
+        
+          
+        
+      
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
-
-
-
+          
+            
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-
+                    
 
 
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../../.." title="Documentación Creativa Digital 360" class="md-nav__button md-logo" aria-label="Documentación Creativa Digital 360" data-md-component="logo">
-
+      
   <img src="../../../../assets/logo-creativa-digital-360-itv@233x42.png" alt="logo">
 
     </a>
     Documentación Creativa Digital 360
   </label>
-
+  
   <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Bienvenido
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Bienvenido
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../bienvenido/bienvenido/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Bienvenido
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../bienvenido/introduccion/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Introducción
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../bienvenido/requisitos/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Requisitos del sistema
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../bienvenido/obtener-ayuda/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Obtener ayuda
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../bienvenido/novedades/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Novedades y actualizaciones
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Guía de inicio
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Guía de inicio
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Instalación
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Instalación
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/instalacion/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Instalación de Creativa
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Primeros pasos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Primeros pasos
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/iniciar-sesion/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Iniciar sesión
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/cambiar-contrase%C3%B1a/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Cambio de la contraseña
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Interfaz de usuario
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Interfaz de usuario
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/interfaz-de-usuario/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Pantalla principal
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-archivo/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menú Archivo
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-mantenimiento/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menú Mantenimiento
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-gestion/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menú Gestión
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-consultas/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menu consultas
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-ventanas/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menu ventanas
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/interfaz-de-usuario/menu-ayuda/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Menu ayuda
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Alta de inspecciones
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Alta de inspecciones
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-periodica/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Alta de una inspección periódica
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../guia-de-inicio/alta-de-inspecciones/alta-de-inspeccion-no-periodica/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Alta de inspección no periódica
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Casos de uso
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Casos de uso
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Clientes
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Clientes
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../clientes/bloquear-clientes/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Como bloquear un cliente
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../clientes/fidelizacion-de-clientes/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Fidelización de clientes
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Inspecciones
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Inspecciones
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../Altas de inspección" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     None
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Expedientes
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Expedientes
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Ampliación campos tarjetas ITV
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Añadir nueva documentación a códigos de reforma
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../expedientes/expedientes_crear-nuevo-codigo-de-reforma/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Reformas: Añadir nuevo código de reforma CR
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Configuración
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Configuración
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Certificados digitales
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Certificados digitales
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../configuracion/certificados-digitales/como-anadir-las-firmas-a-usuario/como-anadir-las-firmas-a-usuario/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Como añadir las firmas a usuario
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Lineas y fases
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4_2">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Lineas y fases
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../configuracion/lineas-y-fases/creacion-de-fases/creacion-de-fases/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Creación de fases
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_3">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_4_3" id="__nav_3_4_3_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Documentos personalizados
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4_3">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Documentos personalizados
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../configuracion/documentos-personalizados/configurar-documento-personalizado/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Configurar documento personalizado
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Impresión
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_5">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Impresión
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../impresion/sincronizar-godex-g530-g500/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Solución de problemas con impresoras de etiquetas Godex G500/G530
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     DGT
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     DGT
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../dgt/codigos-errores-dgt/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Códigos de error DGT (ATRI, INDI)
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../dgt/consulta_antecedentes_dgt/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Consulta de antecedentes en DGT
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" checked>
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Facturación
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_7">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Facturación
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../crear-un-descuento/crear-un-descuento/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Crear un descuento
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../forma-pago-texto-incorrecto/forma-pago-texto-incorrecto/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Forma pago texto incorrecto
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../generar-facturacion-mensual/generar-facturacion-mensual/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Generar facturacion mensual
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../gestion-de-gastos/gestion-de-gastos/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Gestion de gastos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../gestionar-formas-de-pago/gestionar-formas-de-pago/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Formas de pago
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
-
+      
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-
-
-
-
-
+      
+      
+        
+      
+      
         <label class="md-nav__link md-nav__link--active" for="__toc">
-
-
-
+          
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Gestión de facturas
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
           <span class="md-nav__icon md-icon"></span>
         </label>
-
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Gestión de facturas
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
-
-
+      
+        
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-
-
-
-
-
-
+  
+  
+  
+    
+  
+  
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-
+      
         <li class="md-nav__item">
   <a href="#la-pantalla-de-facturas" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         La pantalla de facturas
-
+      
     </span>
   </a>
-
+  
+    <nav class="md-nav" aria-label="La pantalla de facturas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pestana-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pestaña Principal
+      
+    </span>
+  </a>
+  
 </li>
-
+        
+          <li class="md-nav__item">
+  <a href="#pestana-informes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pestaña Informes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exportar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exportar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exportar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#codigos-de-color-en-la-gestion-de-facturas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Códigos de color en la gestión de facturas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
         <li class="md-nav__item">
   <a href="#crear-nueva-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Crear nueva factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
+      
         <li class="md-nav__item">
+  <a href="#otras-operaciones-sobre-facturas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otras operaciones sobre facturas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Otras operaciones sobre facturas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#rectificar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Rectificar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#cobrar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Cobrar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#duplicar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Duplicar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#eliminar-facturas" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Eliminar facturas
-
+      
     </span>
   </a>
-
+  
 </li>
-
+        
+      </ul>
+    </nav>
+  
+</li>
+      
         <li class="md-nav__item">
   <a href="#facturacion-mensual" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Facturación mensual
-
+      
     </span>
   </a>
-
+  
 </li>
-
+      
     </ul>
-
+  
 </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../mostrar-subtotales-acumulados-de-facturas/mostrar-subtotales-acumulados-de-facturas/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     mostrar subtotales acumulados
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../resolucion-problemas-exportacion-contabilidad/resolucion-problemas-exportacion-contabilidad/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Resolucion problemas exportacion contabilidad
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../trabajo-con-plantillas-de-facturas-o-albaranes/trabajo-con-plantillas-de-facturas-o-albaranes/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Plantillas de facturas o albaranes
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../generar-remesas/generar-remesas/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Remesas bancarias
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Descuentos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_8">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Descuentos
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../descuentos/crear-descuentos/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Crear descuentos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Recordatorios
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_9">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Recordatorios
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../recordatorios/configuracion-de-envio-de-recordatorios/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Configuración envío de recordatorios por SMS y Email
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../recordatorios/envio-de-recordatorios-con-digital-servi/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Envio de recordatorios con digital servi
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../recordatorios/envio-de-recordatorios/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Envío de recordatorios
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Subida de Inspecciones
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_10">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Subida de Inspecciones
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../subida-de-inspecciones/subida-industria-murcia/subir-inspecciones-al-servicio-industria-de-murcia/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Subir inspecciones al servicio industria de murcia
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Varios
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_11">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Varios
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../varios/cambiar-periodicidad-a-una-clasificaci%C3%B3n-en-concreto/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Cambiar la periodicidad de una clasificación
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../varios/cualificacion-de-inspectores/cualificacion-de-inspectores/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Sistema de cualificación de inspectores
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Configuración
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Configuración
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Gestión de perfiles y usuarios
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Gestión de perfiles y usuarios
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-perfiles/gestión de perfiles.md" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     None
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../configuracion/gestion-de-perfiles-y-usuarios/gestion-de-usuarios/gestión de usuarios.md" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     None
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Opciones globlales
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Opciones globlales
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../Configuraracion/opciones-globales/impresion/impresion.md" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     None
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../configuracion/alcance-segundas-inspecciones/alcance-segundas-inspecciones/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Alcance de segundas inspecciones
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Servicios
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Servicios
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Certificados electrónicos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Certificados electrónicos
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../Servicios/certificados-electronicos/emision-de-certificados/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Emisión de certificados digitales
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../Servicios/certificados-electronicos/certificados-electronicos/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Certificados electrónicos para estación de ITV
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Módulos
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Módulos
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../modulos/modulo-control-horario/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Módulo Control Horario
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Acerca de
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Acerca de
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Notas de la versión
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_1">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     Notas de la versión
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../acerca-de/notas-de-la-version/version-2025-5/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Versión 2025-5
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
-
-
-
-
-
-
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../acerca-de/notas-de-la-version/version-2025-6/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Versión 2025-6
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
-
-
-
+      
+        
+        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
-
-
+        
+          
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
-
-
-
+            
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     ITV Android
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
             <span class="md-nav__icon md-icon"></span>
           </label>
-
+        
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-
-
+            
+  
     ITV Android
-
+  
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../ITVAndroid/casos-de-uso/resolucion-errores-itvandroid/" class="md-nav__link">
-
-
-
+        
+  
+  
   <span class="md-ellipsis">
-
-
+    
+  
     Resolución de incidencias en ITVAndroid (app de inspectores)
+  
 
-
-
+    
   </span>
-
-
+  
+  
 
       </a>
     </li>
+  
 
-
-
-
+              
+            
           </ul>
         </nav>
-
+      
     </li>
+  
 
-
-
+    
   </ul>
 </nav>
                   </div>
                 </div>
               </div>
-
-
-
+            
+            
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-
+                    
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-
-
-
-
-
-
+  
+  
+  
+    
+  
+  
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-
+      
         <li class="md-nav__item">
   <a href="#la-pantalla-de-facturas" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         La pantalla de facturas
-
+      
     </span>
   </a>
-
+  
+    <nav class="md-nav" aria-label="La pantalla de facturas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pestana-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pestaña Principal
+      
+    </span>
+  </a>
+  
 </li>
-
+        
+          <li class="md-nav__item">
+  <a href="#pestana-informes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pestaña Informes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exportar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exportar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exportar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#codigos-de-color-en-la-gestion-de-facturas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Códigos de color en la gestión de facturas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
         <li class="md-nav__item">
   <a href="#crear-nueva-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Crear nueva factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
+      
         <li class="md-nav__item">
+  <a href="#otras-operaciones-sobre-facturas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otras operaciones sobre facturas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Otras operaciones sobre facturas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#rectificar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Rectificar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#cobrar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Cobrar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#duplicar-una-factura" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Duplicar una factura
-
+      
     </span>
   </a>
-
+  
 </li>
-
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#eliminar-facturas" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Eliminar facturas
-
+      
     </span>
   </a>
-
+  
 </li>
-
+        
+      </ul>
+    </nav>
+  
+</li>
+      
         <li class="md-nav__item">
   <a href="#facturacion-mensual" class="md-nav__link">
     <span class="md-ellipsis">
-
+      
         Facturación mensual
-
+      
     </span>
   </a>
-
+  
 </li>
-
+      
     </ul>
-
+  
 </nav>
                   </div>
                 </div>
               </div>
-
-
-
+            
+          
+          
             <div class="md-content" data-md-component="content">
-
+              
               <article class="md-content__inner md-typeset">
-
-
+                
+                  
 
 
 
 <h1 id="gestion-de-facturas">Gestión de facturas</h1>
-<p>Por terminar</p>
-<p>En este documento:</p>
-<h3 id="la-pantalla-de-facturas">La pantalla de facturas</h3>
-<p>Desde el menú Facturación &gt; Facturas, se puede ver el listado de facturas emitidas por el programa, tanto generadas de forma automática a clientes de contado y a clientes con cuentas de crédito como las que se generan de forma manual.</p>
-<p>Como en todas las pantallas de la aplicación, entre todos los datos que se muestran en el listado de facturas, está el Identificador o el Grupo, que pueden estar ocultos. Mediante estos dos campos es fácil localizar y visualizar por separado las facturas normales de las de clientes de crédito. Están diferenciadas por el grupo, que en el caso de las mensuales suele ser “m”, las rectificativas “r”, etc. En cualquier caso, se encuentran definidos en la</p>
-<p>Para mostrar campos ocultos en los listados de creativa, se puede utilizar el clic derecho del ratón sobre cualquier dato de la tabla. Se mostrará entre otras opciones el menú Campos. Mediante este menú, puedes activar cualquiera de los campos que están ocultos u ocultar los que se muestran actualmente.</p>
-<p>Para localizar las facturas mensuales o de cualquier otro tipo, se puede utilizar el filtro rápido o mostrar el campo Grupo, para poder filtrar por tipo de factura.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image_1.png" data-desc-position="bottom"><img alt="Imagen 1" src="../images/image_1.png"></a></p>
-<p>Las tareas que se pueden realizar con las facturas están repartidas en pestañas según su funcionalidad.</p>
-<p>Pestaña Principal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image_2.png" data-desc-position="bottom"><img alt="Imagen 2" src="../images/image_2.png"></a></p>
-<p>Nuevo: Crea una nueva factura que hay que rellenar de forma manual.</p>
-<p>Editar: Modifica una factura</p>
-<p>Borrar: Borra una factura o un conjunto de facturas.</p>
-<p>Refrescar: Actualiza la tabla de facturas. Es posible que desde otro equipo se hayan creado nuevas y es recomendable que antes de realizar operaciones se trabaje con la vista actualizada.</p>
-<p>Cobrar factura: Genera un movimiento de caja y deja la factura como cobrada.</p>
-<p>Marcar cobrada / no cobrada: Cuando son facturas de crédito (diferentes de contado o tarjeta de crédito) las da por cobradas o por no cobradas. Se utiliza con las cuentas de crédito.</p>
-<p>Rectificar: Seleccionando una factura cobrada previamente, pulsando este botón se genera una factura negativa o rectificativa por el valor total de la factura seleccionada. En caso de querer una rectificación parcial, habrá que eliminar los conceptos que no se rectifican y corregir el importe abonado en observaciones a cuenta.</p>
-<p>Pestaña Informes</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image_3.png" data-desc-position="bottom"><img alt="Imagen 3" src="../images/image_3.png"></a></p>
-<p>Imp. Factura: Imprime la factura o facturas seleccionadas por la impresora configurada en el programa (facturas). Si se selecciona más de una factura, se muestra dialogo para indicar nº de copias de cada una, y a continuación manda una tras otra las facturas a imprimir.</p>
-<p>Vista previa: Muestra la factura seleccionada en PDF. Si se elige más de una factura para previsualizar, se mostrará la primera de todas.</p>
-<p>Recibí: Muestra un documento recibí en formato pdf con los datos del cliente y el importe entregado de la factura.</p>
-<p>Suma: Seleccionando dos o más facturas, muestra una ventana con la suma de los diferentes conceptos de estas.</p>
-<p>Huecos: Permite comprobar la existencia de huecos en la numeración de las facturas emitidas así como la existencia de facturas desordenadas.</p>
-<p>Enviar Email: Envía la factura o facturas seleccionadas por email. Usa la cuenta de correo electrónico asociada al cliente de la factura. Si se seleccionan varias facturas, solo se podrán modificar opciones comunes. Debe estar configurado el correo electrónico en el programa.</p>
-<p>Listado: Se imprime por pantalla en formato listado el contenido de la tabla mostrado en pantalla.</p>
-<p>Exportar</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image_4.png" data-desc-position="bottom"><img alt="Imagen 4" src="../images/image_4.png"></a></p>
+<h2 id="la-pantalla-de-facturas">La pantalla de facturas</h2>
+<p>Desde el menú <strong>Facturación &gt; Facturas</strong>, se puede ver el listado de facturas emitidas por el programa, tanto generadas de forma automática a clientes de contado y a clientes con cuentas de crédito como las que se generan de forma manual.</p>
+<p>Como en todas las pantallas de la aplicación, entre todos los datos que se muestran en el listado de facturas, está el Identificador o el Grupo, que pueden estar ocultos. Mediante estos dos campos es fácil localizar y visualizar por separado las facturas normales de las de clientes de crédito. Están diferenciadas por el grupo, que en el caso de las mensuales suele ser “m”, las rectificativas “r”, etc. En cualquier caso, se encuentran definidos en la configuración.</p>
+<p>Para mostrar campos ocultos en los listados de creativa, se puede utilizar el clic derecho del ratón sobre cualquier dato de la tabla. Se mostrará entre otras opciones el menú <strong>Campos</strong>. Mediante este menú, puedes activar cualquiera de los campos que están ocultos u ocultar los que se muestran actualmente.</p>
+<p>Para localizar las facturas mensuales o de cualquier otro tipo, se puede utilizar el filtro rápido o mostrar el campo <strong>Grupo</strong>, para poder filtrar por tipo de factura.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/gestion-facturas-1.png" data-desc-position="bottom"><img alt="Pantalla de facturas" src="../images/gestion-facturas-1.png"></a></p>
+<p>Las tareas que se pueden realizar con las facturas están repartidas en pestañas según su funcionalidad:</p>
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-2.png -->
+
+<h3 id="pestana-principal">Pestaña Principal</h3>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/gestion-facturas-2.png" data-desc-position="bottom"><img alt="Pestaña Principal" src="../images/gestion-facturas-2.png"></a></p>
+<ul>
+<li><strong>Nuevo:</strong> Crea una nueva factura que hay que rellenar de forma manual.</li>
+<li><strong>Editar:</strong> Modifica una factura.</li>
+<li><strong>Borrar:</strong> Borra una factura o un conjunto de facturas.</li>
+<li><strong>Refrescar:</strong> Actualiza la tabla de facturas. Es posible que desde otro equipo se hayan creado nuevas y es recomendable que antes de realizar operaciones se trabaje con la vista actualizada.</li>
+<li><strong>Cobrar factura:</strong> Genera un movimiento de caja y deja la factura como cobrada.</li>
+<li><strong>Marcar cobrada / no cobrada:</strong> Cuando son facturas de crédito (diferentes de contado o tarjeta de crédito) las da por cobradas o por no cobradas. Se utiliza con las cuentas de crédito.</li>
+<li><strong>Rectificar:</strong> Seleccionando una factura cobrada previamente, pulsando este botón se genera una factura negativa o rectificativa por el valor total de la factura seleccionada. En caso de querer una rectificación parcial, habrá que eliminar los conceptos que no se rectifican y corregir el importe abonado en observaciones a cuenta.</li>
+</ul>
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-3.png -->
+
+<h3 id="pestana-informes">Pestaña Informes</h3>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/gestion-facturas-3.png" data-desc-position="bottom"><img alt="Pestaña Informes" src="../images/gestion-facturas-3.png"></a></p>
+<ul>
+<li><strong>Imp. Factura:</strong> Imprime la factura o facturas seleccionadas por la impresora configurada en el programa (facturas). Si se selecciona más de una factura, se muestra dialogo para indicar nº de copias de cada una, y a continuación manda una tras otra las facturas a imprimir.</li>
+<li><strong>Vista previa:</strong> Muestra la factura seleccionada en PDF. Si se elige más de una factura para previsualizar, se mostrará la primera de todas.</li>
+<li><strong>Recibí:</strong> Muestra un documento recibí en formato pdf con los datos del cliente y el importe entregado de la factura.</li>
+<li><strong>Suma:</strong> Seleccionando dos o más facturas, muestra una ventana con la suma de los diferentes conceptos de estas.</li>
+<li><strong>Huecos:</strong> Permite comprobar la existencia de huecos en la numeración de las facturas emitidas así como la existencia de facturas desordenadas.</li>
+<li><strong>Enviar Email:</strong> Envía la factura o facturas seleccionadas por email. Usa la cuenta de correo electrónico asociada al cliente de la factura. Si se seleccionan varias facturas, solo se podrán modificar opciones comunes. Debe estar configurado el correo electrónico en el programa.</li>
+<li><strong>Listado:</strong> Se imprime por pantalla en formato listado el contenido de la tabla mostrado en pantalla.</li>
+</ul>
+<h3 id="exportar">Exportar</h3>
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-4.png -->
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/gestion-facturas-4.png" data-desc-position="bottom"><img alt="Exportar" src="../images/gestion-facturas-4.png"></a></p>
 <p>Estas opciones permiten generar listados para diferentes programas de contabilidad.</p>
-<p>Contaplus: Genera dos archivos para ser importados con Contaplus</p>
-<p>Golden: Genera un fichero Excel compatible con Golden Soft</p>
-<p>Excel: Genera un fichero Excel compatible con Aire ERP</p>
+<ul>
+<li><strong>Contaplus:</strong> Genera dos archivos para ser importados con Contaplus.</li>
+<li><strong>Golden:</strong> Genera un fichero Excel compatible con Golden Soft.</li>
+<li><strong>Excel:</strong> Genera un fichero Excel compatible con Aire ERP.</li>
+</ul>
 <p>Existen multitud de programas en el mercado que puede importar alguno de estos ficheros.</p>
-<p>Para facilitar la gestión de las facturas, se utilizan códigos de color.</p>
-<p>Texto rojo  Las facturas no están marcadas como cobradas</p>
-<p>Texto negro Las facturas están cobradas</p>
-<p>Fondo amarillo  Las facturas han sido exportadas a contabilidad.</p>
-<h3 id="crear-nueva-factura">Crear nueva factura</h3>
+<h4 id="codigos-de-color-en-la-gestion-de-facturas">Códigos de color en la gestión de facturas</h4>
+<ul>
+<li><strong>Texto rojo:</strong> Las facturas no están marcadas como cobradas.</li>
+<li><strong>Texto negro:</strong> Las facturas están cobradas.</li>
+<li><strong>Fondo amarillo:</strong> Las facturas han sido exportadas a contabilidad.</li>
+</ul>
+<h2 id="crear-nueva-factura">Crear nueva factura</h2>
 <p>Durante el alta de inspecciones, se generan facturas de forma automática, pero en algunas ocasiones es necesario generar una factura manual, ya sea para facturar algo que no es una inspección, o para crear una factura personalizada.</p>
-<p>La creación de una factura de forma manual se realiza desde la pantalla Facturación/Facturas. Una factura recién creada está sin cobrar y habrá que utilizar posteriormente el botón “Cobrar factura” o bien se pueden añadir de forma manual entregas a cuenta, hasta cubrir el total de la factura.</p>
+<p>La creación de una factura de forma manual se realiza desde la pantalla <strong>Facturación &gt; Facturas</strong>. Una factura recién creada está sin cobrar y habrá que utilizar posteriormente el botón <strong>Cobrar factura</strong> o bien se pueden añadir de forma manual entregas a cuenta, hasta cubrir el total de la factura.</p>
 <p>Mediante este método de entregas a cuenta, es el único método por el que se pueden hacer cobros parciales con métodos de pago distintos.</p>
-<p>Para realizar una factura de forma manual se pulsa sobre el botón “Nuevo+”. Se muestra la pantalla formulario para rellenar con los datos de la factura.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/image_5.png" data-desc-position="bottom"><img alt="Imagen 5" src="../images/image_5.png"></a></p>
+<p>Para realizar una factura de forma manual se pulsa sobre el botón <strong>Nuevo+</strong>, que muestra la pantalla formulario para rellenar con los datos de la factura.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/gestion-facturas-5.png" data-desc-position="bottom"><img alt="Formulario nueva factura" src="../images/gestion-facturas-5.png"></a></p>
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/gestion-facturas-5.png -->
+
 <p>Se cumplimentarán los siguientes campos:</p>
-<p>Año: Año de la factura. Por defecto sale el actual.</p>
-<p>Grupo: Es la serie. Por defecto se muestra “1”, pero se puede poner la serie adecuada (“m” o “r”).</p>
-<p>Cód. Factura: Es el nº que se asigna a la factura. Dejar en blanco por defecto, se cumplimenta solo.</p>
-<p>Fecha Factura: La fecha de la factura. Por defecto se muestra la actual.</p>
-<p>Cliente: Cliente al que se factura.</p>
-<p>Colaborador: Es otro cliente que actúa como colaborador / representante / conseguidor.</p>
-<p>Forma de pago: Elegir una forma de la lista</p>
-<p>Estado: el estado en el que se encuentra la factura (no cobrada, cobrada, enviada, etc..)</p>
-<p>Plantilla: Elegir una plantilla si se desea agregar líneas preconfiguradas, o si es una plantilla completa, además de las líneas se añaden el resto de campos.</p>
-<p>Descripción: Agregar un texto que describa el contenido de la factura</p>
-<p>Añadir documento, Año, Grupo, Número: Permite importar el contenido de otra factura o albarán como nuevas líneas en la actual.</p>
-<p>Caja Fecha, Caja Euros, Fecha cobro: Para dejarla como cobrada, pulsar el botón (+), y agregar una o más líneas de Entrega a Cuenta.</p>
+<ul>
+<li><strong>Año:</strong> Año de la factura. Por defecto sale el actual.</li>
+<li><strong>Grupo:</strong> Es la serie. Por defecto se muestra “1”, pero se puede poner la serie adecuada (“m” o “r”).</li>
+<li><strong>Cód. Factura:</strong> Es el nº que se asigna a la factura. Dejar en blanco por defecto, se cumplimenta solo.</li>
+<li><strong>Fecha Factura:</strong> La fecha de la factura. Por defecto se muestra la actual.</li>
+<li><strong>Cliente:</strong> Cliente al que se factura.</li>
+<li><strong>Colaborador:</strong> Es otro cliente que actúa como colaborador / representante / conseguidor.</li>
+<li><strong>Forma de pago:</strong> Elegir una forma de la lista.</li>
+<li><strong>Estado:</strong> El estado en el que se encuentra la factura (no cobrada, cobrada, enviada, etc.).</li>
+<li><strong>Plantilla:</strong> Elegir una plantilla si se desea agregar líneas preconfiguradas, o si es una plantilla completa, además de las líneas se añaden el resto de campos.</li>
+<li><strong>Descripción:</strong> Agregar un texto que describa el contenido de la factura.</li>
+<li><strong>Añadir documento, Año, Grupo, Número:</strong> Permite importar el contenido de otra factura o albarán como nuevas líneas en la actual.</li>
+<li><strong>Caja Fecha, Caja Euros, Fecha cobro:</strong> Para dejarla como cobrada, pulsar el botón (+), y agregar una o más líneas de Entrega a Cuenta.</li>
+</ul>
+<h2 id="otras-operaciones-sobre-facturas">Otras operaciones sobre facturas</h2>
 <h3 id="rectificar-una-factura">Rectificar una factura</h3>
+<p>Una rectificación es una factura negativa que se genera a partir de una factura ya cobrada. Para generar una factura rectificativa, se selecciona la factura a rectificar y se pulsa el botón <strong>Rectificar</strong>. Se genera una nueva factura con los mismos datos pero con los importes en negativo. No se pueden hacer rectificaciones parciales.</p>
 <h3 id="cobrar-una-factura">Cobrar una factura</h3>
+<p>Creativa permite cobrar una factura en dos ocasiones:
+- Cuando se ha generado de forma manual, y se ha dejado sin marcar como cobrada.
+- Cuando se ha generado de forma automática en el proceso de facturación de clientes de crédito.</p>
 <h3 id="duplicar-una-factura">Duplicar una factura</h3>
+<p>Se duplica una factura seleccionada, creando una nueva con los mismos datos pero sin número de factura asignado. Es útil para crear facturas similares a otras ya creadas, evitando tener que rellenar todos los datos de nuevo.</p>
+<p>Para duplicar una factura, se selecciona la factura a duplicar y se pulsa el botón <strong>Duplicar</strong>. Se genera una nueva factura con los mismos datos pero sin número de factura asignado.</p>
+<p>A continuación, se pueden modificar los datos que se deseen y guardar la nueva factura. La factura original permanece sin cambios.</p>
+<p>Por último se utiliza el botón <strong>Cobrar factura</strong> para generar un movimiento de caja y marcar la nueva factura como cobrada, o se pueden agregar entregas a cuenta para cubrir el importe de la factura.</p>
 <h3 id="eliminar-facturas">Eliminar facturas</h3>
-<h3 id="facturacion-mensual">Facturación mensual</h3>
+<p>Eliminar una factura es una acción que no se puede deshacer, por lo que se recomienda utilizarla con precaución. Para eliminar una factura, se selecciona la factura o facturas a eliminar y se pulsa el botón <strong>Borrar</strong>. Se muestra un mensaje de confirmación para evitar eliminaciones accidentales.</p>
+<p>En el caso de que esté activo Veri*factu o SII, no se podrán eliminar facturas que ya hayan sido enviadas a la AEAT.</p>
+<h2 id="facturacion-mensual">Facturación mensual</h2>
+<p>Creativa permite generar facturas de forma automática a clientes de crédito, con una periodicidad mensual. Para ello, se utiliza el proceso de facturación mensual, que se encuentra en el menú <strong>Facturación &gt; Facturación mensual</strong>.</p>
+<p>Este proceso genera las facturas correspondientes a cada cliente de crédito, con los conceptos y cantidades correspondientes a las inspecciones realizadas (en albaranes) durante el periodo de facturación. Las facturas generadas se pueden revisar, modificar si es necesario, y posteriormente marcar como cobradas, enviar por email, etc.</p>
+<p>Con la facturación mensual realizada y haciendo uso de la forma de pago presente en la ficha de cliente, se pueden realizar remesas bancarias para cobrar las facturas generadas. Para ello, se utiliza el proceso de remesas bancarias, que se encuentra en el menú <strong>Facturación &gt; Remesas bancarias</strong>.</p>
 
 
 
@@ -3741,58 +3916,58 @@
 
 
 
-
+                
               </article>
             </div>
-
-
+          
+          
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-
+        
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-
+  
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
   Back to top
 </button>
-
+        
       </main>
-
+      
         <footer class="md-footer">
-
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
-
-
+  
+  
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
       Material for MkDocs
     </a>
-
+  
 </div>
-
+      
     </div>
   </div>
 </footer>
-
+      
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-
-
-
-
-
+    
+    
+    
+      
+      
       <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.top"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-
-
+    
+    
       <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
-
+      
         <script src="../../../../js/print-site.js"></script>
-
-
-
+      
+    
+  
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>
