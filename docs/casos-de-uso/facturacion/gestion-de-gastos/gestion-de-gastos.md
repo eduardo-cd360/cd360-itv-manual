@@ -14,11 +14,11 @@ Sacar un resumen de caja
 
 Para crear una nueva cuenta contable de tipo gasto, se accede mediante el menú Facturación/Cuentas contables.
 
-![Imagen 1](./images/image_1.png)
+![Imagen 1](./images/gestion-gastos-1.png)
 
 Crear una nueva cuenta contable
 
-![Imagen 2](./images/image_2.png)
+![Imagen 2](./images/gestion-gastos-2.png)
 
 Cumplimentar los campos
 
@@ -38,7 +38,7 @@ Para finalizar, pulsar Aceptar.
 
 Para anotar gastos en caja, se accede al menú Facturación/Caja y se pulsa en nuevo.
 
-![Imagen 3](./images/image_3.png)
+![Imagen 3](./images/gestion-gastos-3.png)
 
 Tipo: General
 
@@ -56,7 +56,7 @@ Observaciones: Cualquier aclaración que ayude a la comprensión del gasto.
 
 Una vez cumplimentados los campos, pulsar en Aceptar.
 
-![Imagen 4](./images/image_4.png)
+![Imagen 4](./images/gestion-gastos-4.png)
 
 El gasto aparecerá junto a los demás movimientos de caja del día.
 

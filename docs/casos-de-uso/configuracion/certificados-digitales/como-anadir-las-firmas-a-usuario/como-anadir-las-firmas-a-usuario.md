@@ -15,13 +15,13 @@ El certificado electrónico puede ser de **persona física** (como el de la FNMT
 
 !!! Info "Solicitar certificados electrónicos"
 
-    Para solictar uno o varios certificados electrónicos, accede a nuestro canal de soporte soporte.creativadigital360.com y selecciona "Abrir un nuevo ticket", donde deberas elegir el tema de ayuda "Solicitud de certificado".
+    Para solicitar uno o varios certificados electrónicos, accede a nuestro canal de soporte soporte.creativadigital360.com y selecciona "Abrir un nuevo ticket", donde deberas elegir el tema de ayuda "Solicitud de certificado".
 
 Para activar el certificado digital en el equipo con creativa3d ITV del responsable, se deben seguir los pasos que se detallan a continuación:
 
 Ir a Archivo > Opciones > Altas de inspección y hacer clic en la pestaña DGT y certificado digital.
 
-![Imagen 1](./images/image_1.png)
+![Imagen 1](./images/como-anadir-las-firmas-a-usuario-1.png)
 
 Seleccionar un certificado instalado de Windows o bien..
 

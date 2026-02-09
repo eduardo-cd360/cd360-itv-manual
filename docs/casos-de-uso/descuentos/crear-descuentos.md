@@ -16,11 +16,11 @@ Está disponible en el menú de facturación.
 
 Listado de descuentos disponibles. Se puede utilizar la búsqueda y los filtros para encontrar descuentos cuando es muy extenso.
 
-![Imagen 1](./images/image_1.png)
+![Imagen 1](./images/crear-descuentos-1.png)
 
 Formulario de alta de descuento.
 
-![Imagen 2](./images/image_2.png)
+![Imagen 2](./images/crear-descuentos-2.png)
 
 Pestaña general
 
@@ -86,15 +86,15 @@ Para crear un nuevo descuento, pulsa sobre el botón [Nuevo+] para abrir el form
 
 Escribe un nombre, que describa lo que es el descuento, indica la cantidad en % o una cantidad fija y marca la casilla  Activo, y opcionalmente  Aplicar automáticamente o  Mostrar en altas. El código descuento se genera de forma automática.
 
-![Imagen 3](./images/image_3.png)
+![Imagen 3](./images/crear-descuentos-3.png)
 
 Escribe una descripción si lo deseas en la pestaña Descripción.
 
-![Imagen 4](./images/image_4.png)
+![Imagen 4](./images/crear-descuentos-4.png)
 
 Finalmente pulsa el botón de guardado, y el descuento ya estará disponible en el alta de inspección.
 
-![Imagen 5](./images/image_5.png)
+![Imagen 5](./images/crear-descuentos-5.png)
 
 Este descuento, que se ve en este ejemplo, es para seleccionarlo según aporten una documentación válida durante el alta de inspección y no debe tener marcada la casilla  Asignar automáticamente para que no se aplique a todos los clientes, ya que debe ser elección manual por parte del administrativo o recepcionista en base a que cumpla el cliente con los requisitos.
 
@@ -106,39 +106,39 @@ Ejemplo 1. Descuento del 10% para clientes titulares que sean de la provincia de
 
 Rellenar los campos de Nombre, Descuento (Eur) o Descuento (%) y seleccionar las casillas  Activo y  Mostrar en Altas.
 
-![Imagen 6](./images/image_6.png)
+![Imagen 6](./images/crear-descuentos-6.png)
 
 Rellenar algo de información sobre el descuento
 
-![Imagen 7](./images/image_7.png)
+![Imagen 7](./images/crear-descuentos-7.png)
 
 Aplicar las reglas necesarias, en este caso, en la sección Cliente, el campo Provincia Cliente.
 
-![Imagen 8](./images/image_8.png)
+![Imagen 8](./images/crear-descuentos-8.png)
 
 Aplicar y salir.
 
 Ahora al dar de alta una inspección, cuando se seleccione un cliente titular y su provincia concuerde con la de este descuento, en la zona de la tarifa, en el listado de descuentos, aparecerá el descuento para seleccionarlo.
 
-![Imagen 9](./images/image_9.png)
+![Imagen 9](./images/crear-descuentos-9.png)
 
 Ejemplo 2. Descuento directo del 10% a todas las inspecciones del mes de agosto de 2020 para todos los vehículos de un cliente titular que sean de categorías N1,N2,N3.
 
 Rellenar los campos Nombre, Descuento (%) y selecciona las casillas Activo y Asignar automáticamente.
 
-![Imagen 10](./images/image_10.png)
+![Imagen 10](./images/crear-descuentos-10.png)
 
 En la pestaña descripción, anotar lo que sea necesario para describir este descuento. Es opcional.
 
-![Imagen 11](./images/image_11.png)
+![Imagen 11](./images/crear-descuentos-11.png)
 
 En las reglas del descuento, cumplimentar los campos que se muestran:
 
-![Imagen 12](./images/image_12.png)
+![Imagen 12](./images/crear-descuentos-12.png)
 
-![Imagen 13](./images/image_13.png)
+![Imagen 13](./images/crear-descuentos-13.png)
 
-![Imagen 14](./images/image_14.png)
+![Imagen 14](./images/crear-descuentos-14.png)
 
 Esta configuración de descuento, asignará el descuento de forma automática a este cliente para los vehículos de esas categorías que presente en la estación entre las fechas indicadas.
 

@@ -12,7 +12,7 @@ Una plantilla parcial solo contiene líneas de conceptos, que al utilizarlos en 
 
 ### Descripción de la pantalla
 
-![Imagen 1](./images/image_1.png)
+![Imagen 1](./images/trabajo-con-plantillas-de-facturas-o-albaranes-1.png)
 
 Al entrar en esta pantalla, se puede ver el listado de plantillas disponibles, donde se pueden observar los siguientes campos:
 
@@ -30,7 +30,7 @@ TipoDocumento: Nº que identifica si es un albarán o una factura.
 
 Modo: Si es plantilla de documento completo o solo líneas.
 
-![Imagen 2](./images/image_2.png)
+![Imagen 2](./images/trabajo-con-plantillas-de-facturas-o-albaranes-2.png)
 
 Las acciones disponibles mediante los botones son:
 
@@ -52,38 +52,38 @@ Generador de consultas: Consultas avanzadas para obtener información. Solo disp
 
 ### Crear plantilla de documento completo
 
-![Imagen 3](./images/image_3.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta Sí para crear una plantilla completa.
+![Imagen 3](./images/trabajo-con-plantillas-de-facturas-o-albaranes-3.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta Sí para crear una plantilla completa.
 
 Rellena los datos que creas conveniente y añade conceptos como en la captura.
 
-![Imagen 4](./images/image_4.png)
+![Imagen 4](./images/trabajo-con-plantillas-de-facturas-o-albaranes-4.png)
 
 Escribe un nombre, el tipo de documento (Albarán o Factura), Grupo o Serie (1, A, M, R, etc..), forma de pago, etc..
 
 Asigna un cliente si es exclusiva para este cliente. De esta forma se puede utilizar el botón Generar Doc.
 
-![Imagen 5](./images/image_5.png)
+![Imagen 5](./images/trabajo-con-plantillas-de-facturas-o-albaranes-5.png)
 
 Agrega los conceptos necesarios.
 
-![Imagen 6](./images/image_6.png)
+![Imagen 6](./images/trabajo-con-plantillas-de-facturas-o-albaranes-6.png)
 
 Agrega observaciones si es necesario.
 
-![Imagen 7](./images/image_7.png)
+![Imagen 7](./images/trabajo-con-plantillas-de-facturas-o-albaranes-7.png)
 
 Guarda la plantilla y ya se puede utilizar al crear facturas o albaranes.
 
 ### Crear plantilla de líneas de concepto
 
-![Imagen 8](./images/image_8.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta No para crear una plantilla completa.
+![Imagen 8](./images/trabajo-con-plantillas-de-facturas-o-albaranes-8.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta No para crear una plantilla completa.
 
 ### Usar las plantillas
 
 Para usar las plantillas, accede a Facturación > Albaranes o Facturación > Facturas.
 
-En cualquiera de estos menús, cuando se crea un nuevo documento de tipo albarán o factura, se puede seleccionar una plantilla.![Imagen 9](./images/image_9.png)
+En cualquiera de estos menús, cuando se crea un nuevo documento de tipo albarán o factura, se puede seleccionar una plantilla.![Imagen 9](./images/trabajo-con-plantillas-de-facturas-o-albaranes-9.png)
 
 Primero se selecciona una de las plantillas disponibles y a continuación se pulsa el botón Añadir plantilla. El contenido de la plantilla se añade al documento existente.
 
-![Imagen 10](./images/image_10.png)
+![Imagen 10](./images/trabajo-con-plantillas-de-facturas-o-albaranes-10.png)
