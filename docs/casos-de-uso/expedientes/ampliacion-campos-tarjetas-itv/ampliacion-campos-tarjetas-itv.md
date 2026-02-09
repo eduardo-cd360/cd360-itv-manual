@@ -4,6 +4,7 @@ Para realizar la ampliación del número de caracteres de cualquier campo de la 
 
 Acceder a la tabla Mantenimiento > Auxiliares > Reformas campos
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Editar el registro que contiene el nombre del campo a modificar su longitud, en este caso, el F.1.5. A continuación establecer el nuevo valor necesario.

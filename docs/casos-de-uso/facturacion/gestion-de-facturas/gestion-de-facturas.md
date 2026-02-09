@@ -14,12 +14,14 @@ Para mostrar campos ocultos en los listados de creativa, se puede utilizar el cl
 
 Para localizar las facturas mensuales o de cualquier otro tipo, se puede utilizar el filtro rápido o mostrar el campo Grupo, para poder filtrar por tipo de factura.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Las tareas que se pueden realizar con las facturas están repartidas en pestañas según su funcionalidad.
 
 Pestaña Principal
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Nuevo: Crea una nueva factura que hay que rellenar de forma manual.
@@ -38,6 +40,7 @@ Rectificar: Seleccionando una factura cobrada previamente, pulsando este botón 
 
 Pestaña Informes
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 Imp. Factura: Imprime la factura o facturas seleccionadas por la impresora configurada en el programa (facturas). Si se selecciona más de una factura, se muestra dialogo para indicar nº de copias de cada una, y a continuación manda una tras otra las facturas a imprimir.
@@ -56,6 +59,7 @@ Listado: Se imprime por pantalla en formato listado el contenido de la tabla mos
 
 Exportar
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 Estas opciones permiten generar listados para diferentes programas de contabilidad.
@@ -86,6 +90,7 @@ Mediante este método de entregas a cuenta, es el único método por el que se p
 
 Para realizar una factura de forma manual se pulsa sobre el botón “Nuevo+”. Se muestra la pantalla formulario para rellenar con los datos de la factura.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestion-de-facturas/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Se cumplimentarán los siguientes campos:

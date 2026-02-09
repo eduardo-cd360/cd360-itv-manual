@@ -6,10 +6,12 @@ Hay dos opciones para dar de alta una inspección: La opción de menú *`Altas p
 
 Si se usa la opción "Altas principal", se muestra una pantalla donde unicamente hay que seleccionar el tipo de inspección (1) e introducir la matrícula (2) a dar de alta.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/alta-de-inspecciones/images/altas-principal-pasos-alta.png -->
 ![Pantalla Altas principal](images/altas-principal-pasos-alta.png)
 
 Al pulsar Intro tras la matrícula, se abre la pantalla de Altas de inspección con la matricula cargada.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/alta-de-inspecciones/images/altas-de-inspeccion-secciones.png -->
 ![Secciones de la pantalla de altas de inspección](images/altas-de-inspeccion-secciones.png)
 
 

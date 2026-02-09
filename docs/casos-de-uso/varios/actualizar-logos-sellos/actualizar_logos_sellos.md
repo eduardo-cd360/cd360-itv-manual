@@ -4,6 +4,7 @@ Para actualizar el sello de la estación que aparece en el informe de inspecció
 
 Acceder a la configuración del programa Archivo/Opciones/General/Logos y Documentos
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/varios/actualizar-logos-sellos/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Cambiar el logo o logos necesarios, teniendo en cuenta que:

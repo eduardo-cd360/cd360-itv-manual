@@ -25,6 +25,7 @@ Las opciones de menú disponibles son:
 
 ## Clientes
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-mantenimiento-clientes_tabla-de-clientes.png -->
 ![tabla de clientes](images/menu-mantenimiento-clientes_tabla-de-clientes.png)
 
 Tabla de gestión de clientes.
@@ -55,6 +56,7 @@ Cada registro de matrícula contiene toda la información relativa a las caracte
 
 Un cambio de estas características durante una inspección, altera la información que con-tiene su registro en esta tabla, para que en la siguiente inspección y sucesivas se utilicen los datos actualizados.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-mantenimiento-matriculas_tabla%20de%20matriculas.png -->
 ![Tabla de vehiculos dados de alta en inspecciones](images/menu-mantenimiento-matriculas_tabla%20de%20matriculas.png)
 
 Las operaciones permitidas en esta pantalla son:
@@ -71,6 +73,7 @@ Las operaciones permitidas en esta pantalla son:
 
 Listado de tarifas de aplicación en la ITV.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-mantenimiento-tarifas_lista-de-tarifas.png -->
 ![Listado de tarifas](images/menu-mantenimiento-tarifas_lista-de-tarifas.png)
 
 Listado de tarifas
@@ -79,6 +82,7 @@ Se pueden dar de alta nuevas tarifas, modificar las existentes o eliminarlas.
 
 Las tarifas están compuestas por una parte relativa a los precios de cada uno de los con-ceptos de una inspección como prueba de seguridad, gases, ruidos, etc.. y los diferentes impuestos y tasas, y por otra parte una serie de reglas que permiten ajustar la tarifa a los tipos de inspección y características del vehículo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/menu-mantenimiento-tarifas_formato-tarifas.png -->
 ![alt text](images/menu-mantenimiento-tarifas_formato-tarifas.png)
  
 Las tarifas pueden ser activadas o desactivadas, según la conveniencia de la estación o bien eliminadas si no son empleadas en ninguna inspección.

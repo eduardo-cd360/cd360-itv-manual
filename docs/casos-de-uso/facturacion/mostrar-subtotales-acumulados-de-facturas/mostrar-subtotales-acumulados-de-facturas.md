@@ -2,6 +2,7 @@
 
 En este caso de uso, se va a mostrar cómo trabajar con la función SUMA, que está disponible en la barra de botones inferior, en la pestaña informes de la pantalla de facturas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Esta función muestra un resumen por conceptos (Base, IVA, IRPF, etc.) en base a la información seleccionada en la pantalla.
@@ -12,12 +13,14 @@ Nota. En este tutorial, se trabajará con facturas, la selección entre fechas p
 
 Accede al menú Facturación > Facturas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Selecciona un rango de fechas entre las que mostrar todas las facturas.
 
 Selecciona todas las facturas del listado.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 Acceder a la pestaña Informes.
@@ -26,12 +29,14 @@ Pulsar sobre el botón Suma.
 
 Se muestra una pantalla con información. Se puede ver la suma de todos los conceptos de las facturas seleccionadas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 ### Subtotales acumulados entre periodos para un cliente determinado
 
 Accede al menú Facturación > Facturas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Selecciona un rango de fechas
@@ -42,8 +47,10 @@ En la columna por la que se quiera filtrar, realizar la búsqueda (en este caso,
 
 Pulsa sobre el botón Seleccionar todo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_6.png -->
 ![Imagen 6](./images/image_6.png)
 
 Pulsa sobre el botón Suma de la pestaña Informes de la zona inferior.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/mostrar-subtotales-acumulados-de-facturas/images/image_7.png -->
 ![Imagen 7](./images/image_7.png)Se muestra una pantalla con información. Se puede ver la suma de todos los conceptos de las facturas seleccionadas.

@@ -8,10 +8,12 @@ A continuación, se realizará la instalación en modo “DEMO”, para lo que d
 
 Si aparece la pantalla de SmartScreen, pulsar en “Más información” y luego en “Ejecutar de todas formas”. Esto es debido a que los ficheros descargados desde el navegador están bloqueados.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/images/instalacion-creativa-aviso-proteccion.png -->
 ![Aviso durante la instalación de creativa digital 360 ITV](images/instalacion-creativa-aviso-proteccion.png)
 
 Para instalar en modo DEMO, debes dejar todo por defecto, ya que la instalación de la demo se realiza de forma automática. En el último paso se debe pulsar el botón *DEMO* y a continuación pulsar en el botón *Terminar*.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/images/asistente-instalacion-creativa.png -->
 ![Pantalla de proceso de instalación de demo](images/asistente-instalacion-creativa.png)
 
 La instalación habrá terminado y dispondrás de un icono en el escritorio que te permitirá iniciar el programa.

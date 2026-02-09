@@ -1,5 +1,6 @@
 # Módulo Control Horario
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/modulos/images/reloj-fichaje.png -->
 ![reloj-de-fichar](images/reloj-fichaje.png)
 
 ## Que es el módulo de control horario

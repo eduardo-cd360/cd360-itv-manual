@@ -47,6 +47,7 @@ Todos estos datos son obtenidos una vez se ha contratado el servicio correspondi
 
 En la sección SMS, hay que rellenar los campos que aparecen, teniendo especial cuidado con el nombre del remitente, que será por el que los clientes sabrán que es la estación la que remite los SMS.
     
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/creativa3d-recordatorios-configuracion-sms-anadir-proveedor.png -->
 ![Pantalla de selección de proveedor de SMS](images/creativa3d-recordatorios-configuracion-sms-anadir-proveedor.png "Pantalla de selección de proveedor de SMS")
 
 En la imagen superior se debe seleccionar el proveedor de la lista y cumplimentar los campos con la información suministrada por este.
@@ -59,10 +60,12 @@ En la imagen superior se debe seleccionar el proveedor de la lista y cumplimenta
 
 **Alta de cuenta de correo**
 Una vez en la pantalla de configuración de correo y SMS (`Archivo > Opciones > General > Correo y SMS`), pulsar sobre el botón Nuevo.
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/menu-archivo-configuracion-general-correoysms.png -->
 ![](images/menu-archivo-configuracion-general-correoysms.png)
 
 En la pantalla de alta de la cuenta de correo rellenar los campos de correo saliente
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/menu-archivo-opciones-general-correoysms-alta-cuenta.png -->
 ![](images/menu-archivo-opciones-general-correoysms-alta-cuenta.png)
 
 * Servidor correo saliente
@@ -82,6 +85,7 @@ Una vez configurado el proveedor de SMS y la cuenta de correo, es posible person
 
 En la misma pantalla de configuración se encuentra una sección para personalizar el mensaje enviado por SMS a los clientes.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/creativa3d-recordatorios-configuracion-sms-personalizar-mensaje.png -->
 ![Mensaje plantilla que se envía al cliente](images/creativa3d-recordatorios-configuracion-sms-personalizar-mensaje.png "Mensaje plantilla que se envía al cliente")
 
 La configuración de los mensajes tienen las siguientes características:
@@ -100,6 +104,7 @@ La configuración de los mensajes tienen las siguientes características:
 
 Los email que recibe el cliente también se pueden personalizar, gracias al editor visual que hay ahora.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/creativa3d-recordatorios-configuracion-plantilla-email.png -->
 ![Plantilla que se utiliza para enviar a los clientes de forma personalizada](images/creativa3d-recordatorios-configuracion-plantilla-email.png "Plantilla que se utiliza para enviar a los clientes de forma personalizada")
 
 En la imagen superior se puede ver un ejemplo del mensaje que se envía, en donde aparecen una serie de campos encerrados entre {} (llaves). Estos códigos serán sustituidos durante el envío por la matrícula y por la fecha de caducidad respectivamente.
@@ -115,6 +120,7 @@ El envío de recordatorios postales actualmente no se utiliza mucho, pues práct
 
 Para poder enviar recordatorios mediante el correo ordinario, es necesario generar una serie de documentos con una plantilla especial, con formato tarjetón, en la que unicamente se trasladan los datos de nombre del cliente y dirección, población y código postal. Este envío carece de sobre y necesita de personalización de imprenta.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/recordatorios/images/creativa3d-recordatorios-configuracion-correo-ordinario.png -->
 ![](images/creativa3d-recordatorios-configuracion-correo-ordinario.png)
 
 Las únicas opciones de configuración son:

@@ -48,6 +48,7 @@ La documentación que se debe aportar en el momento de la solicitud son:
   - DNI, NIE, Pasaporte o documento válido. No puede estar caducado, deteriorado o no legigle.
   - Email de empresa o email personal. El certificado es personal e intransferible, no se emitirán con direcciones de email genericas o compartidas. Ej.: ~~administracion@empresa.com~~.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/Servicios/certificados-electronicos/sello_garantía_uanataca@0.5x.png -->
 ![Sello confianza Uanataca](sello_garantía_uanataca@0.5x.png "Sello confianza Uanataca")
 
 *En el caso de administradores mancomunados que solicitan certificados, es necesario disponer de un documento de autorización entre ellos autorizando al solicitante firmado por 2/3 de los socios, o bién estar la solicitud de petición de certificados formada por 2/3 de los administradores.

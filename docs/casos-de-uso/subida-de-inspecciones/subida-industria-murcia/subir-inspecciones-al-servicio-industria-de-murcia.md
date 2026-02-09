@@ -16,6 +16,7 @@ Todas las estaciones deben de tener un usuario (que es el nº de estación) y un
 
 Para realizar la activación del servicio ir a Archivo / opciones / otros / Importar-Exportar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/subida-de-inspecciones/subida-industria-murcia/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Introducir el password del servicio de recogida de datos de Industria, y en caso de no estarlo, marcar la casilla “USA INDUSTRIA?”.
@@ -29,12 +30,14 @@ El usuario y contraseña de la estación o estación móvil ya debe conocerse de
 
 Para comprobar desde el programa que se han subido correctamente las inspecciones, solo hay que ver el listado de “Inspecciones por fecha” y los estados por código de colores.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/subida-de-inspecciones/subida-industria-murcia/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Solamente en el caso de que la inspección esté en color rojo, es cuando ha habido alguna incidencia durante la subida. Que puede ser de la DGT o de Industria.
 
 Si se detecta un error, hay que buscar las columnas INDUSTRIASN, INDUSTRIAERRORDESCRIPCION (si no están visibles, activarlas).
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/subida-de-inspecciones/subida-industria-murcia/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)
 
 En el caso de que la inspección no esté subida a industria, la casilla INDUSTRIASN no estará marcada, en cuyo caso, se deberá leer el mensaje de error e intentar subir de nuevo la inspección.
@@ -49,4 +52,5 @@ Para generar estos informes personalizados, en la izquierda se dispone de un men
 
 Vista publica de la web
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/subida-de-inspecciones/subida-industria-murcia/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)

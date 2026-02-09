@@ -25,6 +25,7 @@ En este caso de uso, se va a tratar lo siguiente:
 
 Ir a *Mantenimiento>Maestras>Tipos de reform*a y cumplimentar los datos de la pestaña general según el CR del manual de reformas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-nuevo_tipo_de_reforma.png -->
 ![Pantalla nuevo tipo de reforma](images/reformas-expedientes-tipos_de_reforma-nuevo_tipo_de_reforma.png)
 
 - **Cod. tiporeforma**: Código interno, es asignado de forma automática.
@@ -47,10 +48,12 @@ En el formulario del tipo de reforma, seleccionar la pestaña TIPOINSPECCIÓNDOC
 
 Como primer paso hay que habilitar la modificación.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/expedientes-tipos_de_reforma-editar_codigo_reforma.png -->
 ![Botón editar código de reforma](images/expedientes-tipos_de_reforma-editar_codigo_reforma.png)
 
 A continuación pulsar en "Nuevo" y cumplimentar todos los campos necesarios.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-agregar-documentacion.png -->
 ![Agregar documentación](images/reformas-expedientes-tipos_de_reforma-agregar-documentacion.png)
 
 - **TipoInspecciónDocumentación**: Es un número automático, dejar vacío.
@@ -66,6 +69,7 @@ si debe aportarse o no.
 
 Repetir este paso tantas veces como documentaciones haya que agregar al CR.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-documentacion-agregada.png -->
 ![Documentación añadida](images/reformas-expedientes-tipos_de_reforma-documentacion-agregada.png)
 
 ## Agregar frases tipo a un código de reforma
@@ -75,6 +79,7 @@ hay que seleccionar la pestaña "Frases tipo".
 
 Se deberá pulsar sobre "Nuevo", y agregar la frase que aparece en el manual de reformas, o bien una propia o personalizada.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-agregar_frases_tipo.png -->
 ![](images/reformas-expedientes-tipos_de_reforma-agregar_frases_tipo.png)
 
 - **Nombre**: Nombre Descriptivo de la frase tipo. Por defecto se pone el mismo nombre del CR.
@@ -87,10 +92,12 @@ Por último, y de forma opcional se pueden agregar los campos que se deben cumpl
 
 Para ello, acceder a la pestaña "Tipos reformas campos" y agregar tantos registros como campos haya que cumplimentar. Si la reforma no modifica ningún campo, no es necesario este paso.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-añadir_campos_de_tarjeta.png -->
 ![Añadir campos de tarjeta para el tipo de reforma](images/reformas-expedientes-tipos_de_reforma-añadir_campos_de_tarjeta.png)
 
 Para agregar un campo nuevo, pulsar sobre "Nuevo", e introducir el nombre del campo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-nuevo_campo.png -->
 ![Nuevo campo a rellenar en tarjeta](images/reformas-expedientes-tipos_de_reforma-nuevo_campo.png)
 
 - **Reformas**: El código de reforma para el que se está dando de alta el código de campo. Lo asigna de forma automática el programa.
@@ -102,4 +109,5 @@ Para agregar un campo nuevo, pulsar sobre "Nuevo", e introducir el nombre del ca
 
 A continuación se muestra un ejemplo de tarjeta en los que se destacan los campos a rellenar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/expedientes/images/reformas-expedientes-tipos_de_reforma-vista_campos_a_rellenar_en_tarjeta.png -->
 ![Vista de los campos a rellenar en la tarjeta](images/reformas-expedientes-tipos_de_reforma-vista_campos_a_rellenar_en_tarjeta.png)

@@ -337,6 +337,7 @@ El error que se muestra en Creativa es:
 
 Si se accede a `Gestión > DGT > Tasas compras`, se puede ver que hay una línea con error, y que dicha línea no tiene ninguno de los tres códigos: nrc, numeroautoliquidación y justificante.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/tasas-dgt-error-comunicacion-timeout.png -->
 ![](images/tasas-dgt-error-comunicacion-timeout.png)
 
 En este caso, se puede eliminar dicha línea para que se inicie de nuevo el proceso de compra con la siguiente inspección terminada. Si se desea, se puede forzar una subida a la DGT desde inspecciones por fecha.

@@ -6,6 +6,7 @@ Luego esta información es utilizada en la factura impresa para mostrar otra inf
 
 ### Descripción de las pantallas
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestionar-formas-de-pago/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)En la tabla de formas de pago se muestra una columna con el código, que es asignado por el programa (negativo si es creado por Creativa) y una descripción, que es usada en los formularios de albaranes y facturas y en los documentos de factura.
 
 Desde esta pantalla, se pueden dar de alta nuevas formas de pago o eliminarlas, además de las opciones normales.
@@ -14,6 +15,7 @@ Desde esta pantalla, se pueden dar de alta nuevas formas de pago o eliminarlas, 
 
 Para crear una nueva forma de pago, pulsar sobre el botón Nuevo.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/gestionar-formas-de-pago/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)![Imagen 3](./images/image_3.png)A continuación se muestra el formulario de crear nueva forma de pago.
 
 Las opciones que hay que cumplimentar son:

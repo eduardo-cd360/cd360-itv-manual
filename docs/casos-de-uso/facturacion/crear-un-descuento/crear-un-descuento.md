@@ -5,10 +5,12 @@
 
 Accedediendo al menú *```Facturación/Descuentos```* se visualiza el listado de descuentos disponibles actual.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/crear-un-descuento/images/descuentos-listado-descuentos.png -->
 ![Listado de descuentos](images/descuentos-listado-descuentos.png "Listado de descuentos")
 
 En esta pantalla hay una serie de botónes para realiar diferentes operaciones.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/crear-un-descuento/images/descuentos-barra-botones.png -->
 ![Operaciones disponibles para descuentos](images/descuentos-barra-botones.png "Botones disponibles")
 
 - **Nuevo**: Crear un nuevo descuento.

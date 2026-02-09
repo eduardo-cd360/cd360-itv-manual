@@ -2,16 +2,19 @@
 
 En esta sección se describen las diferentes partes de la pantalla que ves como usuario.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_pantalla-inicio.png -->
 ![Pantalla de inicio](images/interfaz-de-usuario_pantalla-inicio.png)
 
 ## Barra de título
 
 Muestra información sobre la aplicación, sobre la estación de ITV y el usuario que está utilizando la aplicación actualmente.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_barra-de-titulo.png -->
 ![Barra de titulo de la aplicación](images/interfaz-de-usuario_barra-de-titulo.png)
 
 ## Barra de menús
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_barra-de-menu.png -->
 ![Barra de opciones de menú](images/interfaz-de-usuario_barra-de-menu.png)
 
 Es donde están todas las opciones disponibles en el programa. Los menús principales son:
@@ -30,12 +33,14 @@ Es donde están todas las opciones disponibles en el programa. Los menús princi
 
 ## Barra de accesos rápidos
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_barra-de-accesos-rapidos.png -->
 ![barra de accesos rapidos para funciones usadas repetidamente](images/interfaz-de-usuario_barra-de-accesos-rapidos.png)
 
 En la barra de accesos directos se muestran las opciones más utilizadas durante el trabajo diario de la estación.
 
 ## Barra de estado
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario-barra-de-estado.png -->
 ![Barra de estado donde se muestran mensajes](images/interfaz-de-usuario-barra-de-estado.png)
 
 En la barra de estado se muestra información relevante a las operaciones que se están realizando, como mensajes que alertan sobre el estado del software o alguna de sus funciones y el estado de alguno de los procesos que se están ejecutando, ya sean de forma puntual, ya sean de forma permanente.
@@ -48,6 +53,7 @@ Una vez que la alerta se ha pasado, los mensajes permanecen ocultos en el icono 
 
 Para mostrar la información que hay oculta, se pulsa el icono de la bombillita, que muestra la ventana de notificaciones.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario-barra-de-estado-mensajes.png -->
 ![alt text](images/interfaz-de-usuario-barra-de-estado-mensajes.png)
 
 Las notificaciones o avisos, se pueden volver a ocultar pulsando de nuevo sobre el icono de las notificaciones, o bien para ir al evento que las ha generado, se puede pulsar sobre el botón que tienen al lado.
@@ -60,6 +66,7 @@ Si se ha efectuado alguna operación que requiere tiempo para llevarse a cabo, e
 
 Si el proceso que se está ejecutando es permanente (no finaliza hasta que es abortado o se cierra el programa) entonces la barra de progreso marcará siempre el 50% y el nombre del proceso.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario-barra-de-estado-progreso.png -->
 ![Barra de progreso de operaciones ejecutándose en segundo plano](images/interfaz-de-usuario-barra-de-estado-progreso.png)
 
 ## Fondo de escritorio de la aplicación
@@ -68,6 +75,7 @@ Es la zona común de la aplicación (punto 5 en ilustración 11\) que contiene t
 
 ## Ventanas de botones rápidos
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_botones-rapidos.png -->
 ![Ventana de botones rápidos](images/interfaz-de-usuario_botones-rapidos.png)
 
 Se muestran en esta ventana una serie de botones con acceso a procesos de utilidad.
@@ -80,6 +88,7 @@ Se muestran en esta ventana una serie de botones con acceso a procesos de utilid
 
 Creativa Digital 360 ITV contiene un gestor de tareas, que se puede mostrar en la pantalla de inicio.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_tareas.png -->
 ![Gestor de tareas](images/interfaz-de-usuario_tareas.png)
 
 Esta pantalla contiene una lista de las tareas actualmente creadas, mostrando la descripción, el estado y la importancia.
@@ -106,22 +115,26 @@ Están compuestas por 4 secciones comunes a todas:
 
 Donde se acota la información que se quiere mostrar usando diferentes pestañas y/o campos predeterminados.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_filtro-primario.png -->
 ![Filtro primario](images/interfaz-de-usuario_filtro-primario.png)
 
 **Filtros**
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_filtros.png -->
 ![Filtros](images/interfaz-de-usuario_filtros.png)
 
 La información que se muestra en la tabla se puede filtrar utilizando el filtro básico, el multicolumna o el filtro avanzado. Permite reducir y acotar la información que interesa con respecto a la mostrada.
 
 **Tabla de datos**
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_tabla-datos.png -->
 ![Tabla de datos](images/interfaz-de-usuario_tabla-datos.png)
 
 **Zona de botones**
 
 Acciones que se pueden realizar con la información que se muestra actualmente en la pantalla.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_zona-botones.png -->
 ![Botones de acciones](images/interfaz-de-usuario_zona-botones.png)
 
 
@@ -141,4 +154,5 @@ Es la pantalla que se muestra cada vez que se realiza una nueva inspección y es
 
 En esta pantalla también se establecen los datos de próxima caducidad, la tarifa, los descuentos si los hay, etc.. todos ellos de forma casi automática.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/guia-de-inicio/interfaz-de-usuario/images/interfaz-de-usuario_alta-de-inspecciones.png -->
 ![Altas de inspecciones](images/interfaz-de-usuario_alta-de-inspecciones.png)

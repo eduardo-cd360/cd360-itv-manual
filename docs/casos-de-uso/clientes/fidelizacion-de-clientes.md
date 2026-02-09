@@ -40,10 +40,12 @@ Para asignar los puntos de fidelización que se anotarán en la tarjeta del clie
 
 En la tabla que se muestra de tipos de inspecciones disponibles, hay que modificar una por una todas las que se quiera añadir este dato.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_1.png -->
 ![Imagen 1](images/fidelizacon-clientes_image_1.png)
 
 Para añadir los puntos, se hace doble clic sobre el tipo de inspección o se selecciona esta y se pulsa el botón Editar.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_2.png -->
 ![Imagen 2](images/fidelizacon-clientes_image_2.png)
 
 Se introducen los puntos y se guarda pulsando el botón Aceptar.
@@ -56,10 +58,12 @@ Para comenzar a crear el catálogo de productos de regalo para el sistema de fid
 
 Se muestra una tabla, con información de los productos existentes, si los hay, con un nombre corto, una descripción y la cantidad necesaria de puntos para conseguirlos.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_3.png -->
 ![Imagen 3](images/fidelizacon-clientes_image_3.png)
 
 Para añadir nuevos productos a la lista, se debe pulsar el botón Nuevo. Que mostrará el formulario de nuevo producto.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_4.png -->
 ![Imagen 4](images/fidelizacon-clientes_image_4.png)
 
 Se debe de especificar los siguientes datos:
@@ -82,10 +86,12 @@ Para asignar una tarjeta de fidelización a un cliente, es necesario acceder al 
 
 En la tabla que se muestra, se puede ver el listado de tarjetas asignadas a los clientes.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_5.png -->
 ![Imagen 5](images/fidelizacon-clientes_image_5.png)
 
 Para asociar una nueva tarjeta a un cliente se pulsa el botón Nuevo, y se mostrará el formulario de creación.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/clientes/images/fidelizacon-clientes_image_6.png -->
 ![Imagen 6](images/fidelizacon-clientes_image_6.png)
 
 Se deberán especificar los siguientes datos:

@@ -12,6 +12,7 @@ Una plantilla parcial solo contiene líneas de conceptos, que al utilizarlos en 
 
 ### Descripción de la pantalla
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_1.png -->
 ![Imagen 1](./images/image_1.png)
 
 Al entrar en esta pantalla, se puede ver el listado de plantillas disponibles, donde se pueden observar los siguientes campos:
@@ -30,6 +31,7 @@ TipoDocumento: Nº que identifica si es un albarán o una factura.
 
 Modo: Si es plantilla de documento completo o solo líneas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_2.png -->
 ![Imagen 2](./images/image_2.png)
 
 Las acciones disponibles mediante los botones son:
@@ -52,38 +54,46 @@ Generador de consultas: Consultas avanzadas para obtener información. Solo disp
 
 ### Crear plantilla de documento completo
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_3.png -->
 ![Imagen 3](./images/image_3.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta Sí para crear una plantilla completa.
 
 Rellena los datos que creas conveniente y añade conceptos como en la captura.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_4.png -->
 ![Imagen 4](./images/image_4.png)
 
 Escribe un nombre, el tipo de documento (Albarán o Factura), Grupo o Serie (1, A, M, R, etc..), forma de pago, etc..
 
 Asigna un cliente si es exclusiva para este cliente. De esta forma se puede utilizar el botón Generar Doc.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_5.png -->
 ![Imagen 5](./images/image_5.png)
 
 Agrega los conceptos necesarios.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_6.png -->
 ![Imagen 6](./images/image_6.png)
 
 Agrega observaciones si es necesario.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_7.png -->
 ![Imagen 7](./images/image_7.png)
 
 Guarda la plantilla y ya se puede utilizar al crear facturas o albaranes.
 
 ### Crear plantilla de líneas de concepto
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_8.png -->
 ![Imagen 8](./images/image_8.png)Accede al menú Facturación > Plantillas y añade una nueva. Se muestra un cuadro de diálogo preguntando por el tipo de documento que se va a realizar. Contesta No para crear una plantilla completa.
 
 ### Usar las plantillas
 
 Para usar las plantillas, accede a Facturación > Albaranes o Facturación > Facturas.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_9.png -->
 En cualquiera de estos menús, cuando se crea un nuevo documento de tipo albarán o factura, se puede seleccionar una plantilla.![Imagen 9](./images/image_9.png)
 
 Primero se selecciona una de las plantillas disponibles y a continuación se pulsa el botón Añadir plantilla. El contenido de la plantilla se añade al documento existente.
 
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/trabajo-con-plantillas-de-facturas-o-albaranes/images/image_10.png -->
 ![Imagen 10](./images/image_10.png)
