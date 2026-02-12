@@ -1,7 +1,7 @@
 ---
 title: Creación de fases
-abstract: Definición de fases para mostrar los defectos en los terminales portátiles (Moviles y tabletas Android) de los inspectores de ITV que usan Creativa3D ITV e ITVAndroid.
-categories: Creativa 3D ITV
+subtitle: Definición de fases para mostrar los defectos en los terminales portátiles (Moviles y tabletas Android) de los inspectores de ITV que usan Creativa Digital 360 ITV e ITVAndroid.
+categories: Creativa Digital 360 ITV
 keywords: Fases, Líneas
 weblogName: programaitv.es
 postId: 25368

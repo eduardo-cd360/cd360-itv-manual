@@ -1,12 +1,21 @@
+---
+title: Fidelización de clientes
+description: Procedimiento para configurar el sistema de fidelización de clientes mediante puntos en la estación de ITV.
+icon:
+status: new
+---
+
 # Fidelización de clientes
+
+Opción de menu: **Mantenimiento > Gestión regalos-puntos > Tarjetas regalo/Regalos**.
 
 Existen diferentes formas de fidelizar a los clientes en la estación. Una es mediante la realización de descuentos o cupones y la otra mediante puntos de fidelización.
 
 Para fidelizar mediante descuentos se debe utilizar la función disponible en **```Facturación/Descuentos```** y generar descuentos genéricos o mediante reglas que seleccionarán a que clientes deben mostrarse o aplicarse.
 
-Para fidelizar mediante cupones descuento, se debe tener contratado el servicio en una plataforma que permita el uso de cupones, como es el caso de DigitalServi, que además de estos servicios, provee citas previas, envío de SMS etc.
+Para fidelizar mediante cupones descuento, se debe tener contratado el servicio de cita previa que permite el uso de cupones, disponible para contratar con Creativa Digital 360, que además de estos servicios, provee citas previas, envío de SMS etc.
 
-En este caso de uso, se trata el proceso de **fidelizar mediente acumulación de puntos**, para lo que será necesario que el cliente tenga asociada una tarjeta de fidelización y la empresa tenga una lista de regalos o productos canjeables por puntos.
+En este caso de uso, se trata el proceso de **fidelizar mediante acumulación de puntos**, para lo que será necesario que el cliente tenga asociada una tarjeta de fidelización y la empresa tenga una lista de regalos o productos canjeables por puntos.
 
 La generación de los puntos solamente se consigue realizando inspecciones en la estación, estando basado el sistema únicamente en el tipo de inspección que se realice. Según el tipo de inspección, se acumulan más o menos puntos.
 
@@ -96,7 +105,7 @@ Para asociar una nueva tarjeta a un cliente se pulsa el botón Nuevo, y se mostr
 
 Se deberán especificar los siguientes datos:
 
-Cód tarjeta regalo: Mediante introducción manual o bien por lector emulación teclado (dod. Barras, BMagnetica, Proximidad, etc..) se introduce le nº de tarjeta. Si se deja en blanco el programa asignará un nº de forma automática que posteriormente deberá ir en la tarjeta para usos próximos.
+Cód tarjeta regalo: Mediante introducción manual o bien por lector emulación teclado (cod. Barras, B. Magnetica, Proximidad, etc..) se introduce le nº de tarjeta. Si se deja en blanco el programa asignará un nº de forma automática que posteriormente deberá ir en la tarjeta para usos próximos.
 
 Puntos acumulados:
 

@@ -1,6 +1,12 @@
+---
+title: "Cómo bloquear clientes"
+description: "Procedimiento para bloquear a un cliente, de forma que no pueda pasar inspección ningún vehículo a su nombre."
+status: new
+---
+
 # Como bloquear un cliente
 
-Dentro de las opciones de bloqueo existentes en el programa, está el bloqueo de matrícula o vehículo, el bloqueo de cliente y el bloqueo de cuenta de cobro/gestoria/terceros/etc.
+Dentro de las opciones de bloqueo existentes en el programa, está el bloqueo de matrícula o vehículo, el bloqueo de cliente y el bloqueo de cuenta de cobro/gestoría/terceros/etc.
 
 En este caso se va a bloquear a un cliente, lo que incluye que no pueda pasar inspección a ninguno de los vehículos (matrículas) que tenga a su nombre.
 

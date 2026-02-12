@@ -1,4 +1,13 @@
+---
+title: Alcance de segundas inspecciones
+description: Configuración del alcance de las segundas inspecciones o inspecciones de 2º orden, para que se muestren a los inspectores los puntos a comprobar en función de los defectos que se hayan detectado en la inspección anterior.
+icon:
+status: new
+---
+
 # Alcance de segundas inspecciones
+
+Opción de menu: **Mantenimiento > Maestras > Alcance de segundas inspecciones**.
 
 Segunda inspección o inspección de 2º orden, es cualquier inspección realizada como motivo de una 1º inspección con resultado desfavorable.
 
@@ -10,7 +19,7 @@ Es aplicable tanto para inspecciones de la propia estación como de las que vien
 
 ## Como se introducen los defectos de las 2º inspecciones que vienen de fuera
 
-Para introducir defectos en una inspección de 2º orden, duarante el alta de una inspección se debe utilizar el botón [D] que hay a la derecha del campo Nº de informe anterior.
+Para introducir defectos en una inspección de 2º orden, durante el alta de una inspección se debe utilizar el botón [D] que hay a la derecha del campo Nº de informe anterior.
 
 <!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/configuracion/alcance-segundas-inspecciones/images/creativa3d-altas-inspeccion-anterior.png -->
 ![](images/creativa3d-altas-inspeccion-anterior.png)

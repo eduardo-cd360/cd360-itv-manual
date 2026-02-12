@@ -17,31 +17,31 @@ Al pulsar Intro tras la matrícula, se abre la pantalla de Altas de inspección 
 
 !!! Note "Pantalla **Altas principal**"
 
-    La pantalla de "**Altas principal**" es una pantalla nueva que simplifica la vista diaría de inspecciones, eliminando todo lo superfluo y usando tipografia más grande. Es una ayuda para los usuarios inexpertos o que prefieren trabajar con una pantalla mas despejada. Puedes usarla o no cuando lo desees.
+    La pantalla de "**Altas principal**" es una pantalla nueva que simplifica la vista diaría de inspecciones, eliminando todo lo superfluo y usando tipografía más grande. Es una ayuda para los usuarios inexpertos o que prefieren trabajar con una pantalla mas despejada. Puedes usarla o no cuando lo desees.
 
 En esta pantalla, tras la consulta de datos a la base de datos y a la DGT, se muestran los datos relativos a:
 
 1. Matrícula del vehículo
 2. Datos del vehículo
 3. Datos del cliente titular, cliente a facturar y cliente presencial.
-4. Datos adicionales de la inspección. Ultima estáción en donde pasó la inspección, Observaciones sobre el vehículo, sobre la inspección realizada por los inspectores (visible en el informe) o observaciones internas (no visibles en el informe).
+4. Datos adicionales de la inspección. Ultima estación en donde pasó la inspección, Observaciones sobre el vehículo, sobre la inspección realizada por los inspectores (visible en el informe) o observaciones internas (no visibles en el informe).
 5. Datos de la inspección (Año, orden o fase, Fecha de caducidad que le corresponde, datos de la inspección anterior, etc..).
 6. Cuenta de cobro o forma de pago.
 7. Tarifa aplicada, descuentos y opciones que afectan a facturación.
 
-En caso de que durante el alta se detecte que el vehículo tiene algun dato erroneo, no posea seguro, tenga precinto o se omitan datos o hayan datos incorrectos, se mostrarán mensajes de alerta.
+En caso de que durante el alta se detecte que el vehículo tiene algún dato erróneo, no posea seguro, tenga precinto o se omitan datos o hayan datos incorrectos, se mostrarán mensajes de alerta.
 
 Tras la verificación de los datos en la DGT, si no existen en la base de datos, se cumplimentarán todos de forma automática con los obtenidos durante la consulta.
 
 En caso de estar ya registrados, serán contrastados con los existentes, mostrando las discordancias y ofreciendo la posibilidad de copiarlos en memoria o usarlos en los campos indicados.
 
-Los datos faltantes, se rellenarán acorde a la tarjeta de caracteristicas.
+Los datos faltantes, se rellenarán acorde a la tarjeta de características.
 
 En caso de vehículos pesados, aparecerán campos extra para la introducción de más datos que son necesarios.
 
 !!! Note "La elección del usuario"
 
-    El usuario que da el alta debe revisar la tarjeta tecnica y corroborar que los datos son correctos, actuando de oficio en aquellos casos que una discrepancia sea evidente que no es correcta, en cuyo caso podrá trasladar los valores que ofrece la DGT actualizados.
+    El usuario que da el alta debe revisar la tarjeta técnica y corroborar que los datos son correctos, actuando de oficio en aquellos casos que una discrepancia sea evidente que no es correcta, en cuyo caso podrá trasladar los valores que ofrece la DGT actualizados.
 
 A continuación se rellenarán los campos relativos al **cliente propietario o titular**, al **cliente presencial** y al **cliente a facturar**.
 
@@ -73,4 +73,4 @@ Por otro lado, en el lado derecho del panel de altas, se habrán rellenados los 
 - Tarifa a cobrar, incluye opciones de pago online, descuentos a aplicar
 - Selección de Seguro (es automático, pero se puede seleccionar alternativas cuando no está disponible)
 
-Por ultimo se termina el alta al pulsar **Aceptar**. En caso de haber datos mal puestos, incompletos o no superen alguna validación, se mostrará un aviso por pantalla indicandolo para subsanarlos.
+Por ultimo se termina el alta al pulsar **Aceptar**. En caso de haber datos mal puestos, incompletos o no superen alguna validación, se mostrará un aviso por pantalla indicándolo para subsanarlos.

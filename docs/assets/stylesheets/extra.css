@@ -1,0 +1,35 @@
+.md-status--nuevo::after {
+    background-color: var(--color-background-dark);
+    border-radius: 0.2rem;
+    color: white;
+    content: "nuevo";
+    font-size: 0.5rem;
+    height: auto;       
+    padding: 0.1rem;
+    -webkit-mask-image: none;
+    width: auto;
+}
+
+.md-status--beta::after {
+    background-color: var(--color-background-dark);
+    border-radius: 0.2rem;
+    color: white;
+    content: "beta";
+    font-size: 0.5rem;
+    height: auto;       
+    padding: 0.1rem;
+    -webkit-mask-image: none;
+    width: auto;
+}
+
+.md-status--borrador::after {
+    background-color: var(--color-background-dark);
+    border-radius: 0.2rem;
+    color: white;
+    content: "borrador";
+    font-size: 0.5rem;
+    height: auto;       
+    padding: 0.1rem;
+    -webkit-mask-image: none;
+    width: auto;
+}

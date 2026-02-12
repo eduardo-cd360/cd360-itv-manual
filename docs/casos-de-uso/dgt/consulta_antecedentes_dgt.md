@@ -1,74 +1,27 @@
-# Consulta de antecedentes en DGT
+---
+title: Consultar antecedentes de un vehículo en DGT desde creativa digital360 ITV
+description: Consulta de antecedentes de un vehículo en DGT desde creativa digital360 ITV
+status: published
+---
 
-## Introducción
+# Consultar antecedentes de un vehículo en DGT desde creativa digital360 ITV
+
+Opción de menu: `Consultas > DGT`
 
 La consulta de antecedentes de un cliente en la DGT es un proceso normal en el funcionamiento normal de la ITV.
 
-Mediante esta consulta se pueden obtener todos los datos de los antecedentes del titular del vehículo, y otra serie de consultas disponibles en la misma página.
+Desde Creativa Digital360 ITV, se puede realizar esta consulta de forma sencilla.
 
-## Configuración del sistema
+Accede a la opción de menú `Consultas > DGT` y se abrirá un formulario para introducir la matrícula o el bastidor del vehículo a consultar.
 
-### Elementos necesarios
+![Formulario de consulta de antecedentes](./images/dgt-consulta-antecedentes-dgt.png)
 
-Para realizar la consulta de antecedentes y demás procesos permitidos en la web de la DGT, es necesario disponer de:
+Pulsado el botón Consulta DGT, se mostrará el resultado de la consulta, con los datos del vehículo y su historial de inspecciones, reformas y otros datos relacionados, al igual que en la página de la DGT.
 
-Navegador web: Microsoft Edge o Google Chrome (Firefox no soportado)
+![Resultado de la consulta de antecedentes](./images/dgt-consulta-antecedentes-dgt-resultado.png)
 
-Certificado digital de DGT instalado en el equipo que realiza la consulta
+Si se desea imprimir el resultado, se puede pulsar el botón `Imprimir` representado por la "bolita del mundo", que abrirá el diálogo de impresión del navegador, para poder imprimirlo o guardarlo en PDF.
 
-La dirección de consulta:
+!!! Note
 
-### Instalación del certificado de la DGT
-
-Localiza el fichero del certificado, que tendrá este aspecto, y su clave para poder instalarlo.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-1.png -->
-![Imagen 1](./images/consulta_antecedentes_dgt-1.png)
-
-Ilustración 1. Certificado digital
-
-Haz doble clic sobre él y selecciona Usuario actual, para que sea instalado únicamente en la cuenta del usuario actual de Windows.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-2.png -->
-![Imagen 2](./images/consulta_antecedentes_dgt-2.png)
-
-A continuación selecciona el archivo a importar en el sistema. Ya estará seleccionado, por lo que hay que pulsar nuevamente siguiente.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-3.png -->
-![Imagen 3](./images/consulta_antecedentes_dgt-3.png)
-
-Ahora introduce la clave de este certificado para poder continuar con la instalación.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-4.png -->
-![Imagen 4](./images/consulta_antecedentes_dgt-4.png)
-
-En la siguiente pantalla deja la opción actual y pulsa siguiente. Es el lugar donde se almacenará el certificado una vez instalado.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-5.png -->
-![Imagen 5](./images/consulta_antecedentes_dgt-5.png)
-
-Pulsa finalizar en la pantalla resumen que se muestra ahora, y aparecerá un mensaje de confirmación, que informa de que se ha realizado correctamente la instalación.
-
-## Consultar datos en la página de la DGT
-
-Acceder a la dirección  desde un navegador válido.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-6.png -->
-![Imagen 6](./images/consulta_antecedentes_dgt-6.png)
-
-Al seleccionar una opción de consulta, si es la primera vez se muestra una pantalla adicional.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-7.png -->
-![Imagen 7](./images/consulta_antecedentes_dgt-7.png)
-
-En ella debes seleccionar el certificado de la DGT de entre los que se muestren, en el caso de tener varios instalados.
-
-A partir de aquí, ya permite realizar las consultas que sean necesarias en este equipo.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-8.png -->
-![Imagen 8](./images/consulta_antecedentes_dgt-8.png)
-
-Obteniéndose los resultados correctamente.
-
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/dgt/images/consulta_antecedentes_dgt-9.png -->
-![Imagen 9](./images/consulta_antecedentes_dgt-9.png)
+    Esta consulta utiliza el certificado de la DGT que está instalado en el servidor de la ITV, por lo que no es necesario que el usuario tenga un certificado digital instalado en su equipo para realizarla.
