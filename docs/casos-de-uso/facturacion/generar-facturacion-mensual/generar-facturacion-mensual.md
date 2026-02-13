@@ -1,4 +1,4 @@
-## Facturación mensual
+# Generar facturación mensual
 
 El proceso de la facturación mensual permite la emisión de facturas agrupadas a clientes con cuentas de cobro o crédito, pudiéndose realizar de forma automática mediante un proceso específico o de forma manual.
 

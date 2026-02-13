@@ -1,12 +1,18 @@
-## Forma de pago o vencimiento en facturas con texto incorrecto
+---
+title: Corregir forma de pago o vencimiento en facturas con texto incorrecto
+description: Proceso para corregir la forma de pago o vencimiento en facturas con texto incorrecto en creativa digital360 ITV
+status: published
+---
 
-Todas las facturas en la parte inferior contienen dos leyendas, la forma de pago y el vencimiento.
+# Corregir forma de pago o vencimiento en facturas con texto incorrecto
 
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/image_1.png -->
-![Imagen 1](./images/image_1.png)
+Todas las facturas en la parte inferior contienen dos leyendas, la **forma de pago** y el **vencimiento**.
 
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/image_2.png -->
-![Imagen 2](./images/image_2.png)
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/forma-pago-texto-incorrecto-1.png -->
+![Imagen 1](./images/forma-pago-texto-incorrecto-1.png)
+
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/forma-pago-texto-incorrecto-2.png -->
+![Imagen 2](./images/forma-pago-texto-incorrecto-2.png)
 
 Estas formas de pago están definidas en la tabla de formas de pago, localizable en:
 
@@ -18,5 +24,5 @@ Si se cambia el texto de la columna “Forma pago”, cuando la inspección se r
 
 El resto de formas de pago, son utilizadas en los albaranes, que se generan cuando se trata de cuentas de cobro, y se especifican en la ficha del cliente, en la forma de pago, de la misma forma que su cuenta bancaria.
 
-<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/image_3.png -->
-![Imagen 3](./images/image_3.png)
+<!-- https://github.com/eduardo-cd360/cd360-itv-manual/tree/main/docs/casos-de-uso/facturacion/forma-pago-texto-incorrecto/images/forma-pago-texto-incorrecto-3.png -->
+![Imagen 3](./images/forma-pago-texto-incorrecto-3.png)
