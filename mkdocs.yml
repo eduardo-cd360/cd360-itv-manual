@@ -174,8 +174,8 @@ nav:
     - Inspecciones:
       - Altas de inspección
     - Expedientes:
-      - casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv/ampliacion-campos-tarjetas-itv.md
-      - casos-de-uso/expedientes/anadir-documentacion-codigos-reforma/anadir-documentacion-codigos-reforma.md
+      - casos-de-uso/expedientes/ampliacion-campos-tarjetas-itv.md
+      - casos-de-uso/expedientes/anadir-documentacion-codigos-reforma.md
       - casos-de-uso/expedientes/expedientes_crear-nuevo-codigo-de-reforma.md
     - Configuración:
       - casos-de-uso/configuracion/alcance-segundas-inspecciones.md
